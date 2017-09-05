@@ -14,6 +14,10 @@
     <!-- Bootstrap -->
     <link href="${APP_PATH }/static/css/bootstrap.min.css" rel="stylesheet">
     <link href="${APP_PATH }/static/css/common.css" rel="stylesheet">
+    <link href="${APP_PATH }/static/css/luohaowei.css" rel="stylesheet">
+    <script src="${APP_PATH }/static/js/jquery-3.2.1.min.js" ></script>
+    <script src="${APP_PATH }/static/js/highcharts.js" ></script>
+    <script src="${APP_PATH }/static/js/countUp.js" ></script>
 </head>
 <!-- 导航栏 -->
 
@@ -64,7 +68,6 @@
                 </ul>
             </div>
         </div>
-        <!-- /.container-fluid -->
     </nav>
 </div>
 <!--导航栏-->
@@ -169,137 +172,200 @@
 </div>
 <!--注册模态框-->
 
-<!-- 滚动图片广告-->
-<div id="carousel-example-generic " class="carousel slide my-slide " data-ride="carousel ">
-    <!-- Indicators -->
-    <ol class="carousel-indicators ">
-        <li data-target="#carousel-example-generic " data-slide-to="0 " class="active "></li>
-        <li data-target="#carousel-example-generic " data-slide-to="1 "></li>
-    </ol>
-    <!-- Wrapper for slides -->
-    <div class="carousel-inner " role="listbox ">
-        <div class="item active ">
-
-            <img src="${APP_PATH }/static/img/num_1.jpg " alt="picture1 ">
-            <div class="carousel-caption ">
-                <p><a class="btn btn-lg btn-primary " href="# " role="button " target="_blank ">立即体验 <span class="glyphicon glyphicon-menu-right "aria-hidden="true "></span></a></p>
-            </div>
-        </div>
-        <div class="item ">
-            <img src="${APP_PATH }/static/img/num_2.jpg " alt="picture2 ">
-
-        </div>
+<!--评估信息-->
+<div style="width:80%;" class="panel panel-primary center-block" id="yangli">
+    <!-- Default panel contents -->
+    <div class="panel-heading">评估样例</div>
+    <div class="panel-body">
+        <p>基本信息</p>
     </div>
 
-    <a class="left carousel-control " href="#carousel-example-generic " role="button " data-slide="prev ">
-        <span class="glyphicon glyphicon-chevron-left " aria-hidden="true "></span>
-        <span class="sr-only ">上一页</span>
-    </a>
-    <a class="right carousel-control " href="#carousel-example-generic " role="button " data-slide="next ">
-        <span class="glyphicon glyphicon-chevron-right " aria-hidden="true "></span>
-        <span class="sr-only ">下一页</span>
-    </a>
+    <table class="table table-bordered ">
+
+        <tr>
+            <th>姓名</th>
+            <th>婚姻状态</th>
+            <th>证件类型</th>
+            <th>证件号</th>
+        </tr>
+        <tr>
+            <td id="userName"></td>
+            <td id="maritalStatus"></td>
+            <td >身份证</td>
+            <td id="id"></td>
+        </tr>
+        <tr>
+            <th style="height:400px" id="pingji">评级结果</th>
+            <td colspan="3"  style="height:400px;max-width:200px" id="container" ></td>
+        </tr>
+        <tr>
+            <th colspan="4" class="bg-success">债偿能力</th>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-warning  progress-bar-striped active" id="progress1" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 76%;">
+                        76%
+                    </div>
+                </div>
+                <div>
+                    <h4>偿债潜力评级为：
+                        <strong id="rank1"></strong>
+                    </h4>
+                    <h4>偿债潜力部分得分为：
+                        <strong id="num1"></strong>
+                    </h4>
+                    <h4>偿债能力达到中等水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款</h4>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="4" class="bg-info">信用体系</th>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success  progress-bar-striped active" id="progress2" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 86%;">
+                        86%
+                    </div>
+                </div>
+                <div>
+                    <h4>偿债潜力评级为：
+                        <strong id="rank2"></strong>
+                    </h4>
+                    <h4>偿债潜力部分得分为：
+                        <strong id="num2"></strong>
+                    </h4>
+                    <h4>信用达到优良偏上水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款</h4>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="4" class="bg-warning">债偿潜力</th>
+        </tr>
+        <tr>
+            <td colspan="4">
+                <div class="progress">
+                    <div class="progress-bar progress-bar-success progress-bar-striped active" id="progress3" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 91%;">
+                        91%
+                    </div>
+                </div>
+                <div>
+                    <h4>偿债潜力评级为：
+                        <strong id="rank3"></strong>
+                    </h4>
+                    <h4>偿债潜力部分得分为：
+                        <strong id="num3"></strong>
+                    </h4>
+                    <h4>偿债潜力达到优良偏上水平</h4>
+                </div>
+            </td>
+        </tr>
+    </table>
 </div>
-<!-- 滚动图片广告-->
+<script type="text/javascript">
+    var userName=null;
+    var maritalStatus=null;
+    var id=null;
+    var paydebtAbilityScore=null;
+    var paydebtAbilityLevel=null;
+    var paydebtPotentialScore=null;
+    var paydebtPotentialLevel=null;
+    var paydebtSystemScore=null;
+    var paydebtSystemLevel=null;
+//页面加载完成后，发送ajax请求，得到评估结果信息
+$(function getinfo(){
+    $.ajax({
+        url:"${APP_PATH}/evaluateResult",
+        data:null,
+        type:"GET",
+        success:function(result){
+            userName=result.userName;
+            maritalStatus=result.maritalStatus;
+            id=result.id;
+            paydebtAbilityScore=result.paydebtAbilityScore;
+            paydebtAbilityLevel=result.paydebtAbilityLevel;
+            paydebtPotentialScore=result.paydebtPotentialScore;
+            paydebtPotentialLevel=result.paydebtPotentialLevel;
+            paydebtSystemScore=result.paydebtSystemScore;
+            paydebtSystemLevel=result.paydebtSystemLevel;
+        }
+    });
+    changeinfo();
+});
 
-<!-- STEP步骤 -->
-<div class="index-row our-data ">
-    <div class="container ">
-        <div class="row ">
-            <div class="col-sm-12 main-title ">
-                <h1>STEP</h1>
-                <h1>步骤</h1>
-                <p class="line line-big "></p>
-            </div>
-            <div class="col-sm-3 ">
-                <div class="our-whyus-item ">
-                    <span class="glyphicon glyphicon-th-list " aria-hidden="true "></span>
+/**得分数字显示js*/
+var num1 = new CountUp("num1", 0, paydebtAbilityScore);
+if (!num1.error) {
+    num1.start();
+} else {
+    console.error(num1.error);
+}
+var num2 = new CountUp("num2", 0, paydebtSystemScore);
+if (!num2.error) {
+    num2.start();
+} else {
+    console.error(num2.error);
+}
+var num3 = new CountUp("num3", 0, paydebtPotentialScore);
+if (!num3.error) {
+    num3.start();
+} else {
+    console.error(num3.error);
+}
+/**得分数字显示js*/
 
-                    <h4 class="title ">只需三步</h4>
-                    <h4 class="title ">给你安全可靠的征信报告</h4>
-                </div>
-            </div>
-            <div class="col-sm-3 ">
-                <div class="our-whyus-item ">
-                    <span style="font-size: 80px; " class="glyphicon glyphicon-user " aria-hidden="true "></span>
+/**图表部分显示的js**/
+var chart = new Highcharts.Chart('container', {
+    chart: {
+        type: 'bar' //指定图表的类型，默认是折线图（line）
+    },
+    title: {
+        text: '评级结果图' //指定图表标题
+    },
+    xAxis: {
+        categories: ['偿债能力得分', '信用评级得分', '偿债潜力得分'] //指定x轴分组
+    },
+    yAxis: {
+        title: {
+            text: '得分' //指定y轴的标题
+        }
+    },
+    series: [{ //指定数据列
+        name: '得分情况', //数据列名
+        data: [paydebtAbilityScore, paydebtSystemScore, paydebtPotentialScore] //数据
+    }]
+});
+/**图表部分显示的js**/
 
-                    <h4 class="title ">1.注册账号</h4>
-                    <h4 class="title "><br> </h4>
-                    <br>
-
-                </div>
-            </div>
-            <div class="col-sm-3 ">
-                <div class="our-whyus-item ">
-                    <span style="font-size: 80px; " class="glyphicon glyphicon-pencil " aria-hidden="true "></span>
-
-                    <h4 class="title ">2.填写个人信息</h4>
-                    <h4 class="title "><br></h4>
-                    <br>
-                </div>
-            </div>
-            <div class="col-sm-3 ">
-                <div class="our-whyus-item ">
-                    <span style="font-size: 80px; " class="glyphicon glyphicon-thumbs-up " aria-hidden="true "></span>
-
-                    <h4 class="title ">3.得到征信报告</h4>
-                    <h4 class="title "><br></h4>
-                    <br>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- STEP步骤 -->
-
-<!-- 我们的优势 -->
-<div class="index-row our-whyus ">
-    <div class="container ">
-        <div class="row ">
-            <div class="col-sm-12 main-title ">
-                <h1>OUR ADVANTAGES</h1>
-                <h1>我们的优势</h1>
-                <p class="line line-big "></p>
-            </div>
-            <div class="col-sm-6 ">
-                <div class="our-whyus-item ">
-
-                    <h2 class="title ">01</h2>
-
-                    <p>针对农民，有针对性地设计出一整套新型指标。</p>
-                    <br>
-                </div>
-            </div>
-            <div class="col-sm-6 ">
-                <div class="our-whyus-item ">
-
-                    <h2 class="title ">02</h2>
-
-                    <p>征信指标结合行为因素，考核点集中在偿债能力、信用和偿债潜力部分。</p>
-                </div>
-            </div>
-            <div class="col-sm-12 ">
-                <br>
-            </div>
-            <div class="col-sm-6 ">
-                <div class="our-whyus-item ">
-
-                    <h2 class="title ">03</h2>
-                    <p>实地调研，数据可靠，模型合理。</p>
-                    <br>
-                </div>
-            </div>
-            <div class="col-sm-6 ">
-                <div class="our-whyus-item ">
-                    <h2 class="title ">04</h2>
-
-                    <p>得出综合征信报告，给出是否借贷以及借贷金额的具体建议，得到在偿债能力、信用以及偿债潜力三个方面的具体情况。</p>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!--我们的优势-->
+function changeinfo(){
+    $("#userName").empty();
+    $("#userName").append(userName);
+    $("#maritalStatus").empty();
+    $("#maritalStatus").append(maritalStatus);
+    $("#id").empty();
+    $("#id").append(id);
+    $("#rank1").empty();
+    $("#rank1").append(paydebtAbilityLevel);
+    $("#rank2").empty();
+    $("#rank2").append(paydebtSystemLevel);
+    $("#rank3").empty();
+    $("#rank3").append(paydebtPotentialLevel);
+    $("#progress1").empty();
+    $("#progress1").width(paydebtAbilityScore/550+"%");
+    $("#progress2").empty();
+    $("#progress2").width(paydebtSystemScore/550+"%");
+    $("#progress3").empty();
+    $("#progress3").width(paydebtPotentialScore/550+"%");
+}
+    /*******图表自适应窗口改变*****************/
+    $(window).resize(function () {
+        var width = $("#yangli").width() - $("#pingji").width() - 34;
+        console.log($("#yangli").width(), $("#pingji").width());
+        chart.setSize(width, 400);
+    });
+</script>
+<!--评估信息-->
 
 <!-- 尾部导航栏 -->
 <div id="sidebar-bg" style="display: none;"></div>
@@ -317,6 +383,7 @@
     </div>
 </div>
 <!-- 立即咨询 -->
+
 <!-- 通用页脚 -->
 <div id="footer">
     <div class="container">
@@ -359,13 +426,15 @@
         </div>
     </div>
 </div>
-
 <!-- 通用页脚 -->
 
-<script src="${APP_PATH }/static/js/jquery-3.2.1.min.js" ></script>
+
 <script src="${APP_PATH }/static/js/bootstrap.min.js" ></script>
 <script src="${APP_PATH }/static/js/common.js" ></script>
 <script src="${APP_PATH }/static/js/login.js" ></script>
 <script src="${APP_PATH }/static/js/register.js" ></script>
+<script src="${APP_PATH }/static/js/evaluate.js" ></script>
 </body>
 </html>
+
+

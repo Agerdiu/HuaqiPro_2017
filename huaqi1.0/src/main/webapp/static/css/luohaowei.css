@@ -132,3 +132,20 @@ h1 {
     color: inherit;
     font-weight: 300;
 }
+
+/*评估样例部分**/
+#num1,
+#num2,
+#num3 {
+    color: #4d63bc
+}
+
+#rank1 {
+    color: coral
+}
+
+#rank2,
+#rank3 {
+    color: forestgreen/*根据评级JS调用颜色*A级forestgreen，B级coral,C级firebrick*/
+        }
+/*评估样例部分**/
