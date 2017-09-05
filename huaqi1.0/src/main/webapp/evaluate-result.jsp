@@ -215,7 +215,7 @@
                     <h4>偿债潜力部分得分为：
                         <strong id="num1"></strong>
                     </h4>
-                    <h4>偿债能力达到中等水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款</h4>
+                    <h4 id="comment1"></h4>
                 </div>
             </td>
         </tr>
@@ -236,7 +236,7 @@
                     <h4>偿债潜力部分得分为：
                         <strong id="num2"></strong>
                     </h4>
-                    <h4>信用达到优良偏上水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款</h4>
+                    <h4 id="comment2"></h4>
                 </div>
             </td>
         </tr>
@@ -257,7 +257,7 @@
                     <h4>偿债潜力部分得分为：
                         <strong id="num3"></strong>
                     </h4>
-                    <h4>偿债潜力达到优良偏上水平</h4>
+                    <h4 id="comment3"></h4>
                 </div>
             </td>
         </tr>
@@ -357,6 +357,78 @@ function changeinfo(){
     $("#progress2").width(paydebtSystemScore/550+"%");
     $("#progress3").empty();
     $("#progress3").width(paydebtPotentialScore/550+"%");
+    $("#comment1").empty();
+    $("#comment2").empty();
+    $("#comment3").empty();
+    switch(paydebtSystemLevel)
+    {
+        case "D":
+            $("#comment1").append("不符合最低分数线，偿债能力较差，偿还可能性较低，不建议批准贷款");
+        case "C":
+            $("#comment1").append("略高于最低偿债分数线，存在偿还可能性，但是可能性偏低，可试着考虑综合其他部分得分，再批准贷款");
+        case "CC":
+            $("#comment1").append("略高于最低偿债分数线，存在偿还可能性，但是可能性偏低，可试着考虑综合其他部分得分，再批准贷款");
+        case "CCC":
+            $("#comment1").append("略高于最低偿债分数线，存在偿还可能性，但是可能性偏低，可试着考虑综合其他部分得分，再批准贷款");
+        case "B":
+            $("#comment1").append("偿债能力达到中等水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
+        case "BB":
+            $("#comment1").append("偿债能力达到中等水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
+        case "BBB":
+            $("#comment1").append("偿债能力达到中等水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
+        case "A":
+            $("#comment1").append("偿债能力达到优良偏上水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
+        case "AA":
+            $("#comment1").append("偿债能力达到优良偏上水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
+        case "AAA":
+            $("#comment1").append("偿债能力达到优秀水平水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
+    }
+    switch(paydebtAbilityLevel)
+    {
+        case "D":
+            $("#comment2").append("不符合最低分数线，信用较差，偿还可能性较低，不建议批准贷款");
+        case "C":
+            $("#comment2").append("略高于最低信用分数线，存在偿还可能性，但是可能性偏低，可试着考虑综合其他部分得分，再批准贷款");
+        case "CC":
+            $("#comment2").append("略高于最低信用分数线，存在偿还可能性，但是可能性偏低，可试着考虑综合其他部分得分，再批准贷款");
+        case "CCC":
+            $("#comment2").append("略高于最低信用分数线，存在偿还可能性，但是可能性偏低，可试着考虑综合其他部分得分，再批准贷款");
+        case "B":
+            $("#comment2").append("信用达到中等水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
+        case "BB":
+            $("#comment2").append("信用达到中等水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
+        case "BBB":
+            $("#comment2").append("信用达到优良偏上水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
+        case "A":
+            $("#comment2").append("信用达到优良偏上水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
+        case "AA":
+            $("#comment2").append("信用达到优良偏上水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
+        case "AAA":
+            $("#comment2").append("信用能力达到优秀水平水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
+    }
+    switch(paydebtAbilityLevel)
+    {
+        case "D":
+            $("#comment3").append("偿债潜力较差");
+        case "C":
+            $("#comment3").append("略高于最低偿债潜力线，偿债潜力较差");
+        case "CC":
+            $("#comment3").append("略高于最低偿债潜力线，偿债潜力较差");
+        case "CCC":
+            $("#comment3").append("略高于最低偿债潜力线，偿债潜力较差");
+        case "B":
+            $("#comment3").append("偿债潜力达到中等水平");
+        case "BB":
+            $("#comment3").append("偿债潜力达到中等水平");
+        case "BBB":
+            $("#comment3").append("偿债潜力达到中等水平");
+        case "A":
+            $("#comment3").append("偿债潜力达到优良偏上水平");
+        case "AA":
+            $("#comment3").append("偿债潜力达到优良偏上水平");
+        case "AAA":
+            $("#comment3").append("偿债潜力达到优秀水平");
+    }
 }
     /*******图表自适应窗口改变*****************/
     $(window).resize(function () {
