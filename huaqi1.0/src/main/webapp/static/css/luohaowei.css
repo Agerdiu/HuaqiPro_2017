@@ -1,0 +1,134 @@
+.formword {
+    padding: 30px 0 35px 30px;
+    margin-bottom: 9px;
+    font-size: 14px;
+    background: #fff;
+    border-bottom: 1px #ddd solid;
+    border-left-color: #ce4844;
+    border-left-width: 5px;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+.ques_list {
+    color: #444;
+}
+
+.mikuMiku {
+    width: 1900px;
+    height: 1172px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.nagato {
+    position: absolute;
+    width: auto;
+    height: auto;
+    margin-top: 350px;
+    margin-left: 350px;
+    display: block;
+    ;
+}
+
+.yamato {
+    padding-top: 100px;
+}
+
+.musashi {
+    font-size: 16px;
+}
+
+.mt_42 {
+    margin-top: 42px;
+}
+
+.ques_list {
+    color: #444;
+}
+
+.three-select-css {
+    -webkit-transition: all 0.225s ease-in-out;
+    -moz-transition: all 0.225s ease-in-out;
+    -o-transition: all 0.225s ease-in-out;
+    transition: all 0.225s ease-in-out;
+    float: left;
+    text-align: center;
+    border: 1px solid #c1c1c1;
+    padding: 10px;
+    width: 250px;
+    height: 300px;
+    filter: alpha(Opacity=60);
+    -moz-opacity: 0.6;
+    opacity: 0.6;
+    background-color: #fafafa;
+    text-align: center;
+}
+
+.three-select-css:hover {
+    background-color: #0ba1e4;
+    border: 1px solid #0ba1e4;
+    box-shadow: 0 0 20px 0 rgba(45, 183, 245, .5);
+    color: #fff;
+}
+
+.three-select-css h3 {
+    line-height: 1.5em;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.three-select-css p {
+    line-height: 1.5em;
+}
+
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+
+.three-select-css:hover>.glyphicon {
+    color: #fff;
+}
+
+.three-select-css .glyphicon {
+    color: #0ba1e4;
+    font-size: 80px;
+    line-height: 1.5em;
+}
+
+.three-select-css h3 {
+    line-height: 1.5em;
+}
+
+.three-select-css p {
+    line-height: 1.5em;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    display: block;
+    font-size: 2em;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-weight: bold;
+    margin: 0.67em 0;
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    font-weight: 300;
+}
