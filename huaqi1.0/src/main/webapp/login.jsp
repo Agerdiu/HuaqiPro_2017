@@ -15,10 +15,6 @@
     <!-- Bootstrap -->
     <link href="${APP_PATH }/static/css/bootstrap.min.css" rel="stylesheet">
     <link href="${APP_PATH }/static/css/common.css" rel="stylesheet">
-    <link href="${APP_PATH }/static/css/luohaowei.css" rel="stylesheet">
-    <script src="${APP_PATH }/static/js/jquery-3.2.1.min.js" ></script>
-    <script src="${APP_PATH }/static/js/highcharts.js" ></script>
-    <script src="${APP_PATH }/static/js/countUp.js" ></script>
 </head>
 <!-- 导航栏 -->
 
@@ -85,6 +81,7 @@
                 </ul>
             </div>
         </div>
+        <!-- /.container-fluid -->
     </nav>
 </div>
 <!--导航栏-->
@@ -189,151 +186,7 @@
 </div>
 <!--注册模态框-->
 
-<!--评估信息-->
-<div style="width:80%;" class="panel panel-primary center-block" id="yangli">
-    <!-- Default panel contents -->
-    <div class="panel-heading">评估样例</div>
-    <div class="panel-body">
-        <p>基本信息</p>
-    </div>
 
-    <table class="table table-bordered ">
-
-        <tr>
-            <th>姓名</th>
-            <th>婚姻状态</th>
-            <th>证件类型</th>
-            <th>证件号</th>
-        </tr>
-        <tr>
-            <td>甄惠立</td>
-            <td>已婚</td>
-            <td>身份证</td>
-            <td>2016010101</td>
-        </tr>
-        <tr>
-            <th style="height:400px" id="pingji">评级结果</th>
-            <td colspan="3" style="height:400px;max-width:200px" id="container"></td>
-        </tr>
-        <tr>
-            <th colspan="4" class="bg-success">债偿能力</th>
-        </tr>
-        <tr>
-            <td colspan="4">
-                <div class="progress">
-                    <div class="progress-bar progress-bar-warning  progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 76%;">
-                        76%
-                    </div>
-                </div>
-                <div>
-                    <h4>偿债潜力评级为：
-                        <strong id="rank1">B</strong>
-                    </h4>
-                    <h4>偿债潜力部分得分为：
-                        <strong id="num1"></strong>
-                    </h4>
-                    <h4>偿债能力达到中等水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款</h4>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <th colspan="4" class="bg-info">信用体系</th>
-        </tr>
-        <tr>
-            <td colspan="4">
-                <div class="progress">
-                    <div class="progress-bar progress-bar-success  progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 86%;">
-                        86%
-                    </div>
-                </div>
-                <div>
-                    <h4>偿债潜力评级为：
-                        <strong id="rank2">A</strong>
-                    </h4>
-                    <h4>偿债潜力部分得分为：
-                        <strong id="num2"></strong>
-                    </h4>
-                    <h4>信用达到优良偏上水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款</h4>
-                </div>
-            </td>
-        </tr>
-        <tr>
-            <th colspan="4" class="bg-warning">债偿潜力</th>
-        </tr>
-        <tr>
-            <td colspan="4">
-                <div class="progress">
-                    <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 91%;">
-                        91%
-                    </div>
-                </div>
-                <div>
-                    <h4>偿债潜力评级为：
-                        <strong id="rank3">AA</strong>
-                    </h4>
-                    <h4>偿债潜力部分得分为：
-                        <strong id="num3"></strong>
-                    </h4>
-                    <h4>偿债潜力达到优良偏上水平</h4>
-                </div>
-            </td>
-        </tr>
-    </table>
-</div>
-<!--得分数字显示js-->
-<script>
-    var num1 = new CountUp("num1", 0, 421);
-    if (!num1.error) {
-        num1.start();
-    } else {
-        console.error(num1.error);
-    }
-
-    var num2 = new CountUp("num2", 0, 476);
-    if (!num2.error) {
-        num2.start();
-    } else {
-        console.error(num2.error);
-    }
-
-    var num3 = new CountUp("num3", 0, 501);
-    if (!num3.error) {
-        num3.start();
-    } else {
-        console.error(num3.error);
-    }
-
-</script>
-<!--图表部分显示的js-->
-<script>
-    var chart = new Highcharts.Chart('container', {
-        chart: {
-            type: 'bar' //指定图表的类型，默认是折线图（line）
-        },
-        title: {
-            text: '评级结果图' //指定图表标题
-        },
-        xAxis: {
-            categories: ['偿债能力得分', '信用评级得分', '偿债潜力得分'] //指定x轴分组
-        },
-        yAxis: {
-            title: {
-                text: '得分' //指定y轴的标题
-            }
-        },
-        series: [{ //指定数据列
-            name: '得分情况', //数据列名
-            data: [421, 476, 551] //数据
-        }]
-    });
-    /*******图表自适应窗口改变*****************/
-    $(window).resize(function () {
-        var width = $("#yangli").width() - $("#pingji").width() - 34;
-        console.log($("#yangli").width(), $("#pingji").width());
-        chart.setSize(width, 400);
-    });
-</script>
-<!--评估信息-->
 
 <!-- 尾部导航栏 -->
 <div id="sidebar-bg" style="display: none;"></div>
@@ -409,13 +262,10 @@
 
 <!-- 尾部导航栏 -->
 
-
+<script src="${APP_PATH }/static/js/jquery-3.2.1.min.js" ></script>
 <script src="${APP_PATH }/static/js/bootstrap.min.js" ></script>
 <script src="${APP_PATH }/static/js/common.js" ></script>
 <script src="${APP_PATH }/static/js/login.js" ></script>
 <script src="${APP_PATH }/static/js/register.js" ></script>
-
 </body>
 </html>
-
-
