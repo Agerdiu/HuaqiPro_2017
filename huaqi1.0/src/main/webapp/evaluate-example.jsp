@@ -61,10 +61,26 @@
                         </ul>
                 </ul>
                 <ul class="nav navbar-nav navbar-right ">
-                    <li><button type="button" class="btn btn-primary" style="font-size: 20px;" id="login_modal_btn">登录</button></li>
-                    <li><a href="" style="font-size: 20px; margin:0 -30px 0 -30px; ">|</a></li>
-                    <li><button type="button" class="btn btn-primary" id="register_modal_btn">注册</button></li>
-
+                    <c:choose>
+                        <c:when test="${sessionScope.currentUser!=null}">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-default dropdown-toggle navbar-btn" data-toggle="dropdown" style="font-size: 20px;" aria-haspopup="true" aria-expanded="false">
+                                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>${sessionScope.currentUserName}
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">查看我的信息</a></li>
+                                    <li><a href="#">修改个人信息</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="loginOut" class="loginOut-btn">退出登录</a></li>
+                                </ul>
+                            </div>
+                        </c:when>
+                        <c:otherwise>
+                            <li><button type="button" class="btn btn-default navbar-btn login-button" style="font-size: 20px;margin-right: 5px;" id="login_modal_btn">登录</button></li>
+                            <li><button type="button" class="btn btn-default navbar-btn reg-button" style="font-size: 20px;"id="register_modal_btn">注册</button></li>
+                        </c:otherwise>
+                    </c:choose>
                 </ul>
             </div>
         </div>
@@ -326,42 +342,50 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 contact-banner-box">
-                <h2 class="h1">更多疑问 全面解答</h2>
-                <h4>资深美签专家在线为您解答所有疑惑</h4>
-                <a href="javascript:;" class="btn btn-outline-inverse btn-lg web-chat">免费咨询</a>
+                <h2 class="h1">惠普立信</h2>
+                <h4>浓墨重彩推普惠，贷动三农新篇章</h4>
             </div>
         </div>
     </div>
 </div>
 <!-- 立即咨询 -->
-
 <!-- 通用页脚 -->
 <div id="footer">
     <div class="container">
         <div class="row">
             <div class="col-xs-6 col-sm-2 footer-item">
                 <div class="footer-list">
-                    <h4>首页</h4>
+                    <a href="#">
+                        <h4>首页</h4>
+                    </a>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-2 footer-item">
                 <div class="footer-list">
-                    <h4>征信评估</h4>
+                    <a href="#">
+                        <h4>征信评估</h4>
+                    </a>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-2 footer-item">
                 <div class="footer-list">
-                    <h4>评估样例</h4>
+                    <a href="#">
+                        <h4>评估样例</h4>
+                    </a>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-2  footer-item ">
                 <div class="footer-list">
-                    <h4>账户管理</h4>
+                    <a href="#">
+                        <h4>账户管理</h4>
+                    </a>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-2 footer-item  ">
                 <div class="footer-list">
-                    <h4>关于我们</h4>
+                    <a href="#">
+                        <h4>关于我们</h4>
+                    </a>
                 </div>
             </div>
             <div class="clearfix"></div>
@@ -372,12 +396,17 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <p>Copyright © 2017 huinong.com All Rights Reversed. 惠农科技 <a target="_blank" href="#">京ICP备16015317号</a></p>
+                <p>Copyright © 2017 huinong.com All Rights Reversed. 惠农科技
+                    <a target="_blank" href="#"></a>
+                </p>
             </div>
         </div>
     </div>
 </div>
+
 <!-- 通用页脚 -->
+
+<!-- 尾部导航栏 -->
 
 
 <script src="${APP_PATH }/static/js/bootstrap.min.js" ></script>

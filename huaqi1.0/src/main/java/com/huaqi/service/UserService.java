@@ -38,4 +38,16 @@ public class UserService {
         return count==1;
     }
 
+    //获取当前User
+    public User getUserInfo(String id)
+    {
+        return userMapper.selectByPrimaryKey(id);
+    }
+
+    //更新信息
+    public void update(String id,User user/*String id,String userName,String password,String gender,String email,String tel*/)
+    {
+        user.setId(id);
+        userMapper.updateByPrimaryKeySelective(user);
+    }
 }

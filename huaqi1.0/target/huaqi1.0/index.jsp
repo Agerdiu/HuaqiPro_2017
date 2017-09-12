@@ -1,3 +1,4 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -57,10 +58,26 @@
                         </ul>
                 </ul>
                 <ul class="nav navbar-nav navbar-right ">
-                    <li><button type="button" class="btn btn-primary" style="font-size: 20px;" id="login_modal_btn">登录</button></li>
-                    <li><a href="" style="font-size: 20px; margin:0 -30px 0 -30px; ">|</a></li>
-                    <li><button type="button" class="btn btn-primary" id="register_modal_btn">注册</button></li>
-
+                    <c:choose>
+                        <c:when test="${sessionScope.currentUser!=null}">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-default dropdown-toggle navbar-btn" data-toggle="dropdown" style="font-size: 20px;" aria-haspopup="true" aria-expanded="false">
+                                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>${sessionScope.currentUserName}
+                                    <span class="caret"></span>
+                                </button>
+               <ul class="dropdown-menu">
+                   <li><a href="#">查看我的信息</a></li>
+                   <li><a href="#">修改个人信息</a></li>
+                   <li role="separator" class="divider"></li>
+                   <li><a href="loginOut" class="loginOut-btn">退出登录</a></li>
+               </ul>
+           </div>
+                        </c:when>
+                        <c:otherwise>
+                            <li><button type="button" class="btn btn-default navbar-btn login-button" style="font-size: 20px;margin-right: 5px;" id="login_modal_btn">登录</button></li>
+                            <li><button type="button" class="btn btn-default navbar-btn reg-button" style="font-size: 20px;"id="register_modal_btn">注册</button></li>
+                        </c:otherwise>
+                        </c:choose>
                 </ul>
             </div>
         </div>
@@ -170,37 +187,35 @@
 <!--注册模态框-->
 
 <!-- 滚动图片广告-->
-<div id="carousel-example-generic " class="carousel slide my-slide " data-ride="carousel ">
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
-    <ol class="carousel-indicators ">
-        <li data-target="#carousel-example-generic " data-slide-to="0 " class="active "></li>
-        <li data-target="#carousel-example-generic " data-slide-to="1 "></li>
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
     </ol>
+
     <!-- Wrapper for slides -->
-    <div class="carousel-inner " role="listbox ">
-        <div class="item active ">
+    <div class="carousel-inner" role="listbox">
+        <div class="item active">
+            <img src="${APP_PATH }/static/img/num_1.jpg" alt="picture1">
 
-            <img src="${APP_PATH }/static/img/num_1.jpg " alt="picture1 ">
-            <div class="carousel-caption ">
-                <p><a class="btn btn-lg btn-primary " href="# " role="button " target="_blank ">立即体验 <span class="glyphicon glyphicon-menu-right "aria-hidden="true "></span></a></p>
-            </div>
         </div>
-        <div class="item ">
-            <img src="${APP_PATH }/static/img/num_2.jpg " alt="picture2 ">
-
+        <div class="item">
+            <img src="${APP_PATH }/static/img/num_2.jpg" alt="picture2">
         </div>
     </div>
 
-    <a class="left carousel-control " href="#carousel-example-generic " role="button " data-slide="prev ">
-        <span class="glyphicon glyphicon-chevron-left " aria-hidden="true "></span>
-        <span class="sr-only ">上一页</span>
+    <!-- Controls -->
+    <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
     </a>
-    <a class="right carousel-control " href="#carousel-example-generic " role="button " data-slide="next ">
-        <span class="glyphicon glyphicon-chevron-right " aria-hidden="true "></span>
-        <span class="sr-only ">下一页</span>
+    <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
     </a>
 </div>
-<!-- 滚动图片广告-->
+<!--滚动图片广告 -->
 
 <!-- STEP步骤 -->
 <div class="index-row our-data ">
@@ -309,9 +324,8 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 contact-banner-box">
-                <h2 class="h1">更多疑问 全面解答</h2>
-                <h4>资深美签专家在线为您解答所有疑惑</h4>
-                <a href="javascript:;" class="btn btn-outline-inverse btn-lg web-chat">免费咨询</a>
+                <h2 class="h1">惠普立信</h2>
+                <h4>浓墨重彩推普惠，贷动三农新篇章</h4>
             </div>
         </div>
     </div>
@@ -323,27 +337,37 @@
         <div class="row">
             <div class="col-xs-6 col-sm-2 footer-item">
                 <div class="footer-list">
-                    <h4>首页</h4>
+                    <a href="#">
+                        <h4>首页</h4>
+                    </a>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-2 footer-item">
                 <div class="footer-list">
-                    <h4>征信评估</h4>
+                    <a href="#">
+                        <h4>征信评估</h4>
+                    </a>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-2 footer-item">
                 <div class="footer-list">
-                    <h4>评估样例</h4>
+                    <a href="#">
+                        <h4>评估样例</h4>
+                    </a>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-2  footer-item ">
                 <div class="footer-list">
-                    <h4>账户管理</h4>
+                    <a href="#">
+                        <h4>账户管理</h4>
+                    </a>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-2 footer-item  ">
                 <div class="footer-list">
-                    <h4>关于我们</h4>
+                    <a href="#">
+                        <h4>关于我们</h4>
+                    </a>
                 </div>
             </div>
             <div class="clearfix"></div>
@@ -354,13 +378,17 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <p>Copyright © 2017 huinong.com All Rights Reversed. 惠农科技 <a target="_blank" href="#">京ICP备16015317号</a></p>
+                <p>Copyright © 2017 huinong.com All Rights Reversed. 惠农科技
+                    <a target="_blank" href="#"></a>
+                </p>
             </div>
         </div>
     </div>
 </div>
 
 <!-- 通用页脚 -->
+
+<!-- 尾部导航栏 -->
 
 <script src="${APP_PATH }/static/js/jquery-3.2.1.min.js" ></script>
 <script src="${APP_PATH }/static/js/bootstrap.min.js" ></script>

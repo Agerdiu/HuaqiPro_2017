@@ -274,3 +274,8 @@ function AddFavorite(title, url) {
         }
     }
 }
+
+/**********退出登录按钮************************/
+/*$("#loginOut_btn").click(function () {
+    //window.location.reload();
+}*/

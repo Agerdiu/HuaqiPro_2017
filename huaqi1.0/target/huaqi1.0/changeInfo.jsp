@@ -61,13 +61,30 @@
                         </ul>
                 </ul>
                 <ul class="nav navbar-nav navbar-right ">
-                    <li><button type="button" class="btn btn-primary" style="font-size: 20px;" id="login_modal_btn">登录</button></li>
-                    <li><a href="" style="font-size: 20px; margin:0 -30px 0 -30px; ">|</a></li>
-                    <li><button type="button" class="btn btn-primary" id="register_modal_btn">注册</button></li>
-
+                    <c:choose>
+                        <c:when test="${sessionScope.currentUser!=null}">
+                            <div class="btn-group">
+                                <button type="button" class="btn btn-default dropdown-toggle navbar-btn" data-toggle="dropdown" style="font-size: 20px;" aria-haspopup="true" aria-expanded="false">
+                                    <span class="glyphicon glyphicon-user" aria-hidden="true"></span>${sessionScope.currentUserName}
+                                    <span class="caret"></span>
+                                </button>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#">查看我的信息</a></li>
+                                    <li><a href="#">修改个人信息</a></li>
+                                    <li role="separator" class="divider"></li>
+                                    <li><a href="loginOut" class="loginOut-btn">退出登录</a></li>
+                                </ul>
+                            </div>
+                        </c:when>
+                        <c:otherwise>
+                            <li><button type="button" class="btn btn-default navbar-btn login-button" style="font-size: 20px;margin-right: 5px;" id="login_modal_btn">登录</button></li>
+                            <li><button type="button" class="btn btn-default navbar-btn reg-button" style="font-size: 20px;"id="register_modal_btn">注册</button></li>
+                        </c:otherwise>
+                    </c:choose>
                 </ul>
             </div>
         </div>
+        <!-- /.container-fluid -->
     </nav>
 </div>
 <!--导航栏-->
@@ -172,15 +189,15 @@
 </div>
 <!--注册模态框-->
 
-<!--评估信息-->
+<!--信息修改-->
 <div style="width:80%;" class="panel panel-primary center-block" id="yangli">
     <!-- Default panel contents -->
-    <div class="panel-heading">评估样例</div>
+    <div class="panel-heading">信息修改</div>
     <div class="panel-body">
         <p>基本信息</p>
     </div>
-
-    <table class="table table-bordered ">
+<form id="change-form">
+    <table class="table table-bordered " >
 
         <tr>
             <th>姓名</th>
@@ -190,9 +207,9 @@
         </tr>
         <tr>
             <td><input type="text" name="userName" class="form-control" id="change_userName_input" placeholder="Name"></td>
-            <td><input type="text" name="maritalStatus" class="form-control" id="change_maritalStatus_input" placeholder="Name"></td>
+            <td id="maritalStatus"></td>
             <td>身份证</td>
-            <td><input type="text" name="userName" class="form-control" id="change_id_input" placeholder="Name"></td>
+            <td>${sessionScope.currentUser}</td>
         </tr>
         <tr>
             <th>性别</th>
@@ -201,7 +218,7 @@
             <th>手机号</th>
         </tr>
         <tr>
-            <td>
+            <td id="gender">
                 <label class="radio-inline">
                     <input type="radio" name="gender" id="change_gender_input1" value="M" checked="checked"> 男
                 </label>
@@ -215,15 +232,44 @@
         </tr>
         <tr>
             <td colspan="4">
-            <button type="button" class="btn btn-success" style="display:inline;float:right">保存</button>
+            <button type="button" class="btn btn-success" style="display:inline;float:right" id="save-btn">保存</button>
             <button type="button" class="btn btn-default" style="display:inline;float:right">取消</button>
             </td>
         </tr>
     </table>
+</form>
 </div>
+<script type="text/javascript">
+    var userName=null;
+    var maritalStatus=null;
+    var password=null;
+    var email=null;
+    var tel=null;
+    var gender=null;
+    $(function getUserInfo() {
+        $.ajax({
+            url:"${APP_PATH}/getUserInfo",
+            data:null,
+            type:"GET",
+            success:function(result) {
+                userName = result.extend.userInfo.userName;
+                maritalStatus = result.extend.userInfo.maritalStatus;
+                password = result.extend.userInfo.password;
+                email = result.extend.userInfo.email;
+                tel = result.extend.userInfo.tel;
+                gender = result.extend.userInfo.gender;
+                $("#change_userName_input").val(userName);
+                $("#maritalStatus").html(maritalStatus);
+                $("#change_password_input").val(password);
+                $("#change_email_input").val(email);
+                $("#change_tel_input").val(tel);
+                $("input[name=gender]").val([gender]);
+            }
+            });
+    });
+</script>
 
-
-<!--评估信息-->
+<!--信息修改-->
 
 <!-- 尾部导航栏 -->
 <div id="sidebar-bg" style="display: none;"></div>
@@ -233,42 +279,50 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 contact-banner-box">
-                <h2 class="h1">更多疑问 全面解答</h2>
-                <h4>资深美签专家在线为您解答所有疑惑</h4>
-                <a href="javascript:;" class="btn btn-outline-inverse btn-lg web-chat">免费咨询</a>
+                <h2 class="h1">惠普立信</h2>
+                <h4>浓墨重彩推普惠，贷动三农新篇章</h4>
             </div>
         </div>
     </div>
 </div>
 <!-- 立即咨询 -->
-
 <!-- 通用页脚 -->
 <div id="footer">
     <div class="container">
         <div class="row">
             <div class="col-xs-6 col-sm-2 footer-item">
                 <div class="footer-list">
-                    <h4>首页</h4>
+                    <a href="#">
+                        <h4>首页</h4>
+                    </a>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-2 footer-item">
                 <div class="footer-list">
-                    <h4>征信评估</h4>
+                    <a href="#">
+                        <h4>征信评估</h4>
+                    </a>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-2 footer-item">
                 <div class="footer-list">
-                    <h4>评估样例</h4>
+                    <a href="#">
+                        <h4>评估样例</h4>
+                    </a>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-2  footer-item ">
                 <div class="footer-list">
-                    <h4>账户管理</h4>
+                    <a href="#">
+                        <h4>账户管理</h4>
+                    </a>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-2 footer-item  ">
                 <div class="footer-list">
-                    <h4>关于我们</h4>
+                    <a href="#">
+                        <h4>关于我们</h4>
+                    </a>
                 </div>
             </div>
             <div class="clearfix"></div>
@@ -279,19 +333,24 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <p>Copyright © 2017 huinong.com All Rights Reversed. 惠农科技 <a target="_blank" href="#">京ICP备16015317号</a></p>
+                <p>Copyright © 2017 huinong.com All Rights Reversed. 惠农科技
+                    <a target="_blank" href="#"></a>
+                </p>
             </div>
         </div>
     </div>
 </div>
+
 <!-- 通用页脚 -->
+
+<!-- 尾部导航栏 -->
 
 
 <script src="${APP_PATH }/static/js/bootstrap.min.js" ></script>
 <script src="${APP_PATH }/static/js/common.js" ></script>
 <script src="${APP_PATH }/static/js/login.js" ></script>
 <script src="${APP_PATH }/static/js/register.js" ></script>
-<script src="${APP_PATH }/static/js/evaluate.js" ></script>
+<script src="${APP_PATH }/static/js/changeInfo.js" ></script>
 </body>
 </html>
 

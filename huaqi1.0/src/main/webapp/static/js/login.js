@@ -81,6 +81,7 @@ $("#login_btn").click(function () {
         success:function (result) {
             if (result.code == 100) {
                 $("#login_modal").modal('hide');
+                window.location.reload();
             } else {
                 show_validate_msg("#login_id_input", "error","账号或密码错误，请检查后输入");
                 show_validate_msg("#login_password_input", "error","账号或密码错误，请检查后输入");

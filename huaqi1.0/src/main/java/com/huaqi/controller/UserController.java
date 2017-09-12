@@ -9,15 +9,17 @@ import org.springframework.ui.ModelMap;
 import org.springframework.validation.BindingResult;
 import org.springframework.validation.FieldError;
 import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.support.SessionStatus;
 
 import javax.naming.Binding;
+import javax.servlet.http.HttpSession;
 import javax.validation.Valid;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 @Controller
-@SessionAttributes(value={"currentUser","password"})
+@SessionAttributes(value={"currentUser","currentPassword","currentUserName"})
 public class UserController {
 
     @Autowired
@@ -41,6 +43,40 @@ public class UserController {
 
     }
 
+    //退出登录
+    @RequestMapping(value = "/loginOut")
+    public String loginOut(SessionStatus status)
+    {
+        status.setComplete();
+        return "/index";
+    }
+
+    //获取员工信息
+    @RequestMapping(value = "/getUserInfo")
+    @ResponseBody
+    public Msg getUserInfo(@ModelAttribute("currentUser")String currentUser)
+    {
+       String userName;
+       String maritalStatus;
+       String email;
+       String tel;
+       String gender;
+       String id=currentUser;
+       User user=userService.getUserInfo(id);
+       userName=user.getUserName();
+       maritalStatus=user.getMaritalStatus()==1?"已婚":"未婚";
+       email=user.getEmail();
+       tel=user.getTel();
+       gender=user.getGender();
+       Map<String ,Object> map=new HashMap<>();
+       map.put("userName",userName);
+       map.put("maritalStatus",maritalStatus);
+       map.put("email",email);
+       map.put("tel",tel);
+       map.put("gender",gender);
+       return Msg.fail().add("userInfo",map);
+    }
+
     //登录
     @RequestMapping(value="/login",method = RequestMethod.POST)
     @ResponseBody
@@ -49,8 +85,10 @@ public class UserController {
         boolean b=userService.checkLogin(id,password);
         if(b)
         {
+            User user=userService.getUserInfo(id);
+            model.put("currentUserName",user.getUserName());
             model.put("currentUser",id);
-            model.put("password",password);
+            model.put("currentPassword",password);
             return Msg.success();
         }
         else
@@ -79,5 +117,17 @@ public class UserController {
             userService.saveRegInfo(user);
             return Msg.success();
         }
+    }
+
+    //修改信息
+    @RequestMapping(value="/changeInfo",method = RequestMethod.POST)
+    @ResponseBody
+    public Msg saveUser(@ModelAttribute("currentUser")String currentUser,/*,@RequestParam("userName") String userName,
+                        @RequestParam("password") String password, @RequestParam("gender") String gender,
+                        @RequestParam("email") String email, @RequestParam("tel") String tel*/User user)
+    {
+        //System.out.println(user.getUserName());
+        userService.update(currentUser,user);
+        return Msg.success();
     }
 }

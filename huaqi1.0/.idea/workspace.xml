@@ -29,22 +29,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-      <file leaf-file-name="UserMapper.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="1069">
+              <caret line="121" column="10" lean-forward="true" selection-start-line="121" selection-start-column="10" selection-end-line="121" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/bean/User.java">
+      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-              <folding />
+            <state relative-caret-position="371">
+              <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+              <folding>
+                <element signature="e#1155#1156#0" expanded="true" />
+                <element signature="e#1211#1212#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,9 +55,27 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2646">
-              <caret line="98" column="56" lean-forward="false" selection-start-line="98" selection-start-column="56" selection-end-line="98" selection-end-column="56" />
-              <folding />
+            <state relative-caret-position="135">
+              <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="86" selection-end-column="10" />
+              <folding>
+                <element signature="n#style#0;n#button#0;n#div#0;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#li#0;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#li#1;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="evaluate-salaryman.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluate-salaryman.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="691">
+              <caret line="80" column="21" lean-forward="false" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+              <folding>
+                <element signature="n#style#0;n#button#0;n#div#0;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#li#0;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#li#1;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -62,72 +83,83 @@
       <file leaf-file-name="evaluate-result.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluate-result.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="229" column="26" lean-forward="true" selection-start-line="229" selection-start-column="26" selection-end-line="229" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="changeInfo.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/changeInfo.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="220" column="13" lean-forward="true" selection-start-line="220" selection-start-column="13" selection-end-line="220" selection-end-column="13" />
+            <state relative-caret-position="448">
+              <caret line="83" column="21" lean-forward="false" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
               <folding>
-                <element signature="n#style#0;n#button#0;n#td#0;n#tr#4;n#table#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#button#1;n#td#0;n#tr#4;n#table#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#div#0;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#li#0;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#li#1;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/common.css">
+      <file leaf-file-name="evaluate-farmer.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluate-farmer.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="387" column="34" lean-forward="true" selection-start-line="387" selection-start-column="34" selection-end-line="387" selection-end-column="34" />
-              <folding />
+            <state relative-caret-position="448">
+              <caret line="80" column="21" lean-forward="false" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+              <folding>
+                <element signature="n#style#0;n#button#0;n#div#0;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#li#0;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#li#1;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="register.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/register.js">
+      <file leaf-file-name="evaluate-example.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluate-example.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="448">
+              <caret line="83" column="21" lean-forward="false" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
+              <folding>
+                <element signature="n#style#0;n#button#0;n#div#0;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#li#0;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#li#1;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="luohaowei.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/luohaowei.css">
+      <file leaf-file-name="evaluate-businessman.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluate-businessman.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="243">
-              <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-              <folding />
+            <state relative-caret-position="448">
+              <caret line="80" column="21" lean-forward="false" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+              <folding>
+                <element signature="n#style#0;n#button#0;n#div#0;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#li#0;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#li#1;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/common.js">
+      <file leaf-file-name="evaluate.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluate.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="637">
-              <caret line="233" column="13" lean-forward="true" selection-start-line="233" selection-start-column="13" selection-end-line="233" selection-end-column="13" />
-              <folding />
+            <state relative-caret-position="448">
+              <caret line="80" column="21" lean-forward="false" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+              <folding>
+                <element signature="n#style#0;n#button#0;n#div#0;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#li#0;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#li#1;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="changeInfo.jsp" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/changeInfo.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="286">
+              <caret line="80" column="61" lean-forward="false" selection-start-line="80" selection-start-column="61" selection-end-line="80" selection-end-column="61" />
+              <folding>
+                <element signature="n#style#0;n#button#0;n#div#0;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#li#0;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#button#0;n#li#1;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -149,7 +181,16 @@
       <find>equal</find>
       <find>color</find>
       <find>0ba1e4</find>
+      <find>5cb85c</find>
+      <find>15</find>
+      <find>userName</find>
+      <find>reg</find>
+      <find>save</find>
     </findStrings>
+    <replaceStrings>
+      <replace>55b761</replace>
+      <replace>change</replace>
+    </replaceStrings>
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -163,28 +204,31 @@
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/huaqi/dao/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/springmvc.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/huaqi/bean/Msg.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/js/login.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/js/register.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/huaqi/service/UserService.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/css/luohaowei.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/evaluate.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/evaluate-salaryman.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/evaluate-farmer.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/evaluate-businessman.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/huaqi/controller/UserController.java" />
         <option value="$PROJECT_DIR$/target/classes/com/huaqi/dao/UserMapper.class" />
         <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/dbconfig.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/huaqi/test/MBGTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/huaqi/bean/User.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/evaluate-result.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/changeInfo.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/css/common.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/login.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/common.js" />
+        <option value="$PROJECT_DIR$/src/main/resources/springmvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/changeInfo.js" />
+        <option value="$PROJECT_DIR$/src/main/java/com/huaqi/service/UserService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/huaqi/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/evaluate-salaryman.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/evaluate-result.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/evaluate-farmer.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/evaluate-example.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/evaluate-businessman.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/evaluate.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/changeInfo.jsp" />
       </list>
     </option>
   </component>
@@ -359,6 +403,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huaqi1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huaqi1.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
               <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -384,11 +437,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\github\repositories\HuaqiPro_2017\huaqi1.0\src\main\webapp\static\img" />
+      <recent name="E:\github\repositories\HuaqiPro_2017\huaqi1.0\src\main\webapp\static\img\yezi" />
+      <recent name="E:\github\repositories\HuaqiPro_2017\huaqi1.0\src\main\webapp\static\js" />
       <recent name="E:\github\repositories\HuaqiPro_2017\huaqi1.0\src\main\webapp\static\css" />
       <recent name="G:\IDEAproject\huaqi1.0\src\main\webapp\static\css" />
-      <recent name="G:\IDEAproject\huaqi1.0\src\main\webapp\static\img" />
-      <recent name="G:\IDEAproject\huaqi1.0\src\main\webapp\static\js" />
-      <recent name="G:\IDEAproject\huaqi1.0\src\main\webapp\static\fonts" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -611,12 +664,12 @@
       <workItem from="1504576604422" duration="2837000" />
       <workItem from="1504580060430" duration="609000" />
       <workItem from="1504594113069" duration="657000" />
-      <workItem from="1505177855600" duration="4306000" />
+      <workItem from="1505177855600" duration="32412000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84784000" />
+    <option name="totallyTimeSpent" value="112890000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -643,7 +696,7 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3277635" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32738096" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -676,78 +729,11 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.idea/artifacts/huaqi1_0_war.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_9_0.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluate-businessman.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="677" column="8" lean-forward="false" selection-start-line="677" selection-start-column="8" selection-end-line="677" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluate.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="86" column="24" lean-forward="true" selection-start-line="86" selection-start-column="24" selection-end-line="86" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/huaqi1.0.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="279">
-          <caret line="104" column="17" lean-forward="false" selection-start-line="104" selection-start-column="17" selection-end-line="104" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="123">
           <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/bean/UserExample.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -889,30 +875,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/dao/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="15" column="29" lean-forward="false" selection-start-line="15" selection-start-column="29" selection-end-line="15" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="297">
@@ -929,101 +891,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/test/MBGTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/bean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="324">
-          <caret line="12" column="28" lean-forward="false" selection-start-line="12" selection-start-column="28" selection-end-line="12" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2646">
-          <caret line="98" column="56" lean-forward="false" selection-start-line="98" selection-start-column="56" selection-end-line="98" selection-end-column="56" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="65" column="9" lean-forward="true" selection-start-line="65" selection-start-column="9" selection-end-line="65" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/block.rnc">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="405">
           <caret line="15" column="30" lean-forward="true" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluate-result.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="229" column="26" lean-forward="true" selection-start-line="229" selection-start-column="26" selection-end-line="229" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/changeInfo.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="220" column="13" lean-forward="true" selection-start-line="220" selection-start-column="13" selection-end-line="220" selection-end-column="13" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#td#0;n#tr#4;n#table#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#button#1;n#td#0;n#tr#4;n#table#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="233" column="13" lean-forward="true" selection-start-line="233" selection-start-column="13" selection-end-line="233" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/register.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -1036,11 +907,504 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/yezi.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-25711">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="22" column="28" lean-forward="false" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/test/MBGTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="16" column="40" lean-forward="true" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="387" column="34" lean-forward="true" selection-start-line="387" selection-start-column="34" selection-end-line="387" selection-end-column="34" />
+        <state relative-caret-position="340">
+          <caret line="641" column="35" lean-forward="false" selection-start-line="641" selection-start-column="35" selection-end-line="641" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-505">
+          <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="22" column="46" lean-forward="true" selection-start-line="22" selection-start-column="46" selection-end-line="22" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="78" column="20" lean-forward="true" selection-start-line="78" selection-start-column="20" selection-end-line="78" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="280" column="3" lean-forward="true" selection-start-line="280" selection-start-column="3" selection-end-line="280" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/bean/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="14" column="23" lean-forward="true" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1307">
+          <caret line="68" column="16" lean-forward="true" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="754" column="41" lean-forward="true" selection-start-line="754" selection-start-column="41" selection-end-line="754" selection-end-column="41" />
+          <folding>
+            <element signature="n#resultMap#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#sql#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#where#0;n#sql#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#foreach#0;n#where#0;n#sql#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#foreach#0;n#where#0;n#sql#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#when#0;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#when#1;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#when#2;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#when#3;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#foreach#0;n#when#3;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#sql#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#where#0;n#sql#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#foreach#0;n#where#0;n#sql#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#foreach#0;n#where#0;n#sql#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#when#0;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#when#1;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#when#2;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#when#3;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#foreach#0;n#when#3;n#choose#0;n#foreach#0;n#trim#0;n#if#0;n#foreach#0;n#where#0;n#sql#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#sql#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#select#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#select#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#2;n#select#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#delete#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#delete#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#delete#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#insert#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#2;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#3;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#4;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#5;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#6;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#7;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#8;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#9;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#10;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#11;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#12;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#13;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#14;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#15;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#16;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#17;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#18;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#19;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#20;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#21;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#22;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#23;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#24;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#25;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#26;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#27;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#28;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#29;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#30;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#31;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#32;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#33;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#34;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#35;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#36;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#37;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#38;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#39;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#40;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#41;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#42;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#43;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#44;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#45;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#46;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#47;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#48;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#49;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#50;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#51;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#52;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#53;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#54;n#trim#0;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#2;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#3;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#4;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#5;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#6;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#7;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#8;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#9;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#10;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#11;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#12;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#13;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#14;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#15;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#16;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#17;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#18;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#19;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#20;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#21;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#22;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#23;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#24;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#25;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#26;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#27;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#28;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#29;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#30;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#31;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#32;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#33;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#34;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#35;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#36;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#37;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#38;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#39;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#40;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#41;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#42;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#43;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#44;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#45;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#46;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#47;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#48;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#49;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#50;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#51;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#52;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#53;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#54;n#trim#1;n#insert#1;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#select#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#select#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#2;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#3;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#4;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#5;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#6;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#7;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#8;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#9;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#10;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#11;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#12;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#13;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#14;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#15;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#16;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#17;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#18;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#19;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#20;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#21;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#22;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#23;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#24;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#25;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#26;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#27;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#28;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#29;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#30;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#31;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#32;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#33;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#34;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#35;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#36;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#37;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#38;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#39;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#40;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#41;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#42;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#43;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#44;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#45;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#46;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#47;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#48;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#49;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#50;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#51;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#52;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#53;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#54;n#set#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#update#0;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#0;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#1;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#2;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#3;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#4;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#5;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#6;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#7;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#8;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#9;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#10;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#11;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#12;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#13;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#14;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#15;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#16;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#17;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#18;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#19;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#20;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#21;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#22;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#23;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#24;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#25;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#26;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#27;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#28;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#29;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#30;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#31;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#32;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#33;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#34;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#35;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#36;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#37;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#38;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#39;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#40;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#41;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#42;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#43;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#44;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#45;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#46;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#47;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#48;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#49;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#50;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#51;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#52;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#if#53;n#set#0;n#update#2;n#mapper#0;n#!!top" expanded="false" />
+            <element signature="n#update#3;n#mapper#0;n#!!top" expanded="false" />
+            <marker date="1504590804805" expanded="false" signature="8186:8284" ph="select from users" />
+            <marker date="1504590804805" expanded="false" signature="8369:8421" ph="delete from " />
+            <marker date="1504590804805" expanded="false" signature="8513:8530" ph="delete from " />
+            <marker date="1504590804805" expanded="false" signature="8698:11517" ph="insert into users... " />
+            <marker date="1504590804805" expanded="false" signature="20856:20882" ph="select count... users" />
+            <marker date="1504590804805" expanded="true" signature="27840:31160" ph="update users... " />
+            <marker date="1504590804805" expanded="false" signature="31359:37166" ph="update users... " />
+            <marker date="1504590804805" expanded="false" signature="37254:40192" ph="update users... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/bean/UserExample.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="2882" column="55" lean-forward="true" selection-start-line="2882" selection-start-column="55" selection-end-line="2882" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/dao/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/changeInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="371">
+          <caret line="49" column="23" lean-forward="true" selection-start-line="49" selection-start-column="23" selection-end-line="49" selection-end-column="23" />
+          <folding>
+            <element signature="e#1155#1156#0" expanded="true" />
+            <element signature="e#1211#1212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1069">
+          <caret line="121" column="10" lean-forward="true" selection-start-line="121" selection-start-column="10" selection-end-line="121" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluate-salaryman.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="691">
+          <caret line="80" column="21" lean-forward="false" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#0;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#li#0;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#li#1;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluate-result.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="83" column="21" lean-forward="false" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#0;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#li#0;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#li#1;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluate-farmer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="80" column="21" lean-forward="false" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#0;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#li#0;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#li#1;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluate-example.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="83" column="21" lean-forward="false" selection-start-line="83" selection-start-column="21" selection-end-line="83" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#0;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#li#0;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#li#1;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluate-businessman.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="80" column="21" lean-forward="false" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#0;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#li#0;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#li#1;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="80" column="21" lean-forward="false" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#0;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#li#0;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#li#1;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="86" selection-end-column="10" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#0;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#li#0;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#li#1;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/changeInfo.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="80" column="61" lean-forward="false" selection-start-line="80" selection-start-column="61" selection-end-line="80" selection-end-column="61" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#div#0;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#li#0;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#button#0;n#li#1;n#ul#2;n#div#1;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

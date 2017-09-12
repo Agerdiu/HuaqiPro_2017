@@ -161,10 +161,10 @@ blockquote .quote-content {
     /*å…¨éƒ¨-å¯¼èˆª*/
     #header .navbar {
         border-radius: 0;
-        padding: 15px 0;
+        padding: 10px 0;
     }
     #header .navbar-nav>li>a {
-        padding: 15px 0;
+        padding: 10px 0;
     }
     /*å…¨éƒ¨-å¯¼èˆª*/
 }
@@ -619,3 +619,24 @@ blockquote .quote-content {
     color: #3071f2;
     font-size: 24px;
 }
+
+.login-button:hover {
+    color: #fff;
+    background-color: #dff0d8;
+    border-color: #55b761;
+    text-decoration: none;
+}
+
+.reg-button:hover {
+    color: #fff;
+    background-color: #dff0d8;
+    border-color: #55b761;
+    text-decoration: none;
+}
+
+.AutomLeaf { position: fixed; opacity: 0; z-index: 0 }
+.AutomLeaffalling { position: fixed; top: 0; left: 0; opacity: 0; z-index: 0 }
+.x1 { width: 75px; height: 75px }
+.x2 { width: 100px; height: 100px }
+.x3 { width: 125px; height: 125px }
+.x4 { width: 150px; height: 150px }
