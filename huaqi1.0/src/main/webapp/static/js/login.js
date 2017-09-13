@@ -7,22 +7,22 @@ function reset_form(ele) {
 
 
 /*********弹出登录模态框*********/
-$("#login_modal_btn").click(function () {
+/*$("#login_modal_btn").click(function () {
     reset_form("#login_modal form");
     //弹出模态框
     $("#login_modal").modal({
         backdrop:"static"//设置模态框不会因点击退出
     });
-});
+});*/
 
-/***********关闭并弹出注册模态框*************/
-$("#login_register_btn").click(function () {
+/***********跳转至注册界面*************/
+/*$("#login_register_btn").click(function () {
     reset_form("#register_modal form");
     $("#login_modal").modal('hide');
     $("#register_modal").modal({
         backdrop:"static"//设置模态框不会因点击退出
     });
-});
+});*/
 
 /**根据输入校验进行DOM操作*/
 function  show_validate_msg(ele,status,msg) {
@@ -61,8 +61,11 @@ function validate_adds_form() {
 
     return true;
 }
+/********比对账户密码****************/
+function validate_check_form()
+{
 
-
+}
 
 /*********模态框登录按钮*********/
 $("#login_btn").click(function () {
@@ -80,8 +83,8 @@ $("#login_btn").click(function () {
         data:$("#login_modal form").serialize(),//序列化表格数据为json
         success:function (result) {
             if (result.code == 100) {
-                $("#login_modal").modal('hide');
-                window.location.reload();
+                alert(result);
+                window.location.href="index.jsp";
             } else {
                 show_validate_msg("#login_id_input", "error","账号或密码错误，请检查后输入");
                 show_validate_msg("#login_password_input", "error","账号或密码错误，请检查后输入");

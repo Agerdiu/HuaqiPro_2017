@@ -26,6 +26,7 @@ public class LoginInterceptor implements HandlerInterceptor{
         HttpSession session=request.getSession();
         if(session.getAttribute("currentUser")==null)
         {
+            System.out.println("拦截"+request);
             response.sendRedirect("/login.jsp");
             return false;
         }

@@ -15,7 +15,6 @@
     <!-- Bootstrap -->
     <link href="${APP_PATH }/static/css/bootstrap.min.css" rel="stylesheet">
     <link href="${APP_PATH }/static/css/common.css" rel="stylesheet">
-    <link href="${APP_PATH }/static/css/luohaowei.css" rel="stylesheet">
 </head>
 <!-- 导航栏 -->
 
@@ -86,35 +85,64 @@
 </div>
 <!--导航栏-->
 
-<!--分类选项-->
-
-<div class="mikuMiku" style="background: url(${APP_PATH }/static/img/timg.jpg) no-repeat center;">
-    <div class="nagato">
-        <div class="three-select-css">
-            <a href="#">
-                <div>
-                    <h1 class="yamato">农业劳动人员</h1>
-                    <p class="musashi">畜牧业、林业、渔业、种植业</p>
-                </div>
-            </a>
+<!--注册框-->
+<div style="width:30%; margin-top:50px; margin-bottom: 50px" id="register_modal" class="panel panel-primary center-block">
+    <div class="panel-heading">注册</div>
+    <div class="panel-body">
+        <p></p>
+    </div>
+    <form class="form-horizontal">
+        <div class="form-group">
+            <label  class="col-sm-2 control-label">身份证号</label>
+            <div class="col-sm-10">
+                <input type="text" name="id" class="form-control" id="reg_id_input" placeholder="Id" style="width:80%">
+                <span class="help-block"></span>
+            </div>
         </div>
-        <div class="three-select-css">
-            <a href="#">
-                <div>
-                    <h1 class="yamato">个体工商户</h1>
-                </div>
-            </a>
+        <div class="form-group">
+            <label  class="col-sm-2 control-label">姓名</label>
+            <div class="col-sm-10">
+                <input type="text" name="userName" class="form-control" id="reg_userName_input" placeholder="Name" style="width:80%">
+                <span class="help-block"></span>
+            </div>
         </div>
-        <div class="three-select-css">
-            <a href="#">
-                <div>
-                    <h1 class="yamato">工薪人员</h1>
-                </div>
-            </a>
+        <div class="form-group">
+            <label  class="col-sm-2 control-label">性别</label>
+            <label class="radio-inline">
+                <input type="radio" name="gender" id="gender_input1" value="M" checked="checked"> 男
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="gender" id="gender_input2" value="F"> 女
+            </label>
         </div>
+        <div class="form-group">
+            <label  class="col-sm-2 control-label">密码</label>
+            <div class="col-sm-10">
+                <input type="password" name="password" class="form-control" id="reg_password_input" placeholder="Password" style="width:80%">
+                <span class="help-block"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label  class="col-sm-2 control-label">邮箱</label>
+            <div class="col-sm-10">
+                <input type="email" name="email" class="form-control" id="reg_email_input" placeholder="Email" style="width:80%">
+                <span class="help-block"></span>
+            </div>
+        </div>
+        <div class="form-group">
+            <label  class="col-sm-2 control-label">手机号</label>
+            <div class="col-sm-10">
+                <input type="text" name="tel" class="form-control" id="reg_tel_input" placeholder="Tel" style="width:80%">
+                <span class="help-block"></span>
+            </div>
+        </div>
+    </form>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-success"  id="register_btn">立即注册</button>
+        <a type="button" class="btn btn-primary " href="indexPage">关闭</a>
     </div>
 </div>
-<!--分类选项-->
+<!--注册框-->
 
 <!-- 尾部导航栏 -->
 <div id="sidebar-bg" style="display: none;"></div>
@@ -197,5 +225,3 @@
 <script src="${APP_PATH }/static/js/register.js" ></script>
 </body>
 </html>
-
-

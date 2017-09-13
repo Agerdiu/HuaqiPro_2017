@@ -28,5 +28,20 @@ http://www.springframework.org/schema/context http://www.springframework.org/sch
     <!-- 允许使用静态资源,将springmvc不能处理的请求交给tomcat -->
     <mvc:default-servlet-handler/>
 
-
+    <!--配置拦截器-->
+    <mvc:interceptors>
+        <mvc:interceptor>
+            <!--设置拦截器请求,只对控制器类拦截判断-->
+            <mvc:mapping path="/*"/>
+            <!--设置不拦截的请求-->
+            <mvc:exclude-mapping path="/login"/>
+            <mvc:exclude-mapping path="/register"/>
+            <mvc:exclude-mapping path="/registerPage"/>
+            <mvc:exclude-mapping path="/loginPage"/>
+            <mvc:exclude-mapping path="/evaluate-examplePage"/>
+            <mvc:exclude-mapping path="/aboutPage"/>
+            <mvc:exclude-mapping path="/indexPage"/>
+            <bean class="com.huaqi.interceptor.LoginInterceptor"/>
+        </mvc:interceptor>
+    </mvc:interceptors>
 </beans>

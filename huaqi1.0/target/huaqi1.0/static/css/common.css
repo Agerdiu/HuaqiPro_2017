@@ -556,7 +556,7 @@ blockquote .quote-content {
     padding-top: 30px;
     width: 100%;
     height: 640px;
-    background: url(../javaweb01/img/aboutus.jpg) no-repeat center 0;
+
 }
 
 .box_center {
@@ -634,9 +634,3 @@ blockquote .quote-content {
     text-decoration: none;
 }
 
-.AutomLeaf { position: fixed; opacity: 0; z-index: 0 }
-.AutomLeaffalling { position: fixed; top: 0; left: 0; opacity: 0; z-index: 0 }
-.x1 { width: 75px; height: 75px }
-.x2 { width: 100px; height: 100px }
-.x3 { width: 125px; height: 125px }
-.x4 { width: 150px; height: 150px }

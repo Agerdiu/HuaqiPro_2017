@@ -15,7 +15,6 @@
     <!-- Bootstrap -->
     <link href="${APP_PATH }/static/css/bootstrap.min.css" rel="stylesheet">
     <link href="${APP_PATH }/static/css/common.css" rel="stylesheet">
-    <link href="${APP_PATH }/static/css/luohaowei.css" rel="stylesheet">
 </head>
 <!-- 导航栏 -->
 
@@ -86,35 +85,32 @@
 </div>
 <!--导航栏-->
 
-<!--分类选项-->
 
-<div class="mikuMiku" style="background: url(${APP_PATH }/static/img/timg.jpg) no-repeat center;">
-    <div class="nagato">
-        <div class="three-select-css">
-            <a href="#">
-                <div>
-                    <h1 class="yamato">农业劳动人员</h1>
-                    <p class="musashi">畜牧业、林业、渔业、种植业</p>
-                </div>
-            </a>
-        </div>
-        <div class="three-select-css">
-            <a href="#">
-                <div>
-                    <h1 class="yamato">个体工商户</h1>
-                </div>
-            </a>
-        </div>
-        <div class="three-select-css">
-            <a href="#">
-                <div>
-                    <h1 class="yamato">工薪人员</h1>
-                </div>
-            </a>
+<!-- 关于我们-->
+<div class="box_wrap aboutus">
+    <div class="aboutus1" style="background: url(${APP_PATH }/static/img/aboutus.jpg) no-repeat center 0;">
+        <div class="box_center" style="padding-left: 46px;box-sizing:border-box;">
+            <h3>关于我们</h3>
+            <p class="text_left fs_18">普惠立信评估系统由From Zero to Hero团队发起，<br> 致力于为银行等金融机构提供农户借款人的贷款风险评级报告，
+                <br>提高银行等金融机构在从事农业借贷时的效率，降低银行等金融机构的风险，<br>解决银行与农户借款人间的信息不对称问题以降低银行放贷成本。<br>
+                <br>
+            </p>
+
         </div>
     </div>
 </div>
-<!--分类选项-->
+<!-- 关于我们 -->
+
+<!--我们的团队-->
+<div class="aboutus2">
+    <h3>我们的团队</h3>
+    <p>
+        普惠立信核心团队成员<br /> 来自于
+        <span>东财</span>、<span>同济</span>、<span>浙大</span>、<span>中山</span>、<span>北邮</span>等五所知名高校。
+    </p>
+    <img src="${APP_PATH }/static/img/badge.jpg" alt="立木征信我们的团队" class="mt_42" />
+</div>
+<!-- 我们的团队-->
 
 <!-- 尾部导航栏 -->
 <div id="sidebar-bg" style="display: none;"></div>
@@ -197,5 +193,3 @@
 <script src="${APP_PATH }/static/js/register.js" ></script>
 </body>
 </html>
-
-

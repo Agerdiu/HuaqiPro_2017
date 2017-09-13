@@ -42,10 +42,10 @@
                     <li class="active"><a href="#" style="font-size: 20px">首页 <span class="sr-only">(current)</span></a>
                         <p class="line-top hidden-xs"></p>
                     </li>
-                    <li><a href="#" style="font-size: 20px">征信评估</a></li>
-                    <li><a href="#" style="font-size: 20px">评估样例</a></li>
-                    <li><a href="#" style="font-size: 20px">账户管理</a></li>
-                    <li><a href="#" style="font-size: 20px">关于我们</a></li>
+                    <li><a href="evaluatePage" style="font-size: 20px">征信评估</a></li>
+                    <li><a href="evaluate-examplePage" style="font-size: 20px">评估样例</a></li>
+                    <li><a href="evaluate-resultPage" style="font-size: 20px">评估报告</a></li>
+                    <li><a href="aboutPage" style="font-size: 20px">关于我们</a></li>
                 </ul>
                 <ul class="nav nav-pills navbar-right">
                     <li role="presentation" class="dropdown">
@@ -70,21 +70,21 @@
                                     <span class="caret"></span>
                                 </button>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">查看我的信息</a></li>
-                                    <li><a href="#">修改个人信息</a></li>
+                                    <li><a href="changeInfoPage">修改个人信息</a></li>
                                     <li role="separator" class="divider"></li>
                                     <li><a href="loginOut" class="loginOut-btn">退出登录</a></li>
                                 </ul>
                             </div>
                         </c:when>
                         <c:otherwise>
-                            <li><button type="button" class="btn btn-default navbar-btn login-button" style="font-size: 20px;margin-right: 5px;" id="login_modal_btn">登录</button></li>
-                            <li><button type="button" class="btn btn-default navbar-btn reg-button" style="font-size: 20px;"id="register_modal_btn">注册</button></li>
+                            <li><button type="button" class="btn btn-default navbar-btn login-button" style="font-size: 20px;margin-right: 5px;" id="login_modal_btn"><a href="loginPage">登录</a></button></li>
+                            <li><button type="button" class="btn btn-default navbar-btn reg-button" style="font-size: 20px;"id="register_modal_btn"><a href="registerPage">注册</a></button></li>
                         </c:otherwise>
                     </c:choose>
                 </ul>
             </div>
         </div>
+        <!-- /.container-fluid -->
     </nav>
 </div>
 <!--导航栏-->
@@ -356,35 +356,35 @@
         <div class="row">
             <div class="col-xs-6 col-sm-2 footer-item">
                 <div class="footer-list">
-                    <a href="#">
+                    <a href="indexPage">
                         <h4>首页</h4>
                     </a>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-2 footer-item">
                 <div class="footer-list">
-                    <a href="#">
+                    <a href="evaluatePage">
                         <h4>征信评估</h4>
                     </a>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-2 footer-item">
                 <div class="footer-list">
-                    <a href="#">
+                    <a href="evaluate-examplePage">
                         <h4>评估样例</h4>
                     </a>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-2  footer-item ">
                 <div class="footer-list">
-                    <a href="#">
-                        <h4>账户管理</h4>
+                    <a href="evaluate-resultPage">
+                        <h4>评估报告</h4>
                     </a>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-2 footer-item  ">
                 <div class="footer-list">
-                    <a href="#">
+                    <a href="aboutPage">
                         <h4>关于我们</h4>
                     </a>
                 </div>

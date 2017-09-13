@@ -42,10 +42,10 @@
                     <li class="active"><a href="#" style="font-size: 20px">首页 <span class="sr-only">(current)</span></a>
                         <p class="line-top hidden-xs"></p>
                     </li>
-                    <li><a href="#" style="font-size: 20px">征信评估</a></li>
-                    <li><a href="#" style="font-size: 20px">评估样例</a></li>
-                    <li><a href="#" style="font-size: 20px">账户管理</a></li>
-                    <li><a href="#" style="font-size: 20px">关于我们</a></li>
+                    <li><a href="evaluatePage" style="font-size: 20px">征信评估</a></li>
+                    <li><a href="evaluate-examplePage" style="font-size: 20px">评估样例</a></li>
+                    <li><a href="evaluate-resultPage" style="font-size: 20px">评估报告</a></li>
+                    <li><a href="aboutPage" style="font-size: 20px">关于我们</a></li>
                 </ul>
                 <ul class="nav nav-pills navbar-right">
                     <li role="presentation" class="dropdown">
@@ -70,124 +70,24 @@
                                     <span class="caret"></span>
                                 </button>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">查看我的信息</a></li>
-                                    <li><a href="#">修改个人信息</a></li>
+                                    <li><a href="changeInfoPage">修改个人信息</a></li>
                                     <li role="separator" class="divider"></li>
                                     <li><a href="loginOut" class="loginOut-btn">退出登录</a></li>
                                 </ul>
                             </div>
                         </c:when>
                         <c:otherwise>
-                            <li><button type="button" class="btn btn-default navbar-btn login-button" style="font-size: 20px;margin-right: 5px;" id="login_modal_btn">登录</button></li>
-                            <li><button type="button" class="btn btn-default navbar-btn reg-button" style="font-size: 20px;"id="register_modal_btn">注册</button></li>
+                            <li><button type="button" class="btn btn-default navbar-btn login-button" style="font-size: 20px;margin-right: 5px;" id="login_modal_btn"><a href="loginPage">登录</a></button></li>
+                            <li><button type="button" class="btn btn-default navbar-btn reg-button" style="font-size: 20px;"id="register_modal_btn"><a href="registerPage">注册</a></button></li>
                         </c:otherwise>
                     </c:choose>
                 </ul>
             </div>
         </div>
+        <!-- /.container-fluid -->
     </nav>
 </div>
 <!--导航栏-->
-
-<!--登录模态框-->
-<div class="modal fade" id="login_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" >登录</h4>
-            </div>
-            <div class="modal-body">
-                <form class="form-horizontal">
-                    <div class="form-group">
-                        <label  class="col-sm-2 control-label">身份证号</label>
-                        <div class="col-sm-10">
-                            <input type="text" name="id" class="form-control" id="login_id_input" placeholder="Id">
-                            <span class="help-block"></span>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label  class="col-sm-2 control-label">密码</label>
-                        <div class="col-sm-10">
-                            <input type="password" name="password" class="form-control" id="login_password_input" placeholder="Password">
-                            <span class="help-block"></span>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default" id="login_btn">登录</button>
-                <button type="button" class="btn btn-primary" id="login_register_btn">注册</button>
-            </div>
-        </div>
-    </div>
-</div>
-<!--登录模态框-->
-
-<!--注册模态框-->
-<div class="modal fade" id="register_modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-    <div class="modal-dialog" role="document">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                <h4 class="modal-title" >注册</h4>
-            </div>
-            <div class="modal-body">
-                <form class="form-horizontal">
-                    <div class="form-group">
-                        <label  class="col-sm-2 control-label">身份证号</label>
-                        <div class="col-sm-10">
-                            <input type="text" name="id" class="form-control" id="reg_id_input" placeholder="Id">
-                            <span class="help-block"></span>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label  class="col-sm-2 control-label">姓名</label>
-                        <div class="col-sm-10">
-                            <input type="text" name="userName" class="form-control" id="reg_userName_input" placeholder="Name">
-                            <span class="help-block"></span>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label  class="col-sm-2 control-label">性别</label>
-                        <label class="radio-inline">
-                            <input type="radio" name="gender" id="gender_input1" value="M" checked="checked"> 男
-                        </label>
-                        <label class="radio-inline">
-                            <input type="radio" name="gender" id="gender_input2" value="F"> 女
-                        </label>
-                    </div>
-                    <div class="form-group">
-                        <label  class="col-sm-2 control-label">密码</label>
-                        <div class="col-sm-10">
-                            <input type="password" name="password" class="form-control" id="reg_password_input" placeholder="Password">
-                            <span class="help-block"></span>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label  class="col-sm-2 control-label">邮箱</label>
-                        <div class="col-sm-10">
-                            <input type="email" name="email" class="form-control" id="reg_email_input" placeholder="Email">
-                            <span class="help-block"></span>
-                        </div>
-                    </div>
-                    <div class="form-group">
-                        <label  class="col-sm-2 control-label">手机号</label>
-                        <div class="col-sm-10">
-                            <input type="text" name="tel" class="form-control" id="reg_tel_input" placeholder="Tel">
-                            <span class="help-block"></span>
-                        </div>
-                    </div>
-                </form>
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-default"  id="register_btn">立即注册</button>
-                <button type="button" class="btn btn-primary" data-dismiss="modal">关闭</button>
-            </div>
-        </div>
-    </div>
-</div>
-<!--注册模态框-->
 
 <!--评估信息-->
 <div style="width:80%;" class="panel panel-primary center-block" id="yangli">
@@ -507,35 +407,35 @@ function changeinfo(){
         <div class="row">
             <div class="col-xs-6 col-sm-2 footer-item">
                 <div class="footer-list">
-                    <a href="#">
+                    <a href="indexPage">
                         <h4>首页</h4>
                     </a>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-2 footer-item">
                 <div class="footer-list">
-                    <a href="#">
+                    <a href="evaluatePage">
                         <h4>征信评估</h4>
                     </a>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-2 footer-item">
                 <div class="footer-list">
-                    <a href="#">
+                    <a href="evaluate-examplePage">
                         <h4>评估样例</h4>
                     </a>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-2  footer-item ">
                 <div class="footer-list">
-                    <a href="#">
-                        <h4>账户管理</h4>
+                    <a href="evaluate-resultPage">
+                        <h4>评估报告</h4>
                     </a>
                 </div>
             </div>
             <div class="col-xs-6 col-sm-2 footer-item  ">
                 <div class="footer-list">
-                    <a href="#">
+                    <a href="aboutPage">
                         <h4>关于我们</h4>
                     </a>
                 </div>

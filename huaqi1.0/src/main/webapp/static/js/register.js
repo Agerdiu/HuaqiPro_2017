@@ -6,14 +6,14 @@ function reset_form(ele) {
 }
 
 /*********弹出注册模态框*********/
-$("#register_modal_btn").click(function () {
+/*$("#register_modal_btn").click(function () {
     //表单重置
     reset_form("#register_modal form");
     //弹出模态框
     $("#register_modal").modal({
         backdrop:"static"//设置模态框不会因点击退出
     });
-});
+})*/
 
 /********校验表单数据***********/
 function validate_add_form() {
@@ -125,7 +125,7 @@ $("#register_btn").click(function () {
         success:function (result) {
             if (result.code == 100) {
                 alert("注册成功!!!");
-                $("#register_modal").modal('hide');
+                window.location.href="index.jsp";
             } else {
                 //显示失败信息
                 if (undefined != result.extend.errorFields.id) {

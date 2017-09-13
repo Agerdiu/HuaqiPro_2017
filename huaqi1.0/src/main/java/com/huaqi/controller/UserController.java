@@ -130,4 +130,84 @@ public class UserController {
         userService.update(currentUser,user);
         return Msg.success();
     }
+
+    /*******页面跳转逻辑部分*******/
+    //主页
+    @RequestMapping(value="/indexPage")
+    public String GoIndex()
+    {
+        System.out.println("toindex");
+        return "/index";
+    }
+
+    //更改信息
+    @RequestMapping(value="/changeInfoPage")
+    public String GoChangeInfo()
+    {
+        return "/changeInfo";
+    }
+
+    //关于我们
+    @RequestMapping(value="/aboutPage")
+    public String GoAbout()
+    {
+        return "/about";
+    }
+
+    //登录
+    @RequestMapping(value="/loginPage")
+    public String GoLogin()
+    {
+        return "/login";
+    }
+
+    //注册
+    @RequestMapping(value="/registerPage")
+    public String GoRegister()
+    {
+        return "/register";
+    }
+
+    //评估样例
+    @RequestMapping(value="/evaluate-examplePage")
+    public String GoEvaluateExample()
+    {
+        return "/evaluate-example";
+    }
+
+    //评估
+    @RequestMapping(value="/evaluatePage")
+    public String GoEvaluate()
+    {
+        return "/evaluate";
+    }
+
+    //评估农民
+    @RequestMapping(value="/evaluate-farmerPage")
+    public String GoEvaluateFarmer()
+    {
+        return "/evaluate-farmer";
+    }
+
+    //评估商人
+    @RequestMapping(value="/evaluate-businessmanPage")
+    public String GoEvaluateBusinessman()
+    {
+        return "/evaluate-businessman";
+    }
+
+    //评估工薪户
+    @RequestMapping(value="/evaluate-salarymanPage")
+    public String GoEvaluateSalaryman()
+    {
+        return "/evaluate-salaryman";
+    }
+
+    //评估结果
+    @RequestMapping(value="/evaluate-resultPage")
+    public String GoEvaluateResult()
+    {
+        return "/evaluate-result";
+    }
+    /*******页面跳转逻辑部分*******/
 }

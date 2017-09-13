@@ -34,8 +34,13 @@ http://www.springframework.org/schema/context http://www.springframework.org/sch
             <!--设置拦截器请求,只对控制器类拦截判断-->
             <mvc:mapping path="/*"/>
             <!--设置不拦截的请求-->
-            <mvc:exclude-mapping path="/evaluate-example.jsp"/>
-            <mvc:exclude-mapping path="/index.jsp"/>
+            <mvc:exclude-mapping path="/login"/>
+            <mvc:exclude-mapping path="/register"/>
+            <mvc:exclude-mapping path="/registerPage"/>
+            <mvc:exclude-mapping path="/loginPage"/>
+            <mvc:exclude-mapping path="/evaluate-examplePage"/>
+            <mvc:exclude-mapping path="/aboutPage"/>
+            <mvc:exclude-mapping path="/indexPage"/>
             <bean class="com.huaqi.interceptor.LoginInterceptor"/>
         </mvc:interceptor>
     </mvc:interceptors>
