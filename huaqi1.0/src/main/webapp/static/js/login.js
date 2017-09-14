@@ -83,7 +83,7 @@ $("#login_btn").click(function () {
         data:$("#login_modal form").serialize(),//序列化表格数据为json
         success:function (result) {
             if (result.code == 100) {
-                alert(result);
+                alert("登录成功！！");
                 window.location.href="index.jsp";
             } else {
                 show_validate_msg("#login_id_input", "error","账号或密码错误，请检查后输入");

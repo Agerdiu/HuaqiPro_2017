@@ -1,5 +1,6 @@
 package com.huaqi.controller;
 
+import com.fasterxml.jackson.databind.ObjectMapper;
 import com.huaqi.bean.Msg;
 import com.huaqi.bean.User;
 import com.huaqi.service.UserService;
@@ -129,6 +130,32 @@ public class UserController {
         //System.out.println(user.getUserName());
         userService.update(currentUser,user);
         return Msg.success();
+    }
+
+    @RequestMapping(value="/evaluate_common",method = RequestMethod.POST)
+    @ResponseBody
+    public Msg updateUser(@ModelAttribute("currentUser")String currentUser,User user)
+    {
+        System.out.print("entered");
+        user = userService.evaluate(user);
+        userService.update(currentUser,user);
+        return Msg.success();
+    }
+
+    @RequestMapping(value="/evaluateResult",method = RequestMethod.GET)
+    @ResponseBody
+    public String evaluateResult(@ModelAttribute("currentUser")String currentUser)
+    {
+        User a = new User();
+        ObjectMapper mapper = new ObjectMapper();
+        a = userService.getUserInfo(currentUser);
+        try{ String result = mapper.writeValueAsString(a);
+            System.out.println(result);
+            return result;}
+        catch(Exception e){
+            System.out.println("dumperror");
+        }
+        return "error";
     }
 
     /*******页面跳转逻辑部分*******/

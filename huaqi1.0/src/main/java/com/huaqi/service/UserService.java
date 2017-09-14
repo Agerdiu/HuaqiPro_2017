@@ -44,10 +44,44 @@ public class UserService {
         return userMapper.selectByPrimaryKey(id);
     }
 
+    public User evaluate(User user)
+    {
+        //score = (user.getVillageCadres()+1.0)*0.006 + (user.getHonor()+1.0)*0.0068 + (user.getElderLive()+1.0)*0.0073 + (user.getGuarantee()+1.0)*0.0073 + ()
+        System.out.print("called");
+        switch(user.getUserType())
+        {
+            case"farmer":
+                user.setPaydebtSystemScore(200.0);
+                user.setPaydebtAbilityScore(200.0);
+                user.setPaydebtPotentialScore(200.0);
+                break;
+            case"businessman": break;
+            case"salaryman": break;
+        }
+        user.setPaydebtAbilityLevel(Sort(user.getPaydebtAbilityScore()));
+        user.setPaydebtPotentialLevel(Sort(user.getPaydebtPotentialScore()));
+        user.setPaydebtSystemLevel(Sort(user.getPaydebtSystemScore()));
+        return user;
+    }
+
     //更新信息
     public void update(String id,User user/*String id,String userName,String password,String gender,String email,String tel*/)
     {
         user.setId(id);
         userMapper.updateByPrimaryKeySelective(user);
+        return;
+    }
+    public String Sort(double i)
+    {
+        if(i < 55) return "D";
+        else if(i < 110) return "C";
+        else if(i < 165) return"CC";
+        else if(i < 220) return"CCC";
+        else if(i < 275) return"B";
+        else if(i < 330) return"BB";
+        else if(i < 385) return"BBB";
+        else if(i < 440) return"A";
+        else if(i < 495) return"AA";
+        else return"AAA";
     }
 }

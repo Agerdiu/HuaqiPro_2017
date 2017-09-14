@@ -118,6 +118,18 @@ public class User {
 
     private Double evaluateResult;
 
+    private Double paydebtAbilityScore;
+
+    private String paydebtAbilityLevel;
+
+    private Double paydebtPotentialScore;
+
+    private String paydebtPotentialLevel;
+
+    private Double paydebtSystemScore;
+
+    private String paydebtSystemLevel;
+
     public String getId() {
         return id;
     }
@@ -556,5 +568,53 @@ public class User {
 
     public void setEvaluateResult(Double evaluateResult) {
         this.evaluateResult = evaluateResult;
+    }
+
+    public Double getPaydebtAbilityScore() {
+        return paydebtAbilityScore;
+    }
+
+    public void setPaydebtAbilityScore(Double paydebtAbilityScore) {
+        this.paydebtAbilityScore = paydebtAbilityScore;
+    }
+
+    public String getPaydebtAbilityLevel() {
+        return paydebtAbilityLevel;
+    }
+
+    public void setPaydebtAbilityLevel(String paydebtAbilityLevel) {
+        this.paydebtAbilityLevel = paydebtAbilityLevel == null ? null : paydebtAbilityLevel.trim();
+    }
+
+    public Double getPaydebtPotentialScore() {
+        return paydebtPotentialScore;
+    }
+
+    public void setPaydebtPotentialScore(Double paydebtPotentialScore) {
+        this.paydebtPotentialScore = paydebtPotentialScore;
+    }
+
+    public String getPaydebtPotentialLevel() {
+        return paydebtPotentialLevel;
+    }
+
+    public void setPaydebtPotentialLevel(String paydebtPotentialLevel) {
+        this.paydebtPotentialLevel = paydebtPotentialLevel == null ? null : paydebtPotentialLevel.trim();
+    }
+
+    public Double getPaydebtSystemScore() {
+        return paydebtSystemScore;
+    }
+
+    public void setPaydebtSystemScore(Double paydebtSystemScore) {
+        this.paydebtSystemScore = paydebtSystemScore;
+    }
+
+    public String getPaydebtSystemLevel() {
+        return paydebtSystemLevel;
+    }
+
+    public void setPaydebtSystemLevel(String paydebtSystemLevel) {
+        this.paydebtSystemLevel = paydebtSystemLevel == null ? null : paydebtSystemLevel.trim();
     }
 }

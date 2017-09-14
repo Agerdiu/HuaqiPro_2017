@@ -41,6 +41,8 @@ http://www.springframework.org/schema/context http://www.springframework.org/sch
             <mvc:exclude-mapping path="/evaluate-examplePage"/>
             <mvc:exclude-mapping path="/aboutPage"/>
             <mvc:exclude-mapping path="/indexPage"/>
+            <mvc:exclude-mapping path="/checkId"/>
+            <mvc:exclude-mapping path="/evaluate_common"/>
             <bean class="com.huaqi.interceptor.LoginInterceptor"/>
         </mvc:interceptor>
     </mvc:interceptors>

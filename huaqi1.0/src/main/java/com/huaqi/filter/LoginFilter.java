@@ -48,7 +48,7 @@ public class LoginFilter implements Filter {
             return;
         }
 
-        String[] strs = { "login", "register", "evaluate-example", "index","about"}; // 路径中包含这些字符串的,可以不用登录直接访问
+        String[] strs = { "evaluate_common","checkId","login", "register", "evaluate-example", "index","about"}; // 路径中包含这些字符串的,可以不用登录直接访问
         // 特殊用途的路径可以直接访问
         if (strs != null && strs.length > 0) {
             for (String str : strs) {
@@ -62,7 +62,7 @@ public class LoginFilter implements Filter {
         // 判断如果没有取到员工信息,就跳转到登陆页面
         if (id == null || "".equals(id)) {
             // 跳转到登陆页面
-            servletResponse.sendRedirect("/login.jsp");
+            servletResponse.sendRedirect("/huaqi/login.jsp");
         } else {
             // 已经登陆,继续此次请求
             chain.doFilter(request, response);

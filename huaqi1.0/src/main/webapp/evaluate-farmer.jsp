@@ -31,12 +31,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" style="padding:0 0 0 15px;" href="#"><img alt="Brand" style="max-width:70px;" src="${APP_PATH }/static/img/logo233.jpg"></a>
+                <a class="navbar-brand" style="padding:0 0 0 15px;" href="indexPage"><img alt="Brand" style="max-width:70px;" src="${APP_PATH }/static/img/logo233.jpg"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-left">
-                    <li class="active"><a href="#" style="font-size: 20px">首页 <span class="sr-only">(current)</span></a>
+                    <li class="active"><a href="indexPage" style="font-size: 20px">首页 <span class="sr-only">(current)</span></a>
                         <p class="line-top hidden-xs"></p>
                     </li>
                     <li><a href="evaluatePage" style="font-size: 20px">征信评估</a></li>
@@ -90,7 +90,10 @@
 <div id="zxbd" class="ques_list">
     <h1 align="center" width="50%" style="font-family: Georgia">普惠金融征信评估</h1>
     <form name="formFormer" class="form-horizontal center" method="post" action="">
-
+        <div class="formword">
+            <label>确认身份信息</label>
+            <label><input type="checkbox" value="farmer" name="userType">农业劳动人员</label>
+        </div>
         <div class="formword">
             <label>1.平时家庭主要支出： （从下列选项中选择支出最大的三项）</label>
             <br>
@@ -102,7 +105,6 @@
             <label><input type="checkbox" value="-0.5" name="mamajorExpenditure">F.生活缴费</label>
             <label><input type="checkbox" value="0" name="majorExpenditure">G.娱乐休闲</label>
             <label><input type="checkbox" value="-0.5" name="majorExpenditure">H.医疗</label>
-
         </div>
         <div class="formword">
             <label>2.近五年是否翻修过房屋？</label>
@@ -536,7 +538,7 @@
         <div class="form-group">
             <div class="col-sm-offset-2 col-sm-10">
                 <button class="btn btn-default" type="reset">重置</button>
-                <button id="tijiao" type="submit" class="btn btn-default">提交</button>
+                <button id="tijiao" type="submit" class="btn btn-default" onclick="submitted()">提交</button>
             </div>
         </div>
     </form>
@@ -646,6 +648,7 @@
 <script src="${APP_PATH }/static/js/common.js" ></script>
 <script src="${APP_PATH }/static/js/login.js" ></script>
 <script src="${APP_PATH }/static/js/register.js" ></script>
+<script src="${APP_PATH }/static/js/evaluate_common.js" ></script>
 </body>
 </html>
 

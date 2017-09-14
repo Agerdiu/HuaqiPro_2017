@@ -57,6 +57,12 @@
     <result column="phoneCharge" jdbcType="DOUBLE" property="phoneCharge" />
     <result column="weChat" jdbcType="DOUBLE" property="weChat" />
     <result column="evaluateResult" jdbcType="DOUBLE" property="evaluateResult" />
+    <result column="paydebtAbilityScore" jdbcType="DOUBLE" property="paydebtAbilityScore" />
+    <result column="paydebtAbilityLevel" jdbcType="VARCHAR" property="paydebtAbilityLevel" />
+    <result column="paydebtPotentialScore" jdbcType="DOUBLE" property="paydebtPotentialScore" />
+    <result column="paydebtPotentialLevel" jdbcType="VARCHAR" property="paydebtPotentialLevel" />
+    <result column="paydebtSystemScore" jdbcType="DOUBLE" property="paydebtSystemScore" />
+    <result column="paydebtSystemLevel" jdbcType="VARCHAR" property="paydebtSystemLevel" />
   </resultMap>
   <sql id="Example_Where_Clause">
     <where>
@@ -125,7 +131,8 @@
     phoneNumReplace, fallIll, educationBackground, mainStemDistance, treatmentCosts, 
     raisingNumber, childrenEdu, manpowerRate, modernAgriTech, propertyInsurance, disasterNumber, 
     damageRate, loanUse, newsAttention, educationAttention, onlineFrequency, broadbandBandwidth, 
-    phoneCharge, weChat, evaluateResult
+    phoneCharge, weChat, evaluateResult, paydebtAbilityScore, paydebtAbilityLevel, paydebtPotentialScore, 
+    paydebtPotentialLevel, paydebtSystemScore, paydebtSystemLevel
   </sql>
   <select id="selectByExample" parameterType="com.huaqi.bean.UserExample" resultMap="BaseResultMap">
     select
@@ -175,8 +182,10 @@
       modernAgriTech, propertyInsurance, disasterNumber, 
       damageRate, loanUse, newsAttention, 
       educationAttention, onlineFrequency, broadbandBandwidth, 
-      phoneCharge, weChat, evaluateResult
-      )
+      phoneCharge, weChat, evaluateResult, 
+      paydebtAbilityScore, paydebtAbilityLevel, 
+      paydebtPotentialScore, paydebtPotentialLevel, 
+      paydebtSystemScore, paydebtSystemLevel)
     values (#{id,jdbcType=CHAR}, #{password,jdbcType=VARCHAR}, #{userName,jdbcType=VARCHAR}, 
       #{age,jdbcType=DOUBLE}, #{gender,jdbcType=CHAR}, #{address,jdbcType=DOUBLE}, #{email,jdbcType=VARCHAR}, 
       #{tel,jdbcType=CHAR}, #{userType,jdbcType=VARCHAR}, #{majorExpenditure,jdbcType=DOUBLE}, 
@@ -194,8 +203,10 @@
       #{modernAgriTech,jdbcType=DOUBLE}, #{propertyInsurance,jdbcType=DOUBLE}, #{disasterNumber,jdbcType=DOUBLE}, 
       #{damageRate,jdbcType=DOUBLE}, #{loanUse,jdbcType=DOUBLE}, #{newsAttention,jdbcType=DOUBLE}, 
       #{educationAttention,jdbcType=DOUBLE}, #{onlineFrequency,jdbcType=DOUBLE}, #{broadbandBandwidth,jdbcType=DOUBLE}, 
-      #{phoneCharge,jdbcType=DOUBLE}, #{weChat,jdbcType=DOUBLE}, #{evaluateResult,jdbcType=DOUBLE}
-      )
+      #{phoneCharge,jdbcType=DOUBLE}, #{weChat,jdbcType=DOUBLE}, #{evaluateResult,jdbcType=DOUBLE}, 
+      #{paydebtAbilityScore,jdbcType=DOUBLE}, #{paydebtAbilityLevel,jdbcType=VARCHAR}, 
+      #{paydebtPotentialScore,jdbcType=DOUBLE}, #{paydebtPotentialLevel,jdbcType=VARCHAR}, 
+      #{paydebtSystemScore,jdbcType=DOUBLE}, #{paydebtSystemLevel,jdbcType=VARCHAR})
   </insert>
   <insert id="insertSelective" parameterType="com.huaqi.bean.User">
     insert into users
@@ -365,6 +376,24 @@
       <if test="evaluateResult != null">
         evaluateResult,
       </if>
+      <if test="paydebtAbilityScore != null">
+        paydebtAbilityScore,
+      </if>
+      <if test="paydebtAbilityLevel != null">
+        paydebtAbilityLevel,
+      </if>
+      <if test="paydebtPotentialScore != null">
+        paydebtPotentialScore,
+      </if>
+      <if test="paydebtPotentialLevel != null">
+        paydebtPotentialLevel,
+      </if>
+      <if test="paydebtSystemScore != null">
+        paydebtSystemScore,
+      </if>
+      <if test="paydebtSystemLevel != null">
+        paydebtSystemLevel,
+      </if>
     </trim>
     <trim prefix="values (" suffix=")" suffixOverrides=",">
       <if test="id != null">
@@ -531,6 +560,24 @@
       </if>
       <if test="evaluateResult != null">
         #{evaluateResult,jdbcType=DOUBLE},
+      </if>
+      <if test="paydebtAbilityScore != null">
+        #{paydebtAbilityScore,jdbcType=DOUBLE},
+      </if>
+      <if test="paydebtAbilityLevel != null">
+        #{paydebtAbilityLevel,jdbcType=VARCHAR},
+      </if>
+      <if test="paydebtPotentialScore != null">
+        #{paydebtPotentialScore,jdbcType=DOUBLE},
+      </if>
+      <if test="paydebtPotentialLevel != null">
+        #{paydebtPotentialLevel,jdbcType=VARCHAR},
+      </if>
+      <if test="paydebtSystemScore != null">
+        #{paydebtSystemScore,jdbcType=DOUBLE},
+      </if>
+      <if test="paydebtSystemLevel != null">
+        #{paydebtSystemLevel,jdbcType=VARCHAR},
       </if>
     </trim>
   </insert>
@@ -708,6 +755,24 @@
       <if test="record.evaluateResult != null">
         evaluateResult = #{record.evaluateResult,jdbcType=DOUBLE},
       </if>
+      <if test="record.paydebtAbilityScore != null">
+        paydebtAbilityScore = #{record.paydebtAbilityScore,jdbcType=DOUBLE},
+      </if>
+      <if test="record.paydebtAbilityLevel != null">
+        paydebtAbilityLevel = #{record.paydebtAbilityLevel,jdbcType=VARCHAR},
+      </if>
+      <if test="record.paydebtPotentialScore != null">
+        paydebtPotentialScore = #{record.paydebtPotentialScore,jdbcType=DOUBLE},
+      </if>
+      <if test="record.paydebtPotentialLevel != null">
+        paydebtPotentialLevel = #{record.paydebtPotentialLevel,jdbcType=VARCHAR},
+      </if>
+      <if test="record.paydebtSystemScore != null">
+        paydebtSystemScore = #{record.paydebtSystemScore,jdbcType=DOUBLE},
+      </if>
+      <if test="record.paydebtSystemLevel != null">
+        paydebtSystemLevel = #{record.paydebtSystemLevel,jdbcType=VARCHAR},
+      </if>
     </set>
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
@@ -769,7 +834,13 @@
       broadbandBandwidth = #{record.broadbandBandwidth,jdbcType=DOUBLE},
       phoneCharge = #{record.phoneCharge,jdbcType=DOUBLE},
       weChat = #{record.weChat,jdbcType=DOUBLE},
-      evaluateResult = #{record.evaluateResult,jdbcType=DOUBLE}
+      evaluateResult = #{record.evaluateResult,jdbcType=DOUBLE},
+      paydebtAbilityScore = #{record.paydebtAbilityScore,jdbcType=DOUBLE},
+      paydebtAbilityLevel = #{record.paydebtAbilityLevel,jdbcType=VARCHAR},
+      paydebtPotentialScore = #{record.paydebtPotentialScore,jdbcType=DOUBLE},
+      paydebtPotentialLevel = #{record.paydebtPotentialLevel,jdbcType=VARCHAR},
+      paydebtSystemScore = #{record.paydebtSystemScore,jdbcType=DOUBLE},
+      paydebtSystemLevel = #{record.paydebtSystemLevel,jdbcType=VARCHAR}
     <if test="_parameter != null">
       <include refid="Update_By_Example_Where_Clause" />
     </if>
@@ -939,6 +1010,24 @@
       <if test="evaluateResult != null">
         evaluateResult = #{evaluateResult,jdbcType=DOUBLE},
       </if>
+      <if test="paydebtAbilityScore != null">
+        paydebtAbilityScore = #{paydebtAbilityScore,jdbcType=DOUBLE},
+      </if>
+      <if test="paydebtAbilityLevel != null">
+        paydebtAbilityLevel = #{paydebtAbilityLevel,jdbcType=VARCHAR},
+      </if>
+      <if test="paydebtPotentialScore != null">
+        paydebtPotentialScore = #{paydebtPotentialScore,jdbcType=DOUBLE},
+      </if>
+      <if test="paydebtPotentialLevel != null">
+        paydebtPotentialLevel = #{paydebtPotentialLevel,jdbcType=VARCHAR},
+      </if>
+      <if test="paydebtSystemScore != null">
+        paydebtSystemScore = #{paydebtSystemScore,jdbcType=DOUBLE},
+      </if>
+      <if test="paydebtSystemLevel != null">
+        paydebtSystemLevel = #{paydebtSystemLevel,jdbcType=VARCHAR},
+      </if>
     </set>
     where id = #{id,jdbcType=CHAR}
   </update>
@@ -997,7 +1086,13 @@
       broadbandBandwidth = #{broadbandBandwidth,jdbcType=DOUBLE},
       phoneCharge = #{phoneCharge,jdbcType=DOUBLE},
       weChat = #{weChat,jdbcType=DOUBLE},
-      evaluateResult = #{evaluateResult,jdbcType=DOUBLE}
+      evaluateResult = #{evaluateResult,jdbcType=DOUBLE},
+      paydebtAbilityScore = #{paydebtAbilityScore,jdbcType=DOUBLE},
+      paydebtAbilityLevel = #{paydebtAbilityLevel,jdbcType=VARCHAR},
+      paydebtPotentialScore = #{paydebtPotentialScore,jdbcType=DOUBLE},
+      paydebtPotentialLevel = #{paydebtPotentialLevel,jdbcType=VARCHAR},
+      paydebtSystemScore = #{paydebtSystemScore,jdbcType=DOUBLE},
+      paydebtSystemLevel = #{paydebtSystemLevel,jdbcType=VARCHAR}
     where id = #{id,jdbcType=CHAR}
   </update>
 </mapper>

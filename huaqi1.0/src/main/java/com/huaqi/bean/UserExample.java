@@ -3473,6 +3473,396 @@ public class UserExample {
             addCriterion("evaluateResult not between", value1, value2, "evaluateResult");
             return (Criteria) this;
         }
+
+        public Criteria andPaydebtAbilityScoreIsNull() {
+            addCriterion("paydebtAbilityScore is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtAbilityScoreIsNotNull() {
+            addCriterion("paydebtAbilityScore is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtAbilityScoreEqualTo(Double value) {
+            addCriterion("paydebtAbilityScore =", value, "paydebtAbilityScore");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtAbilityScoreNotEqualTo(Double value) {
+            addCriterion("paydebtAbilityScore <>", value, "paydebtAbilityScore");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtAbilityScoreGreaterThan(Double value) {
+            addCriterion("paydebtAbilityScore >", value, "paydebtAbilityScore");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtAbilityScoreGreaterThanOrEqualTo(Double value) {
+            addCriterion("paydebtAbilityScore >=", value, "paydebtAbilityScore");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtAbilityScoreLessThan(Double value) {
+            addCriterion("paydebtAbilityScore <", value, "paydebtAbilityScore");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtAbilityScoreLessThanOrEqualTo(Double value) {
+            addCriterion("paydebtAbilityScore <=", value, "paydebtAbilityScore");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtAbilityScoreIn(List<Double> values) {
+            addCriterion("paydebtAbilityScore in", values, "paydebtAbilityScore");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtAbilityScoreNotIn(List<Double> values) {
+            addCriterion("paydebtAbilityScore not in", values, "paydebtAbilityScore");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtAbilityScoreBetween(Double value1, Double value2) {
+            addCriterion("paydebtAbilityScore between", value1, value2, "paydebtAbilityScore");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtAbilityScoreNotBetween(Double value1, Double value2) {
+            addCriterion("paydebtAbilityScore not between", value1, value2, "paydebtAbilityScore");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtAbilityLevelIsNull() {
+            addCriterion("paydebtAbilityLevel is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtAbilityLevelIsNotNull() {
+            addCriterion("paydebtAbilityLevel is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtAbilityLevelEqualTo(String value) {
+            addCriterion("paydebtAbilityLevel =", value, "paydebtAbilityLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtAbilityLevelNotEqualTo(String value) {
+            addCriterion("paydebtAbilityLevel <>", value, "paydebtAbilityLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtAbilityLevelGreaterThan(String value) {
+            addCriterion("paydebtAbilityLevel >", value, "paydebtAbilityLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtAbilityLevelGreaterThanOrEqualTo(String value) {
+            addCriterion("paydebtAbilityLevel >=", value, "paydebtAbilityLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtAbilityLevelLessThan(String value) {
+            addCriterion("paydebtAbilityLevel <", value, "paydebtAbilityLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtAbilityLevelLessThanOrEqualTo(String value) {
+            addCriterion("paydebtAbilityLevel <=", value, "paydebtAbilityLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtAbilityLevelLike(String value) {
+            addCriterion("paydebtAbilityLevel like", value, "paydebtAbilityLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtAbilityLevelNotLike(String value) {
+            addCriterion("paydebtAbilityLevel not like", value, "paydebtAbilityLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtAbilityLevelIn(List<String> values) {
+            addCriterion("paydebtAbilityLevel in", values, "paydebtAbilityLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtAbilityLevelNotIn(List<String> values) {
+            addCriterion("paydebtAbilityLevel not in", values, "paydebtAbilityLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtAbilityLevelBetween(String value1, String value2) {
+            addCriterion("paydebtAbilityLevel between", value1, value2, "paydebtAbilityLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtAbilityLevelNotBetween(String value1, String value2) {
+            addCriterion("paydebtAbilityLevel not between", value1, value2, "paydebtAbilityLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtPotentialScoreIsNull() {
+            addCriterion("paydebtPotentialScore is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtPotentialScoreIsNotNull() {
+            addCriterion("paydebtPotentialScore is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtPotentialScoreEqualTo(Double value) {
+            addCriterion("paydebtPotentialScore =", value, "paydebtPotentialScore");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtPotentialScoreNotEqualTo(Double value) {
+            addCriterion("paydebtPotentialScore <>", value, "paydebtPotentialScore");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtPotentialScoreGreaterThan(Double value) {
+            addCriterion("paydebtPotentialScore >", value, "paydebtPotentialScore");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtPotentialScoreGreaterThanOrEqualTo(Double value) {
+            addCriterion("paydebtPotentialScore >=", value, "paydebtPotentialScore");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtPotentialScoreLessThan(Double value) {
+            addCriterion("paydebtPotentialScore <", value, "paydebtPotentialScore");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtPotentialScoreLessThanOrEqualTo(Double value) {
+            addCriterion("paydebtPotentialScore <=", value, "paydebtPotentialScore");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtPotentialScoreIn(List<Double> values) {
+            addCriterion("paydebtPotentialScore in", values, "paydebtPotentialScore");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtPotentialScoreNotIn(List<Double> values) {
+            addCriterion("paydebtPotentialScore not in", values, "paydebtPotentialScore");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtPotentialScoreBetween(Double value1, Double value2) {
+            addCriterion("paydebtPotentialScore between", value1, value2, "paydebtPotentialScore");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtPotentialScoreNotBetween(Double value1, Double value2) {
+            addCriterion("paydebtPotentialScore not between", value1, value2, "paydebtPotentialScore");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtPotentialLevelIsNull() {
+            addCriterion("paydebtPotentialLevel is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtPotentialLevelIsNotNull() {
+            addCriterion("paydebtPotentialLevel is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtPotentialLevelEqualTo(String value) {
+            addCriterion("paydebtPotentialLevel =", value, "paydebtPotentialLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtPotentialLevelNotEqualTo(String value) {
+            addCriterion("paydebtPotentialLevel <>", value, "paydebtPotentialLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtPotentialLevelGreaterThan(String value) {
+            addCriterion("paydebtPotentialLevel >", value, "paydebtPotentialLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtPotentialLevelGreaterThanOrEqualTo(String value) {
+            addCriterion("paydebtPotentialLevel >=", value, "paydebtPotentialLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtPotentialLevelLessThan(String value) {
+            addCriterion("paydebtPotentialLevel <", value, "paydebtPotentialLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtPotentialLevelLessThanOrEqualTo(String value) {
+            addCriterion("paydebtPotentialLevel <=", value, "paydebtPotentialLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtPotentialLevelLike(String value) {
+            addCriterion("paydebtPotentialLevel like", value, "paydebtPotentialLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtPotentialLevelNotLike(String value) {
+            addCriterion("paydebtPotentialLevel not like", value, "paydebtPotentialLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtPotentialLevelIn(List<String> values) {
+            addCriterion("paydebtPotentialLevel in", values, "paydebtPotentialLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtPotentialLevelNotIn(List<String> values) {
+            addCriterion("paydebtPotentialLevel not in", values, "paydebtPotentialLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtPotentialLevelBetween(String value1, String value2) {
+            addCriterion("paydebtPotentialLevel between", value1, value2, "paydebtPotentialLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtPotentialLevelNotBetween(String value1, String value2) {
+            addCriterion("paydebtPotentialLevel not between", value1, value2, "paydebtPotentialLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtSystemScoreIsNull() {
+            addCriterion("paydebtSystemScore is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtSystemScoreIsNotNull() {
+            addCriterion("paydebtSystemScore is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtSystemScoreEqualTo(Double value) {
+            addCriterion("paydebtSystemScore =", value, "paydebtSystemScore");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtSystemScoreNotEqualTo(Double value) {
+            addCriterion("paydebtSystemScore <>", value, "paydebtSystemScore");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtSystemScoreGreaterThan(Double value) {
+            addCriterion("paydebtSystemScore >", value, "paydebtSystemScore");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtSystemScoreGreaterThanOrEqualTo(Double value) {
+            addCriterion("paydebtSystemScore >=", value, "paydebtSystemScore");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtSystemScoreLessThan(Double value) {
+            addCriterion("paydebtSystemScore <", value, "paydebtSystemScore");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtSystemScoreLessThanOrEqualTo(Double value) {
+            addCriterion("paydebtSystemScore <=", value, "paydebtSystemScore");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtSystemScoreIn(List<Double> values) {
+            addCriterion("paydebtSystemScore in", values, "paydebtSystemScore");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtSystemScoreNotIn(List<Double> values) {
+            addCriterion("paydebtSystemScore not in", values, "paydebtSystemScore");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtSystemScoreBetween(Double value1, Double value2) {
+            addCriterion("paydebtSystemScore between", value1, value2, "paydebtSystemScore");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtSystemScoreNotBetween(Double value1, Double value2) {
+            addCriterion("paydebtSystemScore not between", value1, value2, "paydebtSystemScore");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtSystemLevelIsNull() {
+            addCriterion("paydebtSystemLevel is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtSystemLevelIsNotNull() {
+            addCriterion("paydebtSystemLevel is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtSystemLevelEqualTo(String value) {
+            addCriterion("paydebtSystemLevel =", value, "paydebtSystemLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtSystemLevelNotEqualTo(String value) {
+            addCriterion("paydebtSystemLevel <>", value, "paydebtSystemLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtSystemLevelGreaterThan(String value) {
+            addCriterion("paydebtSystemLevel >", value, "paydebtSystemLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtSystemLevelGreaterThanOrEqualTo(String value) {
+            addCriterion("paydebtSystemLevel >=", value, "paydebtSystemLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtSystemLevelLessThan(String value) {
+            addCriterion("paydebtSystemLevel <", value, "paydebtSystemLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtSystemLevelLessThanOrEqualTo(String value) {
+            addCriterion("paydebtSystemLevel <=", value, "paydebtSystemLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtSystemLevelLike(String value) {
+            addCriterion("paydebtSystemLevel like", value, "paydebtSystemLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtSystemLevelNotLike(String value) {
+            addCriterion("paydebtSystemLevel not like", value, "paydebtSystemLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtSystemLevelIn(List<String> values) {
+            addCriterion("paydebtSystemLevel in", values, "paydebtSystemLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtSystemLevelNotIn(List<String> values) {
+            addCriterion("paydebtSystemLevel not in", values, "paydebtSystemLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtSystemLevelBetween(String value1, String value2) {
+            addCriterion("paydebtSystemLevel between", value1, value2, "paydebtSystemLevel");
+            return (Criteria) this;
+        }
+
+        public Criteria andPaydebtSystemLevelNotBetween(String value1, String value2) {
+            addCriterion("paydebtSystemLevel not between", value1, value2, "paydebtSystemLevel");
+            return (Criteria) this;
+        }
     }
 
     public static class Criteria extends GeneratedCriteria {
