@@ -133,7 +133,7 @@
         <tr>
             <td colspan="4">
             <button type="button" class="btn btn-success" style="display:inline;float:right" id="save-btn">保存</button>
-            <button type="button" class="btn btn-default" style="display:inline;float:right">取消</button>
+                <a type="button" class="btn btn-default " style="display:inline;float:right" href="indexPage">取消</a>
             </td>
         </tr>
     </table>
