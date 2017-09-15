@@ -105,6 +105,7 @@
             <label><input type="checkbox" value="-0.5" name="majorExpenditure">F.生活缴费</label>
             <label><input type="checkbox" value="0" name="majorExpenditure">G.娱乐休闲</label>
             <label><input type="checkbox" value="-0.5" name="majorExpenditure">H.医疗</label>
+
         </div>
         <div class="formword">
             <label>2.近五年是否翻修过房屋？</label>

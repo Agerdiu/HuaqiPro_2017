@@ -1,4 +1,4 @@
-/*
+﻿/*
 
 	countUp.js
 	by @inorganik

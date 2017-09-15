@@ -98,14 +98,15 @@
         <div class="formword">
             <label>1.平时家庭主要支出： （从下列选项中选择支出最大的三项）</label>
             <br>
-            <label><input type="checkbox" value="0" name="majorExpenditure">A.饮食</label>
-            <label><input type="checkbox" value="0" name="majorExpenditure">B.教育</label>
-            <label><input type="checkbox" value="0" name="majorExpenditure">C.人际交往</label>
-            <label><input type="checkbox" value="0" name="majorExpenditure">D.服装</label>
-            <label><input type="checkbox" value="-0.5" name="majorExpenditure">E.房租</label>
-            <label><input type="checkbox" value="-0.5" name="majorExpenditure">F.生活缴费</label>
-            <label><input type="checkbox" value="0" name="majorExpenditure">G.娱乐休闲</label>
-            <label><input type="checkbox" value="-0.5" name="majorExpenditure">H.医疗</label>
+            <span style="display: none"><input type="checkbox" name="majorExpenditure" value=""checked="checked"></span>
+            <label><input type="checkbox" value="0" id="majorExpenditure1">A.饮食</label>
+            <label><input type="checkbox" value="0"  id="majorExpenditure2">B.教育</label>
+            <label><input type="checkbox" value="0"  id="majorExpenditure3">C.人际交往</label>
+            <label><input type="checkbox" value="0" id="majorExpenditure4">D.服装</label>
+            <label><input type="checkbox" value="-0.5"  id="majorExpenditure5">E.房租</label>
+            <label><input type="checkbox" value="-0.5"  id="majorExpenditure6">F.生活缴费</label>
+            <label><input type="checkbox" value="0"  id="majorExpenditure7">G.娱乐休闲</label>
+            <label><input type="checkbox" value="-0.5"  id="majorExpenditure8">H.医疗</label>
 
         </div>
         <div class="formword">

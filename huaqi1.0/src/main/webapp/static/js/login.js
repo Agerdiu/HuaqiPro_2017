@@ -1,4 +1,4 @@
-/*********清空表单样式**************/
+﻿/*********清空表单样式**************/
 function reset_form(ele) {
     $(ele)[0].reset();
     $(ele).find("*").removeClass("has-error has-success");
