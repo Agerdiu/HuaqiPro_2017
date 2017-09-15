@@ -58,7 +58,7 @@ public class LoginFilter implements Filter {
                 }
             }
         }
-System.out.println("过滤");
+System.out.println("过滤"+path);
         // 判断如果没有取到员工信息,就跳转到登陆页面
         if (id == null || "".equals(id)) {
             // 跳转到登陆页面

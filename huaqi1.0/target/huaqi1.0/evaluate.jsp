@@ -88,7 +88,7 @@
 
 <!--分类选项-->
 
-<div class="mikuMiku" style="background: url(${APP_PATH }/static/img/57321231_p0.jpg) no-repeat center;">
+<div class="mikuMiku" style="background: url(${APP_PATH }/static/img/2.jpg) no-repeat center;">
 <div class="nagato">
         <div class="three-select-css">
             <a href="evaluate-farmerPage">

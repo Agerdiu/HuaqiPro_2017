@@ -134,16 +134,11 @@ public class UserController {
 
     @RequestMapping(value="/evaluate_common",method = RequestMethod.POST)
     @ResponseBody
-    public Msg updateUser(@ModelAttribute("currentUser")String currentUser,@RequestParam("majorExpenditure1") double majorExpenditure1,User user,
-                          @RequestParam("majorExpenditure2") double majorExpenditure2,@RequestParam("majorExpenditure3") double majorExpenditure3,
-                          @RequestParam("majorExpenditure4") double majorExpenditure4,@RequestParam("majorExpenditure5") double majorExpenditure5,
-                          @RequestParam("majorExpenditure6") double majorExpenditure6,@RequestParam("majorExpenditure7") double majorExpenditure7)
+    public Msg updateUser(@ModelAttribute("currentUser")String currentUser, double majorExpenditure1,User user)
+
     {
         System.out.print("entered");
-        System.out.println(majorExpenditure1+" "+majorExpenditure2+" "+majorExpenditure3+" "+majorExpenditure4+" "+majorExpenditure5+" "+majorExpenditure6+" "+majorExpenditure7);
-        double majorExpenditure=majorExpenditure1+majorExpenditure2+majorExpenditure3+majorExpenditure4+majorExpenditure5+
-                                majorExpenditure6+majorExpenditure7+user.getMajorExpenditure();
-        user.setMajorExpenditure(majorExpenditure<-1?-1:majorExpenditure);
+
         userService.update(currentUser,user);
         user = userService.evaluate(currentUser);
         userService.update(currentUser,user);
