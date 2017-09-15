@@ -2,153 +2,218 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="huaqi1.0:war exploded" />
+      <artifact name="huaqi1.0:war" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b925445a-6bcc-4dce-8d82-24d8e9fa6b21" name="Default" comment="" />
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/target/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <list default="true" id="afb03cec-5eee-4980-a94f-537bd9ad5c15" name="Default" comment="" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="DatabaseView">
-    <option name="SHOW_INTERMEDIATE" value="true" />
-    <option name="GROUP_SCHEMA" value="true" />
-    <option name="GROUP_CONTENTS" value="false" />
-    <option name="SORT_POSITIONED" value="false" />
-    <option name="SHOW_TABLE_DETAILS" value="true" />
-    <option name="SHOW_EMPTY_GROUPS" value="false" />
-    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
-    <expand />
-    <select />
-  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
-<<<<<<< HEAD
-      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="register.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/register.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="27">
               <caret line="138" column="11" lean-forward="false" selection-start-line="138" selection-start-column="11" selection-end-line="138" selection-end-column="11" />
               <folding>
-                <marker date="1505448182394" expanded="true" signature="1835:1990" ph="..." />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <marker date="1505451671105" expanded="true" signature="1819:1974" ph="..." />
+                <marker date="1505451671105" expanded="false" signature="2030:2045" ph="..." />
+                <marker date="1505451671105" expanded="false" signature="2123:2138" ph="..." />
+                <marker date="1505451671105" expanded="false" signature="2215:2230" ph="..." />
+                <marker date="1505451671105" expanded="false" signature="2297:2312" ph="..." />
+                <marker date="1505451671105" expanded="false" signature="2558:2573" ph="..." />
+                <marker date="1505451671105" expanded="false" signature="2877:2910" ph="..." />
+                <marker date="1505451671105" expanded="false" signature="3095:3128" ph="..." />
+                <marker date="1505451671105" expanded="false" signature="3620:3636" ph="..." />
+                <marker date="1505451671105" expanded="false" signature="4488:4522" ph="..." />
+                <marker date="1505451671105" expanded="false" signature="4693:4709" ph="..." />
+                <marker date="1505451671105" expanded="false" signature="4993:5040" ph="..." />
+                <marker date="1505451671105" expanded="false" signature="5476:5485" ph="..." />
+                <marker date="1505451671105" expanded="false" signature="5824:5833" ph="..." />
+                <marker date="1505451671105" expanded="false" signature="6596:6605" ph="..." />
+                <marker date="1505451671105" expanded="false" signature="6940:6949" ph="..." />
+                <marker date="1505451671105" expanded="false" signature="7278:7287" ph="..." />
+                <marker date="1505451671105" expanded="false" signature="7650:7664" ph="..." />
               </folding>
-=======
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2829">
-              <caret line="140" column="49" lean-forward="false" selection-start-line="140" selection-start-column="49" selection-end-line="140" selection-end-column="49" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/service/UserService.java">
+      <file leaf-file-name="LoginFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/filter/LoginFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="809">
-              <caret line="53" column="25" lean-forward="false" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
+            <state relative-caret-position="53">
+              <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="evaluate-farmer.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluate-farmer.jsp">
+      <file leaf-file-name="login.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="97">
-              <caret line="537" column="17" lean-forward="true" selection-start-line="536" selection-start-column="8" selection-end-line="555" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="evaluate-businessman.jsp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluate-businessman.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="404">
-              <caret line="644" column="41" lean-forward="true" selection-start-line="644" selection-start-column="41" selection-end-line="644" selection-end-column="41" />
-              <folding />
->>>>>>> page-fixed
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="evaluate-salaryman.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluate-salaryman.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
             <state relative-caret-position="864">
               <caret line="32" column="83" lean-forward="false" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
               <folding>
-                <marker date="1505448182370" expanded="true" signature="1835:1990" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="1819:1974" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="1819:2348" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="1819:4888" ph="..." />
+                <marker date="1505451671076" expanded="false" signature="2030:2045" ph="..." />
+                <marker date="1505451671076" expanded="false" signature="2123:2138" ph="..." />
+                <marker date="1505451671076" expanded="false" signature="2215:2230" ph="..." />
+                <marker date="1505451671076" expanded="false" signature="2297:2312" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="2404:3268" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="2466:3263" ph="..." />
+                <marker date="1505451671076" expanded="false" signature="2558:2573" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="2631:2721" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="2773:3246" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="2806:2991" ph="..." />
+                <marker date="1505451671076" expanded="false" signature="2877:2910" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="3024:3216" ph="..." />
+                <marker date="1505451671076" expanded="false" signature="3095:3128" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="3326:4869" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="3357:4847" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="3431:4339" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="3483:4305" ph="..." />
+                <marker date="1505451671076" expanded="false" signature="3620:3636" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="3680:3919" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="3978:4270" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="4377:4815" ph="..." />
+                <marker date="1505451671076" expanded="false" signature="4488:4522" ph="..." />
+                <marker date="1505451671076" expanded="false" signature="4693:4709" ph="..." />
+                <marker date="1505451671076" expanded="false" signature="4994:5041" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="5100:6266" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="5169:5196" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="5231:5939" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="5264:5569" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="5364:5554" ph="..." />
+                <marker date="1505451671076" expanded="false" signature="5476:5485" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="5602:5927" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="5700:5912" ph="..." />
+                <marker date="1505451671076" expanded="false" signature="5834:5843" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="5970:6259" ph="..." />
+                <marker date="1505451671076" expanded="false" signature="6323:6337" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="6387:6677" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="6462:6670" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="6488:6659" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="6543:6644" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="6723:8097" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="6751:8090" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="6777:8079" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="6833:7019" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="6875:7000" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="6916:6977" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="7075:7266" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="7117:7247" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="7161:7224" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="7322:7521" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="7364:7502" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="7416:7479" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="7579:7777" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="7621:7758" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="7672:7735" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="7835:8023" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="7877:8004" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="7918:7981" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="8118:8408" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="8146:8401" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="8172:8390" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="8208:8375" ph="..." />
+                <marker date="1505451671076" expanded="true" signature="8228:8356" ph="..." />
               </folding>
-=======
-            <state relative-caret-position="432">
-              <caret line="632" column="41" lean-forward="true" selection-start-line="632" selection-start-column="41" selection-end-line="632" selection-end-column="41" />
-              <folding />
->>>>>>> page-fixed
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
       <file leaf-file-name="changeInfo.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/changeInfo.jsp">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="4347">
               <caret line="161" column="56" lean-forward="false" selection-start-line="161" selection-start-column="56" selection-end-line="161" selection-end-column="56" />
-=======
-      <file leaf-file-name="register.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/register.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
->>>>>>> page-fixed
-              <folding />
+              <folding>
+                <marker date="1505451670797" expanded="true" signature="7104:7122" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="7104:7136" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="7104:7149" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="7104:7157" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="7104:7164" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="7196:8236" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="7360:8225" ph="{...}" />
+                <marker date="1505451670797" expanded="true" signature="7377:8217" ph="{&quot;url&quot;: &quot;${APP_PATH}/getUserInfo&quot;...}" />
+                <marker date="1505451670797" expanded="true" signature="7506:8203" ph="{...}" />
+                <marker date="1505451670797" expanded="false" signature="8295:8309" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="8359:8649" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="8434:8642" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="8460:8631" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="8515:8616" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="8695:10069" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="8723:10062" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="8749:10051" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="8805:8991" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="8847:8972" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="8888:8949" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="9047:9238" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="9089:9219" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="9133:9196" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="9294:9493" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="9336:9474" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="9388:9451" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="9551:9749" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="9593:9730" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="9644:9707" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="9807:9995" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="9849:9976" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="9890:9953" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="10090:10380" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="10118:10373" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="10144:10362" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="10180:10347" ph="..." />
+                <marker date="1505451670797" expanded="true" signature="10200:10328" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
       <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/controller/UserController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="729">
-              <caret line="44" column="5" lean-forward="false" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-=======
-      <file leaf-file-name="evaluate-result.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluate-result.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="10143">
-              <caret line="441" column="28" lean-forward="false" selection-start-line="441" selection-start-column="28" selection-end-line="441" selection-end-column="28" />
->>>>>>> page-fixed
+            <state relative-caret-position="162">
+              <caret line="197" column="0" lean-forward="true" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
+      <file leaf-file-name="workspace.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="1295" column="39" lean-forward="true" selection-start-line="1295" selection-start-column="39" selection-end-line="1295" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="springmvc.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="480">
+              <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="UserService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/service/UserService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="756">
+            <state relative-caret-position="-622">
               <caret line="35" column="46" lean-forward="false" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
-=======
-      <file leaf-file-name="login.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/login.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1955">
-              <caret line="85" column="32" lean-forward="false" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
->>>>>>> page-fixed
               <folding />
             </state>
           </provider>
@@ -157,271 +222,28 @@
       <file leaf-file-name="User.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/bean/User.java">
           <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
             <state relative-caret-position="2781">
               <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-              <folding />
-=======
-            <state relative-caret-position="-12462">
-              <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
-                <element signature="e#2726#2727#0" expanded="true" />
-                <element signature="e#2751#2752#0" expanded="true" />
-                <element signature="e#2787#2788#0" expanded="true" />
-                <element signature="e#2842#2843#0" expanded="true" />
-                <element signature="e#2877#2878#0" expanded="true" />
-                <element signature="e#2908#2909#0" expanded="true" />
-                <element signature="e#2956#2957#0" expanded="true" />
-                <element signature="e#3029#3030#0" expanded="true" />
-                <element signature="e#3064#3065#0" expanded="true" />
-                <element signature="e#3095#3096#0" expanded="true" />
-                <element signature="e#3143#3144#0" expanded="true" />
-                <element signature="e#3216#3217#0" expanded="true" />
-                <element signature="e#3246#3247#0" expanded="true" />
-                <element signature="e#3272#3273#0" expanded="true" />
-                <element signature="e#3310#3311#0" expanded="true" />
-                <element signature="e#3340#3341#0" expanded="true" />
-                <element signature="e#3373#3374#0" expanded="true" />
-                <element signature="e#3402#3403#0" expanded="true" />
-                <element signature="e#3446#3447#0" expanded="true" />
-                <element signature="e#3513#3514#0" expanded="true" />
-                <element signature="e#3547#3548#0" expanded="true" />
-                <element signature="e#3577#3578#0" expanded="true" />
-                <element signature="e#3623#3624#0" expanded="true" />
-                <element signature="e#3661#3662#0" expanded="true" />
-                <element signature="e#3693#3694#0" expanded="true" />
-                <element signature="e#3721#3722#0" expanded="true" />
-                <element signature="e#3763#3764#0" expanded="true" />
-                <element signature="e#3827#3828#0" expanded="true" />
-                <element signature="e#3857#3858#0" expanded="true" />
-                <element signature="e#3883#3884#0" expanded="true" />
-                <element signature="e#3921#3922#0" expanded="true" />
-                <element signature="e#3979#3980#0" expanded="true" />
-                <element signature="e#4014#4015#0" expanded="true" />
-                <element signature="e#4045#4046#0" expanded="true" />
-                <element signature="e#4093#4094#0" expanded="true" />
-                <element signature="e#4166#4167#0" expanded="true" />
-                <element signature="e#4209#4210#0" expanded="true" />
-                <element signature="e#4248#4249#0" expanded="true" />
-                <element signature="e#4312#4313#0" expanded="true" />
-                <element signature="e#4368#4369#0" expanded="true" />
-                <element signature="e#4409#4410#0" expanded="true" />
-                <element signature="e#4446#4447#0" expanded="true" />
-                <element signature="e#4506#4507#0" expanded="true" />
-                <element signature="e#4558#4559#0" expanded="true" />
-                <element signature="e#4595#4596#0" expanded="true" />
-                <element signature="e#4628#4629#0" expanded="true" />
-                <element signature="e#4680#4681#0" expanded="true" />
-                <element signature="e#4724#4725#0" expanded="true" />
-                <element signature="e#4768#4769#0" expanded="true" />
-                <element signature="e#4808#4809#0" expanded="true" />
-                <element signature="e#4874#4875#0" expanded="true" />
-                <element signature="e#4932#4933#0" expanded="true" />
-                <element signature="e#4971#4972#0" expanded="true" />
-                <element signature="e#5006#5007#0" expanded="true" />
-                <element signature="e#5062#5063#0" expanded="true" />
-                <element signature="e#5110#5111#0" expanded="true" />
-                <element signature="e#5148#5149#0" expanded="true" />
-                <element signature="e#5182#5183#0" expanded="true" />
-                <element signature="e#5236#5237#0" expanded="true" />
-                <element signature="e#5282#5283#0" expanded="true" />
-                <element signature="e#5329#5330#0" expanded="true" />
-                <element signature="e#5372#5373#0" expanded="true" />
-                <element signature="e#5542#5543#0" expanded="true" />
-                <element signature="e#5572#5573#0" expanded="true" />
-                <element signature="e#5618#5619#0" expanded="true" />
-                <element signature="e#5656#5657#0" expanded="true" />
-                <element signature="e#5692#5693#0" expanded="true" />
-                <element signature="e#5724#5725#0" expanded="true" />
-                <element signature="e#5774#5775#0" expanded="true" />
-                <element signature="e#5816#5817#0" expanded="true" />
-                <element signature="e#5854#5855#0" expanded="true" />
-                <element signature="e#5888#5889#0" expanded="true" />
-                <element signature="e#5942#5943#0" expanded="true" />
-                <element signature="e#5988#5989#0" expanded="true" />
-                <element signature="e#6025#6026#0" expanded="true" />
-                <element signature="e#6058#6059#0" expanded="true" />
-                <element signature="e#6110#6111#0" expanded="true" />
-                <element signature="e#6154#6155#0" expanded="true" />
-                <element signature="e#6205#6206#0" expanded="true" />
-                <element signature="e#6252#6253#0" expanded="true" />
-                <element signature="e#6442#6443#0" expanded="true" />
-                <element signature="e#6476#6477#0" expanded="true" />
-                <element signature="e#6530#6531#0" expanded="true" />
-                <element signature="e#6576#6577#0" expanded="true" />
-                <element signature="e#6616#6617#0" expanded="true" />
-                <element signature="e#6652#6653#0" expanded="true" />
-                <element signature="e#6710#6711#0" expanded="true" />
-                <element signature="e#6760#6761#0" expanded="true" />
-                <element signature="e#6796#6797#0" expanded="true" />
-                <element signature="e#6828#6829#0" expanded="true" />
-                <element signature="e#6878#6879#0" expanded="true" />
-                <element signature="e#6920#6921#0" expanded="true" />
-                <element signature="e#6956#6957#0" expanded="true" />
-                <element signature="e#6988#6989#0" expanded="true" />
-                <element signature="e#7038#7039#0" expanded="true" />
-                <element signature="e#7080#7081#0" expanded="true" />
-                <element signature="e#7112#7113#0" expanded="true" />
-                <element signature="e#7140#7141#0" expanded="true" />
-                <element signature="e#7182#7183#0" expanded="true" />
-                <element signature="e#7216#7217#0" expanded="true" />
-                <element signature="e#7255#7256#0" expanded="true" />
-                <element signature="e#7290#7291#0" expanded="true" />
-                <element signature="e#7346#7347#0" expanded="true" />
-                <element signature="e#7394#7395#0" expanded="true" />
-                <element signature="e#7437#7438#0" expanded="true" />
-                <element signature="e#7476#7477#0" expanded="true" />
-                <element signature="e#7540#7541#0" expanded="true" />
-                <element signature="e#7596#7597#0" expanded="true" />
-                <element signature="e#7640#7641#0" expanded="true" />
-                <element signature="e#7680#7681#0" expanded="true" />
-                <element signature="e#7746#7747#0" expanded="true" />
-                <element signature="e#7804#7805#0" expanded="true" />
-                <element signature="e#7848#7849#0" expanded="true" />
-                <element signature="e#7888#7889#0" expanded="true" />
-                <element signature="e#7954#7955#0" expanded="true" />
-                <element signature="e#8012#8013#0" expanded="true" />
-                <element signature="e#8051#8052#0" expanded="true" />
-                <element signature="e#8086#8087#0" expanded="true" />
-                <element signature="e#8142#8143#0" expanded="true" />
-                <element signature="e#8190#8191#0" expanded="true" />
-                <element signature="e#8230#8231#0" expanded="true" />
-                <element signature="e#8266#8267#0" expanded="true" />
-                <element signature="e#8324#8325#0" expanded="true" />
-                <element signature="e#8374#8375#0" expanded="true" />
-                <element signature="e#8414#8415#0" expanded="true" />
-                <element signature="e#8450#8451#0" expanded="true" />
-                <element signature="e#8508#8509#0" expanded="true" />
-                <element signature="e#8558#8559#0" expanded="true" />
-                <element signature="e#8592#8593#0" expanded="true" />
-                <element signature="e#8622#8623#0" expanded="true" />
-                <element signature="e#8668#8669#0" expanded="true" />
-                <element signature="e#8706#8707#0" expanded="true" />
-                <element signature="e#8741#8742#0" expanded="true" />
-                <element signature="e#8772#8773#0" expanded="true" />
-                <element signature="e#8820#8821#0" expanded="true" />
-                <element signature="e#8860#8861#0" expanded="true" />
-                <element signature="e#8902#8903#0" expanded="true" />
-                <element signature="e#8940#8941#0" expanded="true" />
-                <element signature="e#9002#9003#0" expanded="true" />
-                <element signature="e#9056#9057#0" expanded="true" />
-                <element signature="e#9090#9091#0" expanded="true" />
-                <element signature="e#9120#9121#0" expanded="true" />
-                <element signature="e#9166#9167#0" expanded="true" />
-                <element signature="e#9204#9205#0" expanded="true" />
-                <element signature="e#9250#9251#0" expanded="true" />
-                <element signature="e#9292#9293#0" expanded="true" />
-                <element signature="e#9362#9363#0" expanded="true" />
-                <element signature="e#9424#9425#0" expanded="true" />
-                <element signature="e#9467#9468#0" expanded="true" />
-                <element signature="e#9506#9507#0" expanded="true" />
-                <element signature="e#9570#9571#0" expanded="true" />
-                <element signature="e#9626#9627#0" expanded="true" />
-                <element signature="e#9667#9668#0" expanded="true" />
-                <element signature="e#9704#9705#0" expanded="true" />
-                <element signature="e#9764#9765#0" expanded="true" />
-                <element signature="e#9816#9817#0" expanded="true" />
-                <element signature="e#9856#9857#0" expanded="true" />
-                <element signature="e#9892#9893#0" expanded="true" />
-                <element signature="e#9950#9951#0" expanded="true" />
-                <element signature="e#10000#10001#0" expanded="true" />
-                <element signature="e#10038#10039#0" expanded="true" />
-                <element signature="e#10072#10073#0" expanded="true" />
-                <element signature="e#10126#10127#0" expanded="true" />
-                <element signature="e#10172#10173#0" expanded="true" />
-                <element signature="e#10211#10212#0" expanded="true" />
-                <element signature="e#10246#10247#0" expanded="true" />
-                <element signature="e#10302#10303#0" expanded="true" />
-                <element signature="e#10350#10351#0" expanded="true" />
-                <element signature="e#10391#10392#0" expanded="true" />
-                <element signature="e#10428#10429#0" expanded="true" />
-                <element signature="e#10488#10489#0" expanded="true" />
-                <element signature="e#10540#10541#0" expanded="true" />
-                <element signature="e#10584#10585#0" expanded="true" />
-                <element signature="e#10624#10625#0" expanded="true" />
-                <element signature="e#10690#10691#0" expanded="true" />
-                <element signature="e#10748#10749#0" expanded="true" />
-                <element signature="e#10789#10790#0" expanded="true" />
-                <element signature="e#10826#10827#0" expanded="true" />
-                <element signature="e#10886#10887#0" expanded="true" />
-                <element signature="e#10938#10939#0" expanded="true" />
-                <element signature="e#10975#10976#0" expanded="true" />
-                <element signature="e#11008#11009#0" expanded="true" />
-                <element signature="e#11060#11061#0" expanded="true" />
-                <element signature="e#11104#11105#0" expanded="true" />
-                <element signature="e#11138#11139#0" expanded="true" />
-                <element signature="e#11168#11169#0" expanded="true" />
-                <element signature="e#11214#11215#0" expanded="true" />
-                <element signature="e#11252#11253#0" expanded="true" />
-                <element signature="e#11292#11293#0" expanded="true" />
-                <element signature="e#11328#11329#0" expanded="true" />
-                <element signature="e#11386#11387#0" expanded="true" />
-                <element signature="e#11436#11437#0" expanded="true" />
-                <element signature="e#11481#11482#0" expanded="true" />
-                <element signature="e#11522#11523#0" expanded="true" />
-                <element signature="e#11590#11591#0" expanded="true" />
-                <element signature="e#11650#11651#0" expanded="true" />
-                <element signature="e#11692#11693#0" expanded="true" />
-                <element signature="e#11730#11731#0" expanded="true" />
-                <element signature="e#11792#11793#0" expanded="true" />
-                <element signature="e#11846#11847#0" expanded="true" />
-                <element signature="e#11891#11892#0" expanded="true" />
-                <element signature="e#11932#11933#0" expanded="true" />
-                <element signature="e#12000#12001#0" expanded="true" />
-                <element signature="e#12060#12061#0" expanded="true" />
-                <element signature="e#12098#12099#0" expanded="true" />
-                <element signature="e#12132#12133#0" expanded="true" />
-                <element signature="e#12186#12187#0" expanded="true" />
-                <element signature="e#12232#12233#0" expanded="true" />
-                <element signature="e#12265#12266#0" expanded="true" />
-                <element signature="e#12294#12295#0" expanded="true" />
-                <element signature="e#12338#12339#0" expanded="true" />
-                <element signature="e#12374#12375#0" expanded="true" />
-                <element signature="e#12410#12411#0" expanded="true" />
-                <element signature="e#12442#12443#0" expanded="true" />
-                <element signature="e#12492#12493#0" expanded="true" />
-                <element signature="e#12534#12535#0" expanded="true" />
-                <element signature="e#12571#12572#0" expanded="true" />
-                <element signature="e#12604#12605#0" expanded="true" />
-                <element signature="e#12656#12657#0" expanded="true" />
-                <element signature="e#12700#12701#0" expanded="true" />
-                <element signature="e#12737#12738#0" expanded="true" />
-                <element signature="e#12770#12771#0" expanded="true" />
-                <element signature="e#12822#12823#0" expanded="true" />
-                <element signature="e#12866#12867#0" expanded="true" />
-                <element signature="e#12907#12908#0" expanded="true" />
-                <element signature="e#12944#12945#0" expanded="true" />
-                <element signature="e#13004#13005#0" expanded="true" />
-                <element signature="e#13056#13057#0" expanded="true" />
-                <marker date="1505400973248" expanded="false" signature="13096:13107" ph=" { " />
-                <marker date="1505400973248" expanded="false" signature="13129:13135" ph=" }" />
-                <marker date="1505400973248" expanded="false" signature="13193:13204" ph=" { " />
-                <marker date="1505400973248" expanded="false" signature="13241:13247" ph=" }" />
-                <marker date="1505400973248" expanded="false" signature="13291:13302" ph=" { " />
-                <marker date="1505400973248" expanded="false" signature="13329:13335" ph=" }" />
-                <marker date="1505400973248" expanded="false" signature="13403:13414" ph=" { " />
-                <marker date="1505400973248" expanded="false" signature="13461:13467" ph=" }" />
-                <marker date="1505400973248" expanded="false" signature="13511:13522" ph=" { " />
-                <marker date="1505400973248" expanded="false" signature="13549:13555" ph=" }" />
+                <marker date="1505451670682" expanded="false" signature="13051:13057" ph=" }" />
+                <marker date="1505451670682" expanded="false" signature="13096:13107" ph=" { " />
+                <marker date="1505451670682" expanded="false" signature="13129:13135" ph=" }" />
+                <marker date="1505451670682" expanded="false" signature="13193:13204" ph=" { " />
+                <marker date="1505451670682" expanded="false" signature="13241:13247" ph=" }" />
+                <marker date="1505451670682" expanded="false" signature="13291:13302" ph=" { " />
+                <marker date="1505451670682" expanded="false" signature="13329:13335" ph=" }" />
+                <marker date="1505451670682" expanded="false" signature="13403:13414" ph=" { " />
+                <marker date="1505451670682" expanded="false" signature="13461:13467" ph=" }" />
               </folding>
->>>>>>> page-fixed
             </state>
           </provider>
         </entry>
       </file>
-<<<<<<< HEAD
       <file leaf-file-name="changeInfo.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/changeInfo.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="540">
               <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-=======
-      <file leaf-file-name="MBGTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/test/MBGTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
->>>>>>> page-fixed
               <folding />
             </state>
           </provider>
@@ -429,97 +251,11 @@
       </file>
     </leaf>
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Tag Library Descriptor" />
-        <option value="Class" />
-        <option value="Jsp File" />
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>clear</find>
-      <find>equal</find>
-      <find>color</find>
-      <find>0ba1e4</find>
-      <find>5cb85c</find>
-      <find>15</find>
-      <find>userName</find>
-      <find>reg</find>
-      <find>save</find>
-      <find>button</find>
-      <find>jpg</find>
-      <find>br</find>
-      <find>长辈</find>
-      <find>费用</find>
-      <find>alert</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>55b761</replace>
-      <replace>change</replace>
-    </replaceStrings>
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/huaqi/dao/UserMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/huaqi/bean/Msg.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/css/luohaowei.css" />
-        <option value="$PROJECT_DIR$/target/classes/com/huaqi/dao/UserMapper.class" />
-        <option value="$PROJECT_DIR$/src/main/java/com/huaqi/test/MBGTest.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/js/common.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/js/changeInfo.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/huaqi/interceptor/LoginInterceptor.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/js/register.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/register.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/springmvc.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/evaluate-example.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/evaluate.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/changeInfo.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/huaqi/filter/LoginFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/css/common.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/about.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/generatorConfig.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/dbconfig.properties" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/js/evaluate.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/js/evaluate_common.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/evaluate-result.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/js/login.js" />
-        <option value="$PROJECT_DIR$/src/main/java/com/huaqi/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/huaqi/service/UserService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/huaqi/bean/User.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/evaluate-farmer.jsp" />
-<<<<<<< HEAD
-        <option value="$PROJECT_DIR$/src/main/webapp/evaluate-example.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/evaluate-businessman.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/evaluate.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/about.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/login.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/evaluate-salaryman.jsp" />
-        <option value="$PROJECT_DIR$/src/main/resources/springmvc.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/changeInfo.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/register.jsp" />
-=======
-        <option value="$PROJECT_DIR$/src/main/webapp/evaluate-salaryman.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/evaluate-businessman.jsp" />
->>>>>>> page-fixed
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -536,19 +272,6 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="importingSettings">
-      <MavenImportingSettings>
-        <option name="importAutomatically" value="true" />
-      </MavenImportingSettings>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="219" />
-    <option name="y" value="2" />
-    <option name="width" value="1400" />
-    <option name="height" value="980" />
-  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -564,14 +287,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-<<<<<<< HEAD
       <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
-=======
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
->>>>>>> page-fixed
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -579,6 +297,11 @@
             <path>
               <item name="huaqi1.0" type="b2602c69:ProjectViewProjectNode" />
               <item name="huaqi1.0" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huaqi1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huaqi1.0" type="462c0819:PsiDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="huaqi1.0" type="b2602c69:ProjectViewProjectNode" />
@@ -622,7 +345,25 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="huaqi" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huaqi1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huaqi1.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="huaqi" type="462c0819:PsiDirectoryNode" />
+              <item name="filter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huaqi1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huaqi1.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="huaqi" type="462c0819:PsiDirectoryNode" />
+              <item name="interceptor" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="huaqi1.0" type="b2602c69:ProjectViewProjectNode" />
@@ -645,14 +386,6 @@
               <item name="huaqi1.0" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="huaqi1.0" type="b2602c69:ProjectViewProjectNode" />
-              <item name="huaqi1.0" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -662,6 +395,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="huaqi1.0" type="b2602c69:ProjectViewProjectNode" />
+              <item name="huaqi1.0" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="huaqi1.0" type="b2602c69:ProjectViewProjectNode" />
@@ -676,36 +418,12 @@
           <select />
         </subPane>
       </pane>
-<<<<<<< HEAD
-=======
-      <pane id="Scope" />
->>>>>>> page-fixed
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-<<<<<<< HEAD
-    <property name="project.structure.last.edited" value="Libraries" />
-=======
-    <property name="project.structure.last.edited" value="SDKs" />
->>>>>>> page-fixed
-    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="last_opened_file_path" value="E:/" />
-    <property name="Downloaded.Files.Path.Enabled" value="false" />
-    <property name="Repository.Attach.JavaDocs" value="false" />
-    <property name="Repository.Attach.Sources" value="false" />
-  </component>
-  <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\github\repositories\HuaqiPro_2017\huaqi1.0\src\main\webapp\static\img" />
-      <recent name="E:\github\repositories\HuaqiPro_2017\huaqi1.0\src\main\webapp\static\img\yezi" />
-      <recent name="E:\github\repositories\HuaqiPro_2017\huaqi1.0\src\main\webapp\static\js" />
-      <recent name="E:\github\repositories\HuaqiPro_2017\huaqi1.0\src\main\webapp\static\css" />
-      <recent name="G:\IDEAproject\huaqi1.0\src\main\webapp\static\css" />
-    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -719,37 +437,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MBGTest">
-    <configuration name="MBGTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.huaqi.test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.huaqi.test.MBGTest" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="huaqi1.0" />
-      <envs />
-    </configuration>
+  <component name="RunManager" selected="Tomcat Server.Unnamed">
     <configuration name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.0.M261" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/huaqi/" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
-        <artifact name="huaqi1.0:war exploded">
+        <artifact name="huaqi1.0:war">
           <settings>
-            <option name="CONTEXT_PATH" value="/" />
+            <option name="CONTEXT_PATH" value="/huaqi" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_huaqi1_0" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_huaqi1_0_2" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -758,7 +458,7 @@
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="9162" />
+        <option name="DEBUG_PORT" value="1142" />
       </RunnerSettings>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
         <option name="USE_ENV_VARIABLES" value="true" />
@@ -807,7 +507,7 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="huaqi1.0:war exploded" />
+          <artifact name="huaqi1.0:war" />
         </option>
       </method>
     </configuration>
@@ -892,84 +592,19 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MBGTest" />
-    </list>
-    <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.MBGTest" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
   </component>
   <component name="TaskManager">
-    <task active="true" id="Default" summary="Default task">
-      <changelist id="b925445a-6bcc-4dce-8d82-24d8e9fa6b21" name="Default" comment="" />
-      <created>1504160514829</created>
-      <option name="number" value="Default" />
-      <option name="presentableId" value="Default" />
-      <updated>1504160514829</updated>
-      <workItem from="1504160520293" duration="6277000" />
-      <workItem from="1504169232846" duration="12362000" />
-      <workItem from="1504184783193" duration="7045000" />
-      <workItem from="1504321083948" duration="86000" />
-      <workItem from="1504321401754" duration="28152000" />
-      <workItem from="1504415183321" duration="4113000" />
-      <workItem from="1504420411644" duration="8555000" />
-      <workItem from="1504495339003" duration="708000" />
-      <workItem from="1504496076939" duration="848000" />
-      <workItem from="1504504311678" duration="1752000" />
-      <workItem from="1504506503750" duration="62000" />
-      <workItem from="1504507392568" duration="6415000" />
-      <workItem from="1504576604422" duration="2837000" />
-      <workItem from="1504580060430" duration="609000" />
-      <workItem from="1504594113069" duration="657000" />
-      <workItem from="1505177855600" duration="35391000" />
-      <workItem from="1505275954803" duration="632000" />
-      <workItem from="1505279656805" duration="16830000" />
-      <workItem from="1505347868952" duration="9638000" />
-      <workItem from="1505367873472" duration="4124000" />
-<<<<<<< HEAD
-      <workItem from="1505373557462" duration="6656000" />
-      <workItem from="1505380407232" duration="424000" />
-      <workItem from="1505382461496" duration="268000" />
-      <workItem from="1505383729721" duration="1610000" />
-      <workItem from="1505403080774" duration="3114000" />
-      <workItem from="1505449179082" duration="827000" />
-=======
-      <workItem from="1505373483495" duration="4300000" />
-      <workItem from="1505398731611" duration="937000" />
-      <workItem from="1505399835089" duration="2276000" />
->>>>>>> page-fixed
-    </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-<<<<<<< HEAD
-    <option name="totallyTimeSpent" value="159992000" />
-=======
-    <option name="totallyTimeSpent" value="154606000" />
->>>>>>> page-fixed
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
+    <option name="totallyTimeSpent" value="680000" />
   </component>
   <component name="ToolWindowManager">
-<<<<<<< HEAD
-    <frame x="-11" y="-11" width="1942" height="1042" extended-state="7" />
+    <frame x="-11" y="-11" width="1942" height="1042" extended-state="6" />
     <editor active="true" />
-=======
-    <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
->>>>>>> page-fixed
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -983,19 +618,16 @@
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32619047" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32857144" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32603937" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.325" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31428573" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34166667" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-<<<<<<< HEAD
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34071276" sideWeight="0.4856661" order="0" side_tool="false" content_ui="combo" />
-=======
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30729166" sideWeight="0.4856661" order="0" side_tool="false" content_ui="combo" />
->>>>>>> page-fixed
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.26349893" sideWeight="0.5143339" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1004,16 +636,9 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32713348" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3297619" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1022,13 +647,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/target/classes/com/huaqi/test/MBGTest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="30" column="1" lean-forward="false" selection-start-line="30" selection-start-column="1" selection-end-line="30" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/target/classes/com/huaqi/dao/UserMapper.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="575">
@@ -1057,13 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/luohaowei.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="243">
-          <caret line="16" column="12" lean-forward="true" selection-start-line="16" selection-start-column="12" selection-end-line="16" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_131/src.zip!/javax/xml/ws/handler/Handler.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/javax/servlet/javax.servlet-api/4.0.0-b07/javax.servlet-api-4.0.0-b07-sources.jar!/javax/servlet/http/HttpServletRequest.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.10.RELEASE/spring-webmvc-4.3.10.RELEASE-sources.jar!/org/springframework/web/servlet/HandlerInterceptor.java" />
@@ -1083,44 +694,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/changeInfo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-794">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4577">
-          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluate.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4370">
-          <caret line="190" column="14" lean-forward="false" selection-start-line="190" selection-start-column="14" selection-end-line="190" selection-end-column="14" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/changeInfo.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="5382">
-          <caret line="234" column="35" lean-forward="false" selection-start-line="234" selection-start-column="35" selection-end-line="234" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="33" column="37" lean-forward="false" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/common.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="12834">
@@ -1128,55 +701,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/about.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="2295">
-          <caret line="85" column="32" lean-forward="false" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
-=======
-        <state relative-caret-position="238">
-          <caret line="93" column="52" lean-forward="false" selection-start-line="93" selection-start-column="52" selection-end-line="93" selection-end-column="52" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/dao/UserMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="92">
           <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
->>>>>>> page-fixed
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        <state relative-caret-position="289">
+          <caret line="753" column="11" lean-forward="true" selection-start-line="753" selection-start-column="11" selection-end-line="753" selection-end-column="11" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="295">
-          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/dbconfig.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/yezi.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/yezi.js" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/bean/Msg.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="487">
@@ -1184,24 +723,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/interceptor/LoginInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="511">
-          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-<<<<<<< HEAD
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/evaluate_common.js" />
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/luohaowei.css">
-=======
-    <entry file="file://U:/Huaqi/HuaqiPro_2017/huaqi1.0/src/main/java/com/huaqi/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="419">
-          <caret line="109" column="0" lean-forward="true" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://U:/Huaqi/HuaqiPro_2017/huaqi1.0/src/main/java/com/huaqi/controller/UserController.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/bean/UserExample.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
@@ -1209,453 +731,286 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluate-example.jsp">
->>>>>>> page-fixed
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/test/MBGTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
+        <state relative-caret-position="92">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2295">
+          <caret line="85" column="32" lean-forward="false" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="21" column="60" lean-forward="false" selection-start-line="21" selection-start-column="60" selection-end-line="21" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dbconfig.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="28" lean-forward="false" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/generatorConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="14" column="48" lean-forward="false" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="297">
+          <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="16" selection-end-line="11" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/register.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2997">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/evaluate_common.js" />
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/luohaowei.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1745">
+          <caret line="142" column="0" lean-forward="false" selection-start-line="142" selection-start-column="0" selection-end-line="142" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/about.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="37" column="57" lean-forward="false" selection-start-line="37" selection-start-column="57" selection-end-line="37" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="864">
+          <caret line="32" column="83" lean-forward="false" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/register.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluate-salaryman.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="394">
-          <caret line="141" column="56" lean-forward="false" selection-start-line="141" selection-start-column="56" selection-end-line="141" selection-end-column="56" />
+        <state relative-caret-position="891">
+          <caret line="33" column="83" lean-forward="false" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluate-result.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="36" column="83" lean-forward="false" selection-start-line="36" selection-start-column="83" selection-end-line="36" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluate-farmer.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="33" column="83" lean-forward="false" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluate-example.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="972">
+          <caret line="36" column="83" lean-forward="false" selection-start-line="36" selection-start-column="83" selection-end-line="36" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluate-businessman.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="891">
+          <caret line="33" column="83" lean-forward="false" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluate.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1026">
+          <caret line="38" column="57" lean-forward="false" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/interceptor/LoginInterceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/changeInfo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="864">
-          <caret line="32" column="83" lean-forward="false" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
-=======
-        <state relative-caret-position="511">
-          <caret line="102" column="29" lean-forward="true" selection-start-line="102" selection-start-column="29" selection-end-line="102" selection-end-column="29" />
-          <folding />
->>>>>>> page-fixed
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/filter/LoginFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1012">
-          <caret line="54" column="37" lean-forward="false" selection-start-line="54" selection-start-column="37" selection-end-line="54" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="891">
-          <caret line="33" column="83" lean-forward="false" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
-=======
-        <state relative-caret-position="506">
-          <caret line="22" column="11" lean-forward="false" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
-          <folding />
->>>>>>> page-fixed
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/evaluate_common.js">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="972">
-          <caret line="36" column="83" lean-forward="false" selection-start-line="36" selection-start-column="83" selection-end-line="36" selection-end-column="83" />
-=======
-        <state relative-caret-position="483">
-          <caret line="21" column="2" lean-forward="false" selection-start-line="21" selection-start-column="2" selection-end-line="21" selection-end-column="2" />
-          <folding />
->>>>>>> page-fixed
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/register.js">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="891">
-          <caret line="33" column="83" lean-forward="false" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
-=======
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
->>>>>>> page-fixed
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluate-result.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="972">
-          <caret line="36" column="83" lean-forward="false" selection-start-line="36" selection-start-column="83" selection-end-line="36" selection-end-column="83" />
-=======
-        <state relative-caret-position="10143">
-          <caret line="441" column="28" lean-forward="false" selection-start-line="441" selection-start-column="28" selection-end-line="441" selection-end-column="28" />
-          <folding />
->>>>>>> page-fixed
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="891">
-          <caret line="33" column="83" lean-forward="false" selection-start-line="33" selection-start-column="83" selection-end-line="33" selection-end-column="83" />
-=======
-        <state relative-caret-position="1955">
-          <caret line="85" column="32" lean-forward="false" selection-start-line="85" selection-start-column="32" selection-end-line="85" selection-end-column="32" />
-          <folding />
->>>>>>> page-fixed
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="1026">
-          <caret line="38" column="57" lean-forward="false" selection-start-line="38" selection-start-column="57" selection-end-line="38" selection-end-column="57" />
-=======
-        <state relative-caret-position="2829">
-          <caret line="140" column="49" lean-forward="false" selection-start-line="140" selection-start-column="49" selection-end-line="140" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
->>>>>>> page-fixed
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="1215">
-          <caret line="45" column="50" lean-forward="false" selection-start-line="45" selection-start-column="50" selection-end-line="45" selection-end-column="50" />
-=======
-        <state relative-caret-position="17319">
-          <caret line="753" column="11" lean-forward="false" selection-start-line="753" selection-start-column="11" selection-end-line="753" selection-end-column="11" />
->>>>>>> page-fixed
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="81">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-=======
-        <state relative-caret-position="809">
-          <caret line="53" column="25" lean-forward="false" selection-start-line="53" selection-start-column="25" selection-end-line="53" selection-end-column="25" />
-          <folding />
->>>>>>> page-fixed
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/test/MBGTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="1161">
-          <caret line="53" column="37" lean-forward="false" selection-start-line="53" selection-start-column="37" selection-end-line="53" selection-end-column="37" />
-=======
-        <state relative-caret-position="92">
-          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
->>>>>>> page-fixed
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/bean/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
-        <state relative-caret-position="540">
-          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
-          <folding />
-=======
-        <state relative-caret-position="-12462">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="e#2726#2727#0" expanded="true" />
-            <element signature="e#2751#2752#0" expanded="true" />
-            <element signature="e#2787#2788#0" expanded="true" />
-            <element signature="e#2842#2843#0" expanded="true" />
-            <element signature="e#2877#2878#0" expanded="true" />
-            <element signature="e#2908#2909#0" expanded="true" />
-            <element signature="e#2956#2957#0" expanded="true" />
-            <element signature="e#3029#3030#0" expanded="true" />
-            <element signature="e#3064#3065#0" expanded="true" />
-            <element signature="e#3095#3096#0" expanded="true" />
-            <element signature="e#3143#3144#0" expanded="true" />
-            <element signature="e#3216#3217#0" expanded="true" />
-            <element signature="e#3246#3247#0" expanded="true" />
-            <element signature="e#3272#3273#0" expanded="true" />
-            <element signature="e#3310#3311#0" expanded="true" />
-            <element signature="e#3340#3341#0" expanded="true" />
-            <element signature="e#3373#3374#0" expanded="true" />
-            <element signature="e#3402#3403#0" expanded="true" />
-            <element signature="e#3446#3447#0" expanded="true" />
-            <element signature="e#3513#3514#0" expanded="true" />
-            <element signature="e#3547#3548#0" expanded="true" />
-            <element signature="e#3577#3578#0" expanded="true" />
-            <element signature="e#3623#3624#0" expanded="true" />
-            <element signature="e#3661#3662#0" expanded="true" />
-            <element signature="e#3693#3694#0" expanded="true" />
-            <element signature="e#3721#3722#0" expanded="true" />
-            <element signature="e#3763#3764#0" expanded="true" />
-            <element signature="e#3827#3828#0" expanded="true" />
-            <element signature="e#3857#3858#0" expanded="true" />
-            <element signature="e#3883#3884#0" expanded="true" />
-            <element signature="e#3921#3922#0" expanded="true" />
-            <element signature="e#3979#3980#0" expanded="true" />
-            <element signature="e#4014#4015#0" expanded="true" />
-            <element signature="e#4045#4046#0" expanded="true" />
-            <element signature="e#4093#4094#0" expanded="true" />
-            <element signature="e#4166#4167#0" expanded="true" />
-            <element signature="e#4209#4210#0" expanded="true" />
-            <element signature="e#4248#4249#0" expanded="true" />
-            <element signature="e#4312#4313#0" expanded="true" />
-            <element signature="e#4368#4369#0" expanded="true" />
-            <element signature="e#4409#4410#0" expanded="true" />
-            <element signature="e#4446#4447#0" expanded="true" />
-            <element signature="e#4506#4507#0" expanded="true" />
-            <element signature="e#4558#4559#0" expanded="true" />
-            <element signature="e#4595#4596#0" expanded="true" />
-            <element signature="e#4628#4629#0" expanded="true" />
-            <element signature="e#4680#4681#0" expanded="true" />
-            <element signature="e#4724#4725#0" expanded="true" />
-            <element signature="e#4768#4769#0" expanded="true" />
-            <element signature="e#4808#4809#0" expanded="true" />
-            <element signature="e#4874#4875#0" expanded="true" />
-            <element signature="e#4932#4933#0" expanded="true" />
-            <element signature="e#4971#4972#0" expanded="true" />
-            <element signature="e#5006#5007#0" expanded="true" />
-            <element signature="e#5062#5063#0" expanded="true" />
-            <element signature="e#5110#5111#0" expanded="true" />
-            <element signature="e#5148#5149#0" expanded="true" />
-            <element signature="e#5182#5183#0" expanded="true" />
-            <element signature="e#5236#5237#0" expanded="true" />
-            <element signature="e#5282#5283#0" expanded="true" />
-            <element signature="e#5329#5330#0" expanded="true" />
-            <element signature="e#5372#5373#0" expanded="true" />
-            <element signature="e#5542#5543#0" expanded="true" />
-            <element signature="e#5572#5573#0" expanded="true" />
-            <element signature="e#5618#5619#0" expanded="true" />
-            <element signature="e#5656#5657#0" expanded="true" />
-            <element signature="e#5692#5693#0" expanded="true" />
-            <element signature="e#5724#5725#0" expanded="true" />
-            <element signature="e#5774#5775#0" expanded="true" />
-            <element signature="e#5816#5817#0" expanded="true" />
-            <element signature="e#5854#5855#0" expanded="true" />
-            <element signature="e#5888#5889#0" expanded="true" />
-            <element signature="e#5942#5943#0" expanded="true" />
-            <element signature="e#5988#5989#0" expanded="true" />
-            <element signature="e#6025#6026#0" expanded="true" />
-            <element signature="e#6058#6059#0" expanded="true" />
-            <element signature="e#6110#6111#0" expanded="true" />
-            <element signature="e#6154#6155#0" expanded="true" />
-            <element signature="e#6205#6206#0" expanded="true" />
-            <element signature="e#6252#6253#0" expanded="true" />
-            <element signature="e#6442#6443#0" expanded="true" />
-            <element signature="e#6476#6477#0" expanded="true" />
-            <element signature="e#6530#6531#0" expanded="true" />
-            <element signature="e#6576#6577#0" expanded="true" />
-            <element signature="e#6616#6617#0" expanded="true" />
-            <element signature="e#6652#6653#0" expanded="true" />
-            <element signature="e#6710#6711#0" expanded="true" />
-            <element signature="e#6760#6761#0" expanded="true" />
-            <element signature="e#6796#6797#0" expanded="true" />
-            <element signature="e#6828#6829#0" expanded="true" />
-            <element signature="e#6878#6879#0" expanded="true" />
-            <element signature="e#6920#6921#0" expanded="true" />
-            <element signature="e#6956#6957#0" expanded="true" />
-            <element signature="e#6988#6989#0" expanded="true" />
-            <element signature="e#7038#7039#0" expanded="true" />
-            <element signature="e#7080#7081#0" expanded="true" />
-            <element signature="e#7112#7113#0" expanded="true" />
-            <element signature="e#7140#7141#0" expanded="true" />
-            <element signature="e#7182#7183#0" expanded="true" />
-            <element signature="e#7216#7217#0" expanded="true" />
-            <element signature="e#7255#7256#0" expanded="true" />
-            <element signature="e#7290#7291#0" expanded="true" />
-            <element signature="e#7346#7347#0" expanded="true" />
-            <element signature="e#7394#7395#0" expanded="true" />
-            <element signature="e#7437#7438#0" expanded="true" />
-            <element signature="e#7476#7477#0" expanded="true" />
-            <element signature="e#7540#7541#0" expanded="true" />
-            <element signature="e#7596#7597#0" expanded="true" />
-            <element signature="e#7640#7641#0" expanded="true" />
-            <element signature="e#7680#7681#0" expanded="true" />
-            <element signature="e#7746#7747#0" expanded="true" />
-            <element signature="e#7804#7805#0" expanded="true" />
-            <element signature="e#7848#7849#0" expanded="true" />
-            <element signature="e#7888#7889#0" expanded="true" />
-            <element signature="e#7954#7955#0" expanded="true" />
-            <element signature="e#8012#8013#0" expanded="true" />
-            <element signature="e#8051#8052#0" expanded="true" />
-            <element signature="e#8086#8087#0" expanded="true" />
-            <element signature="e#8142#8143#0" expanded="true" />
-            <element signature="e#8190#8191#0" expanded="true" />
-            <element signature="e#8230#8231#0" expanded="true" />
-            <element signature="e#8266#8267#0" expanded="true" />
-            <element signature="e#8324#8325#0" expanded="true" />
-            <element signature="e#8374#8375#0" expanded="true" />
-            <element signature="e#8414#8415#0" expanded="true" />
-            <element signature="e#8450#8451#0" expanded="true" />
-            <element signature="e#8508#8509#0" expanded="true" />
-            <element signature="e#8558#8559#0" expanded="true" />
-            <element signature="e#8592#8593#0" expanded="true" />
-            <element signature="e#8622#8623#0" expanded="true" />
-            <element signature="e#8668#8669#0" expanded="true" />
-            <element signature="e#8706#8707#0" expanded="true" />
-            <element signature="e#8741#8742#0" expanded="true" />
-            <element signature="e#8772#8773#0" expanded="true" />
-            <element signature="e#8820#8821#0" expanded="true" />
-            <element signature="e#8860#8861#0" expanded="true" />
-            <element signature="e#8902#8903#0" expanded="true" />
-            <element signature="e#8940#8941#0" expanded="true" />
-            <element signature="e#9002#9003#0" expanded="true" />
-            <element signature="e#9056#9057#0" expanded="true" />
-            <element signature="e#9090#9091#0" expanded="true" />
-            <element signature="e#9120#9121#0" expanded="true" />
-            <element signature="e#9166#9167#0" expanded="true" />
-            <element signature="e#9204#9205#0" expanded="true" />
-            <element signature="e#9250#9251#0" expanded="true" />
-            <element signature="e#9292#9293#0" expanded="true" />
-            <element signature="e#9362#9363#0" expanded="true" />
-            <element signature="e#9424#9425#0" expanded="true" />
-            <element signature="e#9467#9468#0" expanded="true" />
-            <element signature="e#9506#9507#0" expanded="true" />
-            <element signature="e#9570#9571#0" expanded="true" />
-            <element signature="e#9626#9627#0" expanded="true" />
-            <element signature="e#9667#9668#0" expanded="true" />
-            <element signature="e#9704#9705#0" expanded="true" />
-            <element signature="e#9764#9765#0" expanded="true" />
-            <element signature="e#9816#9817#0" expanded="true" />
-            <element signature="e#9856#9857#0" expanded="true" />
-            <element signature="e#9892#9893#0" expanded="true" />
-            <element signature="e#9950#9951#0" expanded="true" />
-            <element signature="e#10000#10001#0" expanded="true" />
-            <element signature="e#10038#10039#0" expanded="true" />
-            <element signature="e#10072#10073#0" expanded="true" />
-            <element signature="e#10126#10127#0" expanded="true" />
-            <element signature="e#10172#10173#0" expanded="true" />
-            <element signature="e#10211#10212#0" expanded="true" />
-            <element signature="e#10246#10247#0" expanded="true" />
-            <element signature="e#10302#10303#0" expanded="true" />
-            <element signature="e#10350#10351#0" expanded="true" />
-            <element signature="e#10391#10392#0" expanded="true" />
-            <element signature="e#10428#10429#0" expanded="true" />
-            <element signature="e#10488#10489#0" expanded="true" />
-            <element signature="e#10540#10541#0" expanded="true" />
-            <element signature="e#10584#10585#0" expanded="true" />
-            <element signature="e#10624#10625#0" expanded="true" />
-            <element signature="e#10690#10691#0" expanded="true" />
-            <element signature="e#10748#10749#0" expanded="true" />
-            <element signature="e#10789#10790#0" expanded="true" />
-            <element signature="e#10826#10827#0" expanded="true" />
-            <element signature="e#10886#10887#0" expanded="true" />
-            <element signature="e#10938#10939#0" expanded="true" />
-            <element signature="e#10975#10976#0" expanded="true" />
-            <element signature="e#11008#11009#0" expanded="true" />
-            <element signature="e#11060#11061#0" expanded="true" />
-            <element signature="e#11104#11105#0" expanded="true" />
-            <element signature="e#11138#11139#0" expanded="true" />
-            <element signature="e#11168#11169#0" expanded="true" />
-            <element signature="e#11214#11215#0" expanded="true" />
-            <element signature="e#11252#11253#0" expanded="true" />
-            <element signature="e#11292#11293#0" expanded="true" />
-            <element signature="e#11328#11329#0" expanded="true" />
-            <element signature="e#11386#11387#0" expanded="true" />
-            <element signature="e#11436#11437#0" expanded="true" />
-            <element signature="e#11481#11482#0" expanded="true" />
-            <element signature="e#11522#11523#0" expanded="true" />
-            <element signature="e#11590#11591#0" expanded="true" />
-            <element signature="e#11650#11651#0" expanded="true" />
-            <element signature="e#11692#11693#0" expanded="true" />
-            <element signature="e#11730#11731#0" expanded="true" />
-            <element signature="e#11792#11793#0" expanded="true" />
-            <element signature="e#11846#11847#0" expanded="true" />
-            <element signature="e#11891#11892#0" expanded="true" />
-            <element signature="e#11932#11933#0" expanded="true" />
-            <element signature="e#12000#12001#0" expanded="true" />
-            <element signature="e#12060#12061#0" expanded="true" />
-            <element signature="e#12098#12099#0" expanded="true" />
-            <element signature="e#12132#12133#0" expanded="true" />
-            <element signature="e#12186#12187#0" expanded="true" />
-            <element signature="e#12232#12233#0" expanded="true" />
-            <element signature="e#12265#12266#0" expanded="true" />
-            <element signature="e#12294#12295#0" expanded="true" />
-            <element signature="e#12338#12339#0" expanded="true" />
-            <element signature="e#12374#12375#0" expanded="true" />
-            <element signature="e#12410#12411#0" expanded="true" />
-            <element signature="e#12442#12443#0" expanded="true" />
-            <element signature="e#12492#12493#0" expanded="true" />
-            <element signature="e#12534#12535#0" expanded="true" />
-            <element signature="e#12571#12572#0" expanded="true" />
-            <element signature="e#12604#12605#0" expanded="true" />
-            <element signature="e#12656#12657#0" expanded="true" />
-            <element signature="e#12700#12701#0" expanded="true" />
-            <element signature="e#12737#12738#0" expanded="true" />
-            <element signature="e#12770#12771#0" expanded="true" />
-            <element signature="e#12822#12823#0" expanded="true" />
-            <element signature="e#12866#12867#0" expanded="true" />
-            <element signature="e#12907#12908#0" expanded="true" />
-            <element signature="e#12944#12945#0" expanded="true" />
-            <element signature="e#13004#13005#0" expanded="true" />
-            <element signature="e#13056#13057#0" expanded="true" />
-            <marker date="1505400973248" expanded="false" signature="13096:13107" ph=" { " />
-            <marker date="1505400973248" expanded="false" signature="13129:13135" ph=" }" />
-            <marker date="1505400973248" expanded="false" signature="13193:13204" ph=" { " />
-            <marker date="1505400973248" expanded="false" signature="13241:13247" ph=" }" />
-            <marker date="1505400973248" expanded="false" signature="13291:13302" ph=" { " />
-            <marker date="1505400973248" expanded="false" signature="13329:13335" ph=" }" />
-            <marker date="1505400973248" expanded="false" signature="13403:13414" ph=" { " />
-            <marker date="1505400973248" expanded="false" signature="13461:13467" ph=" }" />
-            <marker date="1505400973248" expanded="false" signature="13511:13522" ph=" { " />
-            <marker date="1505400973248" expanded="false" signature="13549:13555" ph=" }" />
-          </folding>
->>>>>>> page-fixed
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluate-farmer.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="864">
           <caret line="32" column="83" lean-forward="false" selection-start-line="32" selection-start-column="83" selection-end-line="32" selection-end-column="83" />
           <folding>
-            <marker date="1505448182370" expanded="true" signature="1835:1990" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="1819:1974" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="1819:2348" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="1819:4888" ph="..." />
+            <marker date="1505451671076" expanded="false" signature="2030:2045" ph="..." />
+            <marker date="1505451671076" expanded="false" signature="2123:2138" ph="..." />
+            <marker date="1505451671076" expanded="false" signature="2215:2230" ph="..." />
+            <marker date="1505451671076" expanded="false" signature="2297:2312" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="2404:3268" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="2466:3263" ph="..." />
+            <marker date="1505451671076" expanded="false" signature="2558:2573" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="2631:2721" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="2773:3246" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="2806:2991" ph="..." />
+            <marker date="1505451671076" expanded="false" signature="2877:2910" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="3024:3216" ph="..." />
+            <marker date="1505451671076" expanded="false" signature="3095:3128" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="3326:4869" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="3357:4847" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="3431:4339" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="3483:4305" ph="..." />
+            <marker date="1505451671076" expanded="false" signature="3620:3636" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="3680:3919" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="3978:4270" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="4377:4815" ph="..." />
+            <marker date="1505451671076" expanded="false" signature="4488:4522" ph="..." />
+            <marker date="1505451671076" expanded="false" signature="4693:4709" ph="..." />
+            <marker date="1505451671076" expanded="false" signature="4994:5041" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="5100:6266" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="5169:5196" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="5231:5939" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="5264:5569" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="5364:5554" ph="..." />
+            <marker date="1505451671076" expanded="false" signature="5476:5485" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="5602:5927" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="5700:5912" ph="..." />
+            <marker date="1505451671076" expanded="false" signature="5834:5843" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="5970:6259" ph="..." />
+            <marker date="1505451671076" expanded="false" signature="6323:6337" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="6387:6677" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="6462:6670" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="6488:6659" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="6543:6644" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="6723:8097" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="6751:8090" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="6777:8079" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="6833:7019" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="6875:7000" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="6916:6977" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="7075:7266" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="7117:7247" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="7161:7224" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="7322:7521" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="7364:7502" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="7416:7479" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="7579:7777" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="7621:7758" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="7672:7735" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="7835:8023" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="7877:8004" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="7918:7981" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="8118:8408" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="8146:8401" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="8172:8390" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="8208:8375" ph="..." />
+            <marker date="1505451671076" expanded="true" signature="8228:8356" ph="..." />
           </folding>
-=======
-        <state relative-caret-position="97">
-          <caret line="537" column="17" lean-forward="true" selection-start-line="536" selection-start-column="8" selection-end-line="555" selection-end-column="14" />
-          <folding />
->>>>>>> page-fixed
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluate-salaryman.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/register.jsp">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="27">
           <caret line="138" column="11" lean-forward="false" selection-start-line="138" selection-start-column="11" selection-end-line="138" selection-end-column="11" />
           <folding>
-            <marker date="1505448182394" expanded="true" signature="1835:1990" ph="..." />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#nav#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1505451671105" expanded="true" signature="1819:1974" ph="..." />
+            <marker date="1505451671105" expanded="false" signature="2030:2045" ph="..." />
+            <marker date="1505451671105" expanded="false" signature="2123:2138" ph="..." />
+            <marker date="1505451671105" expanded="false" signature="2215:2230" ph="..." />
+            <marker date="1505451671105" expanded="false" signature="2297:2312" ph="..." />
+            <marker date="1505451671105" expanded="false" signature="2558:2573" ph="..." />
+            <marker date="1505451671105" expanded="false" signature="2877:2910" ph="..." />
+            <marker date="1505451671105" expanded="false" signature="3095:3128" ph="..." />
+            <marker date="1505451671105" expanded="false" signature="3620:3636" ph="..." />
+            <marker date="1505451671105" expanded="false" signature="4488:4522" ph="..." />
+            <marker date="1505451671105" expanded="false" signature="4693:4709" ph="..." />
+            <marker date="1505451671105" expanded="false" signature="4993:5040" ph="..." />
+            <marker date="1505451671105" expanded="false" signature="5476:5485" ph="..." />
+            <marker date="1505451671105" expanded="false" signature="5824:5833" ph="..." />
+            <marker date="1505451671105" expanded="false" signature="6596:6605" ph="..." />
+            <marker date="1505451671105" expanded="false" signature="6940:6949" ph="..." />
+            <marker date="1505451671105" expanded="false" signature="7278:7287" ph="..." />
+            <marker date="1505451671105" expanded="false" signature="7650:7664" ph="..." />
           </folding>
-=======
-        <state relative-caret-position="432">
-          <caret line="632" column="41" lean-forward="true" selection-start-line="632" selection-start-column="41" selection-end-line="632" selection-end-column="41" />
-          <folding />
->>>>>>> page-fixed
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/evaluate-businessman.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/changeInfo.jsp">
       <provider selected="true" editor-type-id="text-editor">
-<<<<<<< HEAD
         <state relative-caret-position="4347">
           <caret line="161" column="56" lean-forward="false" selection-start-line="161" selection-start-column="56" selection-end-line="161" selection-end-column="56" />
-          <folding />
+          <folding>
+            <marker date="1505451670797" expanded="true" signature="7104:7122" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="7104:7136" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="7104:7149" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="7104:7157" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="7104:7164" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="7196:8236" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="7360:8225" ph="{...}" />
+            <marker date="1505451670797" expanded="true" signature="7377:8217" ph="{&quot;url&quot;: &quot;${APP_PATH}/getUserInfo&quot;...}" />
+            <marker date="1505451670797" expanded="true" signature="7506:8203" ph="{...}" />
+            <marker date="1505451670797" expanded="false" signature="8295:8309" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="8359:8649" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="8434:8642" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="8460:8631" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="8515:8616" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="8695:10069" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="8723:10062" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="8749:10051" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="8805:8991" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="8847:8972" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="8888:8949" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="9047:9238" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="9089:9219" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="9133:9196" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="9294:9493" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="9336:9474" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="9388:9451" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="9551:9749" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="9593:9730" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="9644:9707" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="9807:9995" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="9849:9976" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="9890:9953" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="10090:10380" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="10118:10373" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="10144:10362" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="10180:10347" ph="..." />
+            <marker date="1505451670797" expanded="true" signature="10200:10328" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1725,14 +1080,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="729">
-          <caret line="44" column="5" lean-forward="false" selection-start-line="44" selection-start-column="5" selection-end-line="44" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="uml://JAVA/com.huaqi.controller.UserController">
       <provider selected="true" editor-type-id="UmlEditorProvider">
         <state>
@@ -1769,14 +1116,6 @@
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/service/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="756">
-          <caret line="35" column="46" lean-forward="false" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1817,7 +1156,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2781">
           <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1505451670682" expanded="false" signature="13051:13057" ph=" }" />
+            <marker date="1505451670682" expanded="false" signature="13096:13107" ph=" { " />
+            <marker date="1505451670682" expanded="false" signature="13129:13135" ph=" }" />
+            <marker date="1505451670682" expanded="false" signature="13193:13204" ph=" { " />
+            <marker date="1505451670682" expanded="false" signature="13241:13247" ph=" }" />
+            <marker date="1505451670682" expanded="false" signature="13291:13302" ph=" { " />
+            <marker date="1505451670682" expanded="false" signature="13329:13335" ph=" }" />
+            <marker date="1505451670682" expanded="false" signature="13403:13414" ph=" { " />
+            <marker date="1505451670682" expanded="false" signature="13461:13467" ph=" }" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1842,11 +1191,46 @@
           </Categories>
           <SCOPE>All</SCOPE>
           <VISIBILITY>private</VISIBILITY>
-=======
-        <state relative-caret-position="404">
-          <caret line="644" column="41" lean-forward="true" selection-start-line="644" selection-start-column="41" selection-end-line="644" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/filter/LoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="53">
+          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
           <folding />
->>>>>>> page-fixed
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-622">
+          <caret line="35" column="46" lean-forward="false" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/huaqi/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="197" column="0" lean-forward="true" selection-start-line="197" selection-start-column="0" selection-end-line="197" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="1295" column="39" lean-forward="true" selection-start-line="1295" selection-start-column="39" selection-end-line="1295" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1869,7 +1253,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>Spring</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1917,7 +1301,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: org.springframework:spring-webmvc:4.3.10.RELEASE</last-edited>
+          <last-edited>Maven: com.fasterxml.jackson.core:jackson-annotations:2.9.0</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
