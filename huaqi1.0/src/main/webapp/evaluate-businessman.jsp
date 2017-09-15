@@ -104,7 +104,7 @@
             <label><input type="checkbox" value="0" name="majorExpenditure">C.人际交往</label>
             <label><input type="checkbox" value="0" name="majorExpenditure">D.服装</label>
             <label><input type="checkbox" value="-0.5" name="majorExpenditure">E.房租</label>
-            <label><input type="checkbox" value="-0.5" name="mamajorExpenditure">F.生活缴费</label>
+            <label><input type="checkbox" value="-0.5" name="majorExpenditure">F.生活缴费</label>
             <label><input type="checkbox" value="0" name="majorExpenditure">G.娱乐休闲</label>
             <label><input type="checkbox" value="-0.5" name="majorExpenditure">H.医疗</label>
 

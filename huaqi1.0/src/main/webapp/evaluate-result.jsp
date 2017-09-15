@@ -197,7 +197,7 @@ $(function getinfo(){
         success:function(result){
             var jsonObj = eval( '(' + result + ')' );
             userName=jsonObj.userName;
-            maritalStatus=jsonObj.maritalStatus==1?"已婚":"未婚";
+            maritalStatus=jsonObj.maritalStatus==0?"未婚":jsonObj.maritalStatus==2?"离婚":jsonObj.maritalStatus==3?"已婚":"不明";
             id=jsonObj.id;
             paydebtAbilityScore=jsonObj.paydebtAbilityScore;
             paydebtAbilityLevel=jsonObj.paydebtAbilityLevel;

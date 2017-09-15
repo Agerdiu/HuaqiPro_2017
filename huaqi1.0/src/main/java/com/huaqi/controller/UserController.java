@@ -65,7 +65,7 @@ public class UserController {
        String id=currentUser;
        User user=userService.getUserInfo(id);
        userName=user.getUserName();
-       maritalStatus=user.getMaritalStatus()==1?"已婚":"未婚";
+       maritalStatus=user.getMaritalStatus()==0?"未婚":user.getMaritalStatus()==2?"离婚":user.getMaritalStatus()==3?"已婚":"不明";
        email=user.getEmail();
        tel=user.getTel();
        gender=user.getGender();
@@ -147,7 +147,7 @@ public class UserController {
     @ResponseBody
     public String evaluateResult(@ModelAttribute("currentUser")String currentUser)
     {
-        User a = new User();
+        User a ;
         ObjectMapper mapper = new ObjectMapper();
         a = userService.getUserInfo(currentUser);
         try{ String result = mapper.writeValueAsString(a);

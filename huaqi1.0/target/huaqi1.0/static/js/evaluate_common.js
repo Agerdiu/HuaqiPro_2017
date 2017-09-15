@@ -2,7 +2,7 @@ function submitted(){
     var pathName = document.location.pathname;
     var index = pathName.substr(1).indexOf("/");
     var path = pathName.substr(0,index+1)+"/evaluate_common";//获取路径
-    var test = $("#zxbd form").serialize().toString();
+    var test = $("#zxbd form").serialize();
     alert(test);
     if($(this).attr("ajax-va")=="error"){
         return false;
