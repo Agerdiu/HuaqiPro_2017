@@ -65,7 +65,7 @@ public class UserController {
        String id=currentUser;
        User user=userService.getUserInfo(id);
        userName=user.getUserName();
-       maritalStatus=user.getMaritalStatus()==1?"已婚":"未婚";
+       maritalStatus=user.getMaritalStatus()==0?"未婚":user.getMaritalStatus()==2?"离婚":user.getMaritalStatus()==3?"已婚":"不明";
        email=user.getEmail();
        tel=user.getTel();
        gender=user.getGender();
@@ -134,9 +134,11 @@ public class UserController {
 
     @RequestMapping(value="/evaluate_common",method = RequestMethod.POST)
     @ResponseBody
-    public Msg updateUser(@ModelAttribute("currentUser")String currentUser,User user)
+    public Msg updateUser(@ModelAttribute("currentUser")String currentUser, double majorExpenditure1,User user)
+
     {
         System.out.print("entered");
+
         userService.update(currentUser,user);
         user = userService.evaluate(currentUser);
         userService.update(currentUser,user);
@@ -147,7 +149,7 @@ public class UserController {
     @ResponseBody
     public String evaluateResult(@ModelAttribute("currentUser")String currentUser)
     {
-        User a = new User();
+        User a ;
         ObjectMapper mapper = new ObjectMapper();
         a = userService.getUserInfo(currentUser);
         try{ String result = mapper.writeValueAsString(a);
@@ -164,7 +166,6 @@ public class UserController {
     @RequestMapping(value="/indexPage")
     public String GoIndex()
     {
-        System.out.println("toindex");
         return "/index";
     }
 

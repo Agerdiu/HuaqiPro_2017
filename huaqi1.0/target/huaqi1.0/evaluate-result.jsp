@@ -34,12 +34,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" style="padding:0 0 0 15px;" href="#"><img alt="Brand" style="max-width:70px;" src="${APP_PATH }/static/img/logo233.jpg"></a>
+                <a class="navbar-brand" style="padding:0 0 0 15px;" href="indexPage"><img alt="Brand" style="max-width:70px;" src="${APP_PATH }/static/img/logo233.jpg"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-left">
-                    <li class="active"><a href="#" style="font-size: 20px">首页 <span class="sr-only">(current)</span></a>
+                    <li class="active"><a href="indexPage" style="font-size: 20px">首页 <span class="sr-only">(current)</span></a>
                         <p class="line-top hidden-xs"></p>
                     </li>
                     <li><a href="evaluatePage" style="font-size: 20px">征信评估</a></li>
@@ -106,7 +106,7 @@
             <th>证件号</th>
         </tr>
         <tr>
-            <td id="userName"></td>
+            <td id="userName">${sessionScope.currentUserName}</td>
             <td id="maritalStatus"></td>
             <td >身份证</td>
             <td id="id"></td>
@@ -121,8 +121,7 @@
         <tr>
             <td colspan="4">
                 <div class="progress">
-                    <div class="progress-bar progress-bar-warning  progress-bar-striped active" id="progress1" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 76%;">
-                        76%
+                    <div class="progress-bar   progress-bar-striped active" id="progress1" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 76%;">
                     </div>
                 </div>
                 <div>
@@ -142,8 +141,7 @@
         <tr>
             <td colspan="4">
                 <div class="progress">
-                    <div class="progress-bar progress-bar-success  progress-bar-striped active" id="progress2" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 86%;">
-                        86%
+                    <div class="progress-bar   progress-bar-striped active" id="progress2" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 86%;">
                     </div>
                 </div>
                 <div>
@@ -163,8 +161,7 @@
         <tr>
             <td colspan="4">
                 <div class="progress">
-                    <div class="progress-bar progress-bar-success progress-bar-striped active" id="progress3" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 91%;">
-                        91%
+                    <div class="progress-bar  progress-bar-striped active" id="progress3" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 91%;">
                     </div>
                 </div>
                 <div>
@@ -200,7 +197,7 @@ $(function getinfo(){
         success:function(result){
             var jsonObj = eval( '(' + result + ')' );
             userName=jsonObj.userName;
-            maritalStatus=jsonObj.maritalStatus;
+            maritalStatus=jsonObj.maritalStatus==0?"未婚":jsonObj.maritalStatus==2?"离婚":jsonObj.maritalStatus==3?"已婚":"不明";
             id=jsonObj.id;
             paydebtAbilityScore=jsonObj.paydebtAbilityScore;
             paydebtAbilityLevel=jsonObj.paydebtAbilityLevel;
@@ -215,8 +212,6 @@ $(function getinfo(){
 
 
 function changeinfo(){
-    $("#userName").empty();
-    $("#userName").append(userName);
     $("#maritalStatus").empty();
     $("#maritalStatus").append(maritalStatus);
     $("#id").empty();
@@ -228,11 +223,14 @@ function changeinfo(){
     $("#rank3").empty();
     $("#rank3").append(paydebtPotentialLevel);
     $("#progress1").empty();
-    $("#progress1").width(paydebtAbilityScore/550.0+"%");
+    $("#progress1").width(paydebtAbilityScore/5.5+"%");
+    $("#progress1").append((paydebtAbilityScore/5.5).toFixed(1)+"%");
     $("#progress2").empty();
-    $("#progress2").width(paydebtSystemScore/550.0+"%");
+    $("#progress2").width(paydebtSystemScore/5.5+"%");
+    $("#progress2").append((paydebtSystemScore/5.5).toFixed(1)+"%");
     $("#progress3").empty();
-    $("#progress3").width(paydebtPotentialScore/550.0+"%");
+    $("#progress3").width(paydebtPotentialScore/5.5+"%");
+    $("#progress3").append((paydebtPotentialScore/5.5).toFixed(1)+"%");
     $("#comment1").empty();
     $("#comment2").empty();
     $("#comment3").empty();
@@ -280,104 +278,194 @@ function changeinfo(){
         }]
     });
     /**图表部分显示的js**/
+    switch(paydebtAbilityLevel)
+    {
+        case "D": {
+            $("#comment1").append("不符合最低分数线，偿债能力较差，偿还可能性较低，不建议批准贷款");
+            $("#progress1").addClass("progress-bar-danger");
+            $("#rank1").css({color: "#B22222"});
+            break;
+        }
+        case "C": {
+            $("#comment1").append("略高于最低偿债分数线，存在偿还可能性，但是可能性偏低，可试着考虑综合其他部分得分，再批准贷款");
+            $("#progress1").addClass("progress-bar-warning");
+            $("#rank1").css({color: "#FF7F50"});
+            break;
+        }
+        case "CC":{
+            $("#comment1").append("略高于最低偿债分数线，存在偿还可能性，但是可能性偏低，可试着考虑综合其他部分得分，再批准贷款");
+            $("#progress1").addClass("progress-bar-warning");
+            $("#rank1").css({color:"#FF7F50"});
+            break;
+        }
+        case "CCC":{
+            $("#comment1").append("略高于最低偿债分数线，存在偿还可能性，但是可能性偏低，可试着考虑综合其他部分得分，再批准贷款");
+            $("#progress1").addClass("progress-bar-warning");
+            $("#rank1").css({color:"#FF7F50"});
+            break;
+        }
+        case "B":{
+            $("#comment1").append("偿债能力达到中等水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
+            $("#progress1").addClass("progress-bar-info");
+            $("#rank1").css({color:"#4d63bc"});
+            break;
+        }
+        case "BB":{
+            $("#comment1").append("偿债能力达到中等水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
+            $("#progress1").addClass("progress-bar-info");
+            $("#rank1").css({color:"#4d63bc"});
+            break;
+        }
+        case "BBB":{
+            $("#comment1").append("偿债能力达到中等水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
+            $("#progress1").addClass("progress-bar-info");
+            $("#rank1").css({color:"#4d63bc"});
+            break;
+        }
+        case "A":{
+            $("#comment1").append("偿债能力达到优良偏上水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
+            $("#progress1").addClass("progress-bar-success");
+            $("#rank1").css({color:"#228B22"});
+            break;
+        }
+        case "AA":{
+            $("#comment1").append("偿债能力达到优良偏上水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
+            $("#progress1").addClass("progress-bar-success");
+            $("#rank1").css({color:"#228B22"});
+            break;
+        }
+        case "AAA":{
+            $("#comment1").append("偿债能力达到优秀水平水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
+            $("#progress1").addClass("progress-bar-success");
+            $("#rank1").css({color:"#228B22"});
+            break;
+        }
+    }
     switch(paydebtSystemLevel)
     {
-        case "D":
-            $("#comment1").append("不符合最低分数线，偿债能力较差，偿还可能性较低，不建议批准贷款");
+        case "D": {
+            $("#comment2").append("不符合最低分数线，偿债能力较差，偿还可能性较低，不建议批准贷款");
+            $("#progress2").addClass("progress-bar-danger");
+            $("#rank2").css({color: "#B22222"});
             break;
-        case "C":
-            $("#comment1").append("略高于最低偿债分数线，存在偿还可能性，但是可能性偏低，可试着考虑综合其他部分得分，再批准贷款");
+        }
+        case "C": {
+            $("#comment2").append("略高于最低信用分数线，存在偿还可能性，但是可能性偏低，可试着考虑综合其他部分得分，再批准贷款");
+            $("#progress2").addClass("progress-bar-warning");
+            $("#rank2").css({color: "#FF7F50"});
             break;
-        case "CC":
-            $("#comment1").append("略高于最低偿债分数线，存在偿还可能性，但是可能性偏低，可试着考虑综合其他部分得分，再批准贷款");
+        }
+        case "CC":{
+            $("#comment2").append("略高于最低信用分数线，存在偿还可能性，但是可能性偏低，可试着考虑综合其他部分得分，再批准贷款");
+            $("#progress2").addClass("progress-bar-warning");
+            $("#rank2").css({color:"#FF7F50"});
             break;
-        case "CCC":
-            $("#comment1").append("略高于最低偿债分数线，存在偿还可能性，但是可能性偏低，可试着考虑综合其他部分得分，再批准贷款");
+        }
+        case "CCC":{
+            $("#comment2").append("略高于最低信用分数线，存在偿还可能性，但是可能性偏低，可试着考虑综合其他部分得分，再批准贷款");
+            $("#progress2").addClass("progress-bar-warning");
+            $("#rank2").css({color:"#FF7F50"});
             break;
-        case "B":
-            $("#comment1").append("偿债能力达到中等水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
+        }
+        case "B":{
+            $("#comment2").append("信用达到中等水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
+            $("#progress2").addClass("progress-bar-info");
+            $("#rank2").css({color:"#4d63bc"});
             break;
-        case "BB":
-            $("#comment1").append("偿债能力达到中等水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
+        }
+        case "BB":{
+            $("#comment2").append("信用达到中等水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
+            $("#progress2").addClass("progress-bar-info");
+            $("#rank2").css({color:"#4d63bc"});
             break;
-        case "BBB":
-            $("#comment1").append("偿债能力达到中等水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
+        }
+        case "BBB":{
+            $("#comment2").append("信用达到中等水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
+            $("#progress2").addClass("progress-bar-info");
+            $("#rank2").css({color:"#4d63bc"});
             break;
-        case "A":
-            $("#comment1").append("偿债能力达到优良偏上水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
+        }
+        case "A":{
+            $("#comment2").append("信用达到优良偏上水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
+            $("#progress2").addClass("progress-bar-success");
+            $("#rank2").css({color:"#228B22"});
             break;
-        case "AA":
-            $("#comment1").append("偿债能力达到优良偏上水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
+        }
+        case "AA":{
+            $("#comment2").append("信用达到优良偏上水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
+            $("#progress2").addClass("progress-bar-success");
+            $("#rank2").css({color:"#228B22"});
             break;
-        case "AAA":
-            $("#comment1").append("偿债能力达到优秀水平水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
+        }
+        case "AAA":{
+            $("#comment2").append("信用达到优秀水平水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
+            $("#progress2").addClass("progress-bar-success");
+            $("#rank2").css({color:"#228B22"});
             break;
+        }
     }
     switch(paydebtAbilityLevel)
     {
-        case "D":
-            $("#comment2").append("不符合最低分数线，信用较差，偿还可能性较低，不建议批准贷款");
-            break;
-        case "C":
-            $("#comment2").append("略高于最低信用分数线，存在偿还可能性，但是可能性偏低，可试着考虑综合其他部分得分，再批准贷款");
-            break;
-        case "CC":
-            $("#comment2").append("略高于最低信用分数线，存在偿还可能性，但是可能性偏低，可试着考虑综合其他部分得分，再批准贷款");
-            break;
-        case "CCC":
-            $("#comment2").append("略高于最低信用分数线，存在偿还可能性，但是可能性偏低，可试着考虑综合其他部分得分，再批准贷款");
-            break;
-        case "B":
-            $("#comment2").append("信用达到中等水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
-            break;
-        case "BB":
-            $("#comment2").append("信用达到中等水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
-            break;
-        case "BBB":
-            $("#comment2").append("信用达到优良偏上水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
-            break;
-        case "A":
-            $("#comment2").append("信用达到优良偏上水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
-            break;
-        case "AA":
-            $("#comment2").append("信用达到优良偏上水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
-            break;
-        case "AAA":
-            $("#comment2").append("信用能力达到优秀水平水平，偿还可能性较强，可综合考虑其他部分评分，再批准贷款");
-            break;
-    }
-    switch(paydebtAbilityLevel)
-    {
-        case "D":
+        case "D": {
             $("#comment3").append("偿债潜力较差");
+            $("#progress3").addClass("progress-bar-danger");
+            $("#rank3").css({color: "#B22222"});
             break;
-        case "C":
+        }
+        case "C": {
             $("#comment3").append("略高于最低偿债潜力线，偿债潜力较差");
+            $("#progress3").addClass("progress-bar-warning");
+            $("#rank3").css({color: "#FF7F50"});
             break;
-        case "CC":
+        }
+        case "CC":{
             $("#comment3").append("略高于最低偿债潜力线，偿债潜力较差");
+            $("#progress3").addClass("progress-bar-warning");
+            $("#rank3").css({color:"#FF7F50"});
             break;
-        case "CCC":
+        }
+        case "CCC":{
             $("#comment3").append("略高于最低偿债潜力线，偿债潜力较差");
+            $("#progress3").addClass("progress-bar-warning");
+            $("#rank3").css({color:"#FF7F50"});
             break;
-        case "B":
+        }
+        case "B":{
             $("#comment3").append("偿债潜力达到中等水平");
+            $("#progress3").addClass("progress-bar-info");
+            $("#rank3").css({color:"#4d63bc"});
             break;
-        case "BB":
+        }
+        case "BB":{
             $("#comment3").append("偿债潜力达到中等水平");
+            $("#progress3").addClass("progress-bar-info");
+            $("#rank3").css({color:"#4d63bc"});
             break;
-        case "BBB":
+        }
+        case "BBB":{
             $("#comment3").append("偿债潜力达到中等水平");
+            $("#progress3").addClass("progress-bar-info");
+            $("#rank3").css({color:"#4d63bc"});
             break;
-        case "A":
+        }
+        case "A":{
             $("#comment3").append("偿债潜力达到优良偏上水平");
+            $("#progress3").addClass("progress-bar-success");
+            $("#rank3").css({color:"#228B22"});
             break;
-        case "AA":
+        }
+        case "AA":{
             $("#comment3").append("偿债潜力达到优良偏上水平");
+            $("#progress3").addClass("progress-bar-success");
+            $("#rank3").css({color:"#228B22"});
             break;
-        case "AAA":
+        }
+        case "AAA":{
             $("#comment3").append("偿债潜力达到优秀水平");
+            $("#progress3").addClass("progress-bar-success");
+            $("#rank3").css({color:"#228B22"});
             break;
+        }
     }
     /*******图表自适应窗口改变*****************/
     $(window).resize(function () {
