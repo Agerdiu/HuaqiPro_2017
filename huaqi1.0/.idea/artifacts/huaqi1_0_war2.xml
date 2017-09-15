@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" build-on-make="true" name="huaqi1.0:war2">
+    <output-path>$PROJECT_DIR$/out/artifacts/huaqi1_0_war2</output-path>
+    <root id="archive" name="huaqi1.0_war.war">
+      <element id="artifact" artifact-name="huaqi1.0:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -164,7 +164,6 @@ public class UserController {
     @RequestMapping(value="/indexPage")
     public String GoIndex()
     {
-        System.out.println("toindex");
         return "/index";
     }
 
