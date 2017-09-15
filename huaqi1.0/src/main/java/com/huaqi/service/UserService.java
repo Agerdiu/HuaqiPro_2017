@@ -84,7 +84,7 @@ public class UserService {
             case"salaryman":
                 System.out.print("salaryman called");
                 score = 550*((1+user.getAgriculturalEquip())*0.0394 + (1+user.getHouseValue())*0.3698 +(1+user.getVehicleValue())*0.0655 +(1+user.getAgriHypothecaryValue())*0.2119
-                +(1+user.getRenovatedHouse()*0.0634)+(1+user.getDeposit())*0.0838+(1+user.getFixedAssets())*0.0135 + (1+user.getMajorExpenditure())*0.0286 +(1+user.getMonthIncome())*0.0797
+                +(1+user.getRenovatedHouse())*0.0634+(1+user.getDeposit())*0.0838+(1+user.getFixedAssets())*0.0135 + (1+user.getMajorExpenditure())*0.0286 +(1+user.getMonthIncome())*0.0797
                 +(1+user.getLiabilities())*0.0444);
                 user.setPaydebtAbilityScore(score);
                 score = 550*((1+user.getRaisingNumber())*0.0534 +(1+user.getChildrenEdu())*0.3177 +(1+user.getModernAgriTech())*0.2246 + (1+user.getManpowerRate())*0.0534
