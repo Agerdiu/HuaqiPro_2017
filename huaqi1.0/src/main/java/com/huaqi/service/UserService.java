@@ -44,16 +44,18 @@ public class UserService {
         return userMapper.selectByPrimaryKey(id);
     }
 
-    public User evaluate(User user)
+    public User evaluate(String currentuser)
     {
-        //score = (user.getVillageCadres()+1.0)*0.006 + (user.getHonor()+1.0)*0.0068 + (user.getElderLive()+1.0)*0.0073 + (user.getGuarantee()+1.0)*0.0073 + ()
+        double score = 0.0;
         System.out.print("called");
+        User user = userMapper.selectByPrimaryKey(currentuser);
         switch(user.getUserType())
         {
             case"farmer":
+                System.out.print("farmer called");
                 user.setPaydebtSystemScore(200.0);
-                user.setPaydebtAbilityScore(200.0);
-                user.setPaydebtPotentialScore(200.0);
+                user.setPaydebtAbilityScore(score);
+                user.setPaydebtPotentialScore(score);
                 break;
             case"businessman": break;
             case"salaryman": break;

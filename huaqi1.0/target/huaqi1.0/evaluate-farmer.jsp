@@ -31,12 +31,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" style="padding:0 0 0 15px;" href="indexPage"><img alt="Brand" style="max-width:70px;" src="${APP_PATH }/static/img/logo233.jpg"></a>
+                <a class="navbar-brand" style="padding:0 0 0 15px;" href="#"><img alt="Brand" style="max-width:70px;" src="${APP_PATH }/static/img/logo233.jpg"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-left">
-                    <li class="active"><a href="indexPage" style="font-size: 20px">首页 <span class="sr-only">(current)</span></a>
+                    <li class="active"><a href="#" style="font-size: 20px">首页 <span class="sr-only">(current)</span></a>
                         <p class="line-top hidden-xs"></p>
                     </li>
                     <li><a href="evaluatePage" style="font-size: 20px">征信评估</a></li>
@@ -323,7 +323,7 @@
         </div>
         <div class="formword">
             <label>22.已婚</label>
-            <label>现仍妻子是第几任妻子</label>
+            <label>现任配偶是第几任配偶</label>
             <select id="married" name="married">
                 <option name="married" value=" " selected>请选择</option>
                 <option name="married" value="0">第一任</option>
@@ -399,7 +399,7 @@
             </select>
         </div>
         <div class="formword">
-            <label>30.近3年内，家里人去市级或省级以上医院看病带盖花了多少钱？ </label>
+            <label>30.近3年内，家里人去市级或省级以上医院看病大概花了多少钱？ </label>
             <select id="treatmentCosts" name="treatmentCosts">
                 <option  name="treatmentCosts" value="" selected>请选择</option>
                 <option name="treatmentCosts" value="-0.1">1万元以下</option>
@@ -624,7 +624,7 @@
     var count = 0;
     onload = function() {
         var cks = document.querySelectorAll("div.formword input[type=checkbox]");
-        for (var i = 0; i < cks.length; i++) {
+        for (var i = 1; i < cks.length; i++) {
             var cki = cks[i];
             cki.onchange = function() {
                 if (this.checked) {

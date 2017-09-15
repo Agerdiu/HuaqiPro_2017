@@ -34,12 +34,12 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" style="padding:0 0 0 15px;" href="indexPage"><img alt="Brand" style="max-width:70px;" src="${APP_PATH }/static/img/logo233.jpg"></a>
+                <a class="navbar-brand" style="padding:0 0 0 15px;" href="#"><img alt="Brand" style="max-width:70px;" src="${APP_PATH }/static/img/logo233.jpg"></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-left">
-                    <li class="active"><a href="indexPage" style="font-size: 20px">首页 <span class="sr-only">(current)</span></a>
+                    <li class="active"><a href="#" style="font-size: 20px">首页 <span class="sr-only">(current)</span></a>
                         <p class="line-top hidden-xs"></p>
                     </li>
                     <li><a href="evaluatePage" style="font-size: 20px">征信评估</a></li>
@@ -133,7 +133,7 @@
         <tr>
             <td colspan="4">
             <button type="button" class="btn btn-success" style="display:inline;float:right" id="save-btn">保存</button>
-                <a type="button" class="btn btn-default " style="display:inline;float:right" href="indexPage">取消</a>
+            <button type="button" class="btn btn-default" style="display:inline;float:right">取消</button>
             </td>
         </tr>
     </table>
