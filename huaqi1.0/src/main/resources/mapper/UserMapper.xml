@@ -56,6 +56,10 @@
     <result column="broadbandBandwidth" jdbcType="DOUBLE" property="broadbandBandwidth" />
     <result column="phoneCharge" jdbcType="DOUBLE" property="phoneCharge" />
     <result column="weChat" jdbcType="DOUBLE" property="weChat" />
+    <result column="arrearage" jdbcType="DOUBLE" property="arrearage" />
+    <result column="badActions" jdbcType="DOUBLE" property="badActions" />
+    <result column="layPayment" jdbcType="DOUBLE" property="layPayment" />
+    <result column="privateLending" jdbcType="DOUBLE" property="privateLending" />
     <result column="evaluateResult" jdbcType="DOUBLE" property="evaluateResult" />
     <result column="paydebtAbilityScore" jdbcType="DOUBLE" property="paydebtAbilityScore" />
     <result column="paydebtAbilityLevel" jdbcType="VARCHAR" property="paydebtAbilityLevel" />
@@ -131,8 +135,9 @@
     phoneNumReplace, fallIll, educationBackground, mainStemDistance, treatmentCosts, 
     raisingNumber, childrenEdu, manpowerRate, modernAgriTech, propertyInsurance, disasterNumber, 
     damageRate, loanUse, newsAttention, educationAttention, onlineFrequency, broadbandBandwidth, 
-    phoneCharge, weChat, evaluateResult, paydebtAbilityScore, paydebtAbilityLevel, paydebtPotentialScore, 
-    paydebtPotentialLevel, paydebtSystemScore, paydebtSystemLevel
+    phoneCharge, weChat, arrearage, badActions, layPayment, privateLending, evaluateResult, 
+    paydebtAbilityScore, paydebtAbilityLevel, paydebtPotentialScore, paydebtPotentialLevel, 
+    paydebtSystemScore, paydebtSystemLevel
   </sql>
   <select id="selectByExample" parameterType="com.huaqi.bean.UserExample" resultMap="BaseResultMap">
     select
@@ -182,8 +187,9 @@
       modernAgriTech, propertyInsurance, disasterNumber, 
       damageRate, loanUse, newsAttention, 
       educationAttention, onlineFrequency, broadbandBandwidth, 
-      phoneCharge, weChat, evaluateResult, 
-      paydebtAbilityScore, paydebtAbilityLevel, 
+      phoneCharge, weChat, arrearage, 
+      badActions, layPayment, privateLending, 
+      evaluateResult, paydebtAbilityScore, paydebtAbilityLevel, 
       paydebtPotentialScore, paydebtPotentialLevel, 
       paydebtSystemScore, paydebtSystemLevel)
     values (#{id,jdbcType=CHAR}, #{password,jdbcType=VARCHAR}, #{userName,jdbcType=VARCHAR}, 
@@ -203,8 +209,9 @@
       #{modernAgriTech,jdbcType=DOUBLE}, #{propertyInsurance,jdbcType=DOUBLE}, #{disasterNumber,jdbcType=DOUBLE}, 
       #{damageRate,jdbcType=DOUBLE}, #{loanUse,jdbcType=DOUBLE}, #{newsAttention,jdbcType=DOUBLE}, 
       #{educationAttention,jdbcType=DOUBLE}, #{onlineFrequency,jdbcType=DOUBLE}, #{broadbandBandwidth,jdbcType=DOUBLE}, 
-      #{phoneCharge,jdbcType=DOUBLE}, #{weChat,jdbcType=DOUBLE}, #{evaluateResult,jdbcType=DOUBLE}, 
-      #{paydebtAbilityScore,jdbcType=DOUBLE}, #{paydebtAbilityLevel,jdbcType=VARCHAR}, 
+      #{phoneCharge,jdbcType=DOUBLE}, #{weChat,jdbcType=DOUBLE}, #{arrearage,jdbcType=DOUBLE}, 
+      #{badActions,jdbcType=DOUBLE}, #{layPayment,jdbcType=DOUBLE}, #{privateLending,jdbcType=DOUBLE}, 
+      #{evaluateResult,jdbcType=DOUBLE}, #{paydebtAbilityScore,jdbcType=DOUBLE}, #{paydebtAbilityLevel,jdbcType=VARCHAR}, 
       #{paydebtPotentialScore,jdbcType=DOUBLE}, #{paydebtPotentialLevel,jdbcType=VARCHAR}, 
       #{paydebtSystemScore,jdbcType=DOUBLE}, #{paydebtSystemLevel,jdbcType=VARCHAR})
   </insert>
@@ -372,6 +379,18 @@
       </if>
       <if test="weChat != null">
         weChat,
+      </if>
+      <if test="arrearage != null">
+        arrearage,
+      </if>
+      <if test="badActions != null">
+        badActions,
+      </if>
+      <if test="layPayment != null">
+        layPayment,
+      </if>
+      <if test="privateLending != null">
+        privateLending,
       </if>
       <if test="evaluateResult != null">
         evaluateResult,
@@ -557,6 +576,18 @@
       </if>
       <if test="weChat != null">
         #{weChat,jdbcType=DOUBLE},
+      </if>
+      <if test="arrearage != null">
+        #{arrearage,jdbcType=DOUBLE},
+      </if>
+      <if test="badActions != null">
+        #{badActions,jdbcType=DOUBLE},
+      </if>
+      <if test="layPayment != null">
+        #{layPayment,jdbcType=DOUBLE},
+      </if>
+      <if test="privateLending != null">
+        #{privateLending,jdbcType=DOUBLE},
       </if>
       <if test="evaluateResult != null">
         #{evaluateResult,jdbcType=DOUBLE},
@@ -752,6 +783,18 @@
       <if test="record.weChat != null">
         weChat = #{record.weChat,jdbcType=DOUBLE},
       </if>
+      <if test="record.arrearage != null">
+        arrearage = #{record.arrearage,jdbcType=DOUBLE},
+      </if>
+      <if test="record.badActions != null">
+        badActions = #{record.badActions,jdbcType=DOUBLE},
+      </if>
+      <if test="record.layPayment != null">
+        layPayment = #{record.layPayment,jdbcType=DOUBLE},
+      </if>
+      <if test="record.privateLending != null">
+        privateLending = #{record.privateLending,jdbcType=DOUBLE},
+      </if>
       <if test="record.evaluateResult != null">
         evaluateResult = #{record.evaluateResult,jdbcType=DOUBLE},
       </if>
@@ -834,6 +877,10 @@
       broadbandBandwidth = #{record.broadbandBandwidth,jdbcType=DOUBLE},
       phoneCharge = #{record.phoneCharge,jdbcType=DOUBLE},
       weChat = #{record.weChat,jdbcType=DOUBLE},
+      arrearage = #{record.arrearage,jdbcType=DOUBLE},
+      badActions = #{record.badActions,jdbcType=DOUBLE},
+      layPayment = #{record.layPayment,jdbcType=DOUBLE},
+      privateLending = #{record.privateLending,jdbcType=DOUBLE},
       evaluateResult = #{record.evaluateResult,jdbcType=DOUBLE},
       paydebtAbilityScore = #{record.paydebtAbilityScore,jdbcType=DOUBLE},
       paydebtAbilityLevel = #{record.paydebtAbilityLevel,jdbcType=VARCHAR},
@@ -1007,6 +1054,18 @@
       <if test="weChat != null">
         weChat = #{weChat,jdbcType=DOUBLE},
       </if>
+      <if test="arrearage != null">
+        arrearage = #{arrearage,jdbcType=DOUBLE},
+      </if>
+      <if test="badActions != null">
+        badActions = #{badActions,jdbcType=DOUBLE},
+      </if>
+      <if test="layPayment != null">
+        layPayment = #{layPayment,jdbcType=DOUBLE},
+      </if>
+      <if test="privateLending != null">
+        privateLending = #{privateLending,jdbcType=DOUBLE},
+      </if>
       <if test="evaluateResult != null">
         evaluateResult = #{evaluateResult,jdbcType=DOUBLE},
       </if>
@@ -1086,6 +1145,10 @@
       broadbandBandwidth = #{broadbandBandwidth,jdbcType=DOUBLE},
       phoneCharge = #{phoneCharge,jdbcType=DOUBLE},
       weChat = #{weChat,jdbcType=DOUBLE},
+      arrearage = #{arrearage,jdbcType=DOUBLE},
+      badActions = #{badActions,jdbcType=DOUBLE},
+      layPayment = #{layPayment,jdbcType=DOUBLE},
+      privateLending = #{privateLending,jdbcType=DOUBLE},
       evaluateResult = #{evaluateResult,jdbcType=DOUBLE},
       paydebtAbilityScore = #{paydebtAbilityScore,jdbcType=DOUBLE},
       paydebtAbilityLevel = #{paydebtAbilityLevel,jdbcType=VARCHAR},

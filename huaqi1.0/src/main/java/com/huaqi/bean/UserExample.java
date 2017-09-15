@@ -3414,6 +3414,246 @@ public class UserExample {
             return (Criteria) this;
         }
 
+        public Criteria andArrearageIsNull() {
+            addCriterion("arrearage is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andArrearageIsNotNull() {
+            addCriterion("arrearage is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andArrearageEqualTo(Double value) {
+            addCriterion("arrearage =", value, "arrearage");
+            return (Criteria) this;
+        }
+
+        public Criteria andArrearageNotEqualTo(Double value) {
+            addCriterion("arrearage <>", value, "arrearage");
+            return (Criteria) this;
+        }
+
+        public Criteria andArrearageGreaterThan(Double value) {
+            addCriterion("arrearage >", value, "arrearage");
+            return (Criteria) this;
+        }
+
+        public Criteria andArrearageGreaterThanOrEqualTo(Double value) {
+            addCriterion("arrearage >=", value, "arrearage");
+            return (Criteria) this;
+        }
+
+        public Criteria andArrearageLessThan(Double value) {
+            addCriterion("arrearage <", value, "arrearage");
+            return (Criteria) this;
+        }
+
+        public Criteria andArrearageLessThanOrEqualTo(Double value) {
+            addCriterion("arrearage <=", value, "arrearage");
+            return (Criteria) this;
+        }
+
+        public Criteria andArrearageIn(List<Double> values) {
+            addCriterion("arrearage in", values, "arrearage");
+            return (Criteria) this;
+        }
+
+        public Criteria andArrearageNotIn(List<Double> values) {
+            addCriterion("arrearage not in", values, "arrearage");
+            return (Criteria) this;
+        }
+
+        public Criteria andArrearageBetween(Double value1, Double value2) {
+            addCriterion("arrearage between", value1, value2, "arrearage");
+            return (Criteria) this;
+        }
+
+        public Criteria andArrearageNotBetween(Double value1, Double value2) {
+            addCriterion("arrearage not between", value1, value2, "arrearage");
+            return (Criteria) this;
+        }
+
+        public Criteria andBadActionsIsNull() {
+            addCriterion("badActions is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andBadActionsIsNotNull() {
+            addCriterion("badActions is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andBadActionsEqualTo(Double value) {
+            addCriterion("badActions =", value, "badActions");
+            return (Criteria) this;
+        }
+
+        public Criteria andBadActionsNotEqualTo(Double value) {
+            addCriterion("badActions <>", value, "badActions");
+            return (Criteria) this;
+        }
+
+        public Criteria andBadActionsGreaterThan(Double value) {
+            addCriterion("badActions >", value, "badActions");
+            return (Criteria) this;
+        }
+
+        public Criteria andBadActionsGreaterThanOrEqualTo(Double value) {
+            addCriterion("badActions >=", value, "badActions");
+            return (Criteria) this;
+        }
+
+        public Criteria andBadActionsLessThan(Double value) {
+            addCriterion("badActions <", value, "badActions");
+            return (Criteria) this;
+        }
+
+        public Criteria andBadActionsLessThanOrEqualTo(Double value) {
+            addCriterion("badActions <=", value, "badActions");
+            return (Criteria) this;
+        }
+
+        public Criteria andBadActionsIn(List<Double> values) {
+            addCriterion("badActions in", values, "badActions");
+            return (Criteria) this;
+        }
+
+        public Criteria andBadActionsNotIn(List<Double> values) {
+            addCriterion("badActions not in", values, "badActions");
+            return (Criteria) this;
+        }
+
+        public Criteria andBadActionsBetween(Double value1, Double value2) {
+            addCriterion("badActions between", value1, value2, "badActions");
+            return (Criteria) this;
+        }
+
+        public Criteria andBadActionsNotBetween(Double value1, Double value2) {
+            addCriterion("badActions not between", value1, value2, "badActions");
+            return (Criteria) this;
+        }
+
+        public Criteria andLayPaymentIsNull() {
+            addCriterion("layPayment is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andLayPaymentIsNotNull() {
+            addCriterion("layPayment is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andLayPaymentEqualTo(Double value) {
+            addCriterion("layPayment =", value, "layPayment");
+            return (Criteria) this;
+        }
+
+        public Criteria andLayPaymentNotEqualTo(Double value) {
+            addCriterion("layPayment <>", value, "layPayment");
+            return (Criteria) this;
+        }
+
+        public Criteria andLayPaymentGreaterThan(Double value) {
+            addCriterion("layPayment >", value, "layPayment");
+            return (Criteria) this;
+        }
+
+        public Criteria andLayPaymentGreaterThanOrEqualTo(Double value) {
+            addCriterion("layPayment >=", value, "layPayment");
+            return (Criteria) this;
+        }
+
+        public Criteria andLayPaymentLessThan(Double value) {
+            addCriterion("layPayment <", value, "layPayment");
+            return (Criteria) this;
+        }
+
+        public Criteria andLayPaymentLessThanOrEqualTo(Double value) {
+            addCriterion("layPayment <=", value, "layPayment");
+            return (Criteria) this;
+        }
+
+        public Criteria andLayPaymentIn(List<Double> values) {
+            addCriterion("layPayment in", values, "layPayment");
+            return (Criteria) this;
+        }
+
+        public Criteria andLayPaymentNotIn(List<Double> values) {
+            addCriterion("layPayment not in", values, "layPayment");
+            return (Criteria) this;
+        }
+
+        public Criteria andLayPaymentBetween(Double value1, Double value2) {
+            addCriterion("layPayment between", value1, value2, "layPayment");
+            return (Criteria) this;
+        }
+
+        public Criteria andLayPaymentNotBetween(Double value1, Double value2) {
+            addCriterion("layPayment not between", value1, value2, "layPayment");
+            return (Criteria) this;
+        }
+
+        public Criteria andPrivateLendingIsNull() {
+            addCriterion("privateLending is null");
+            return (Criteria) this;
+        }
+
+        public Criteria andPrivateLendingIsNotNull() {
+            addCriterion("privateLending is not null");
+            return (Criteria) this;
+        }
+
+        public Criteria andPrivateLendingEqualTo(Double value) {
+            addCriterion("privateLending =", value, "privateLending");
+            return (Criteria) this;
+        }
+
+        public Criteria andPrivateLendingNotEqualTo(Double value) {
+            addCriterion("privateLending <>", value, "privateLending");
+            return (Criteria) this;
+        }
+
+        public Criteria andPrivateLendingGreaterThan(Double value) {
+            addCriterion("privateLending >", value, "privateLending");
+            return (Criteria) this;
+        }
+
+        public Criteria andPrivateLendingGreaterThanOrEqualTo(Double value) {
+            addCriterion("privateLending >=", value, "privateLending");
+            return (Criteria) this;
+        }
+
+        public Criteria andPrivateLendingLessThan(Double value) {
+            addCriterion("privateLending <", value, "privateLending");
+            return (Criteria) this;
+        }
+
+        public Criteria andPrivateLendingLessThanOrEqualTo(Double value) {
+            addCriterion("privateLending <=", value, "privateLending");
+            return (Criteria) this;
+        }
+
+        public Criteria andPrivateLendingIn(List<Double> values) {
+            addCriterion("privateLending in", values, "privateLending");
+            return (Criteria) this;
+        }
+
+        public Criteria andPrivateLendingNotIn(List<Double> values) {
+            addCriterion("privateLending not in", values, "privateLending");
+            return (Criteria) this;
+        }
+
+        public Criteria andPrivateLendingBetween(Double value1, Double value2) {
+            addCriterion("privateLending between", value1, value2, "privateLending");
+            return (Criteria) this;
+        }
+
+        public Criteria andPrivateLendingNotBetween(Double value1, Double value2) {
+            addCriterion("privateLending not between", value1, value2, "privateLending");
+            return (Criteria) this;
+        }
+
         public Criteria andEvaluateResultIsNull() {
             addCriterion("evaluateResult is null");
             return (Criteria) this;

@@ -116,6 +116,14 @@ public class User {
 
     private Double weChat;
 
+    private Double arrearage;
+
+    private Double badActions;
+
+    private Double layPayment;
+
+    private Double privateLending;
+
     private Double evaluateResult;
 
     private Double paydebtAbilityScore;
@@ -560,6 +568,38 @@ public class User {
 
     public void setWeChat(Double weChat) {
         this.weChat = weChat;
+    }
+
+    public Double getArrearage() {
+        return arrearage;
+    }
+
+    public void setArrearage(Double arrearage) {
+        this.arrearage = arrearage;
+    }
+
+    public Double getBadActions() {
+        return badActions;
+    }
+
+    public void setBadActions(Double badActions) {
+        this.badActions = badActions;
+    }
+
+    public Double getLayPayment() {
+        return layPayment;
+    }
+
+    public void setLayPayment(Double layPayment) {
+        this.layPayment = layPayment;
+    }
+
+    public Double getPrivateLending() {
+        return privateLending;
+    }
+
+    public void setPrivateLending(Double privateLending) {
+        this.privateLending = privateLending;
     }
 
     public Double getEvaluateResult() {

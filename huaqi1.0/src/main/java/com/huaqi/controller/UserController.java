@@ -137,7 +137,8 @@ public class UserController {
     public Msg updateUser(@ModelAttribute("currentUser")String currentUser,User user)
     {
         System.out.print("entered");
-        user = userService.evaluate(user);
+        userService.update(currentUser,user);
+        user = userService.evaluate(currentUser);
         userService.update(currentUser,user);
         return Msg.success();
     }
