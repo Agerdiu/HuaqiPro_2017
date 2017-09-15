@@ -327,7 +327,7 @@
         </div>
         <div class="formword">
             <label>22.已婚</label>
-            <label>现仍妻子是第几任妻子</label>
+            <label>现任配偶是第几任配偶</label>
             <select id="married" name="married">
                 <option name="married" value=" " selected>请选择</option>
                 <option name="married" value="0">第一任</option>
@@ -403,7 +403,7 @@
             </select>
         </div>
         <div class="formword">
-            <label>30.近3年内，家里人去市级或省级以上医院看病带盖花了多少钱？ </label>
+            <label>30.近3年内，家里人去市级或省级以上医院看病大概花了多少钱？ </label>
             <select id="treatmentCosts" name="treatmentCosts">
                 <option  name="treatmentCosts" value="" selected>请选择</option>
                 <option name="treatmentCosts" value="-0.1">1万元以下</option>
@@ -509,7 +509,26 @@
                 <option neme="weChat" value="0">工作（谈生意、收发文件、转账结算）</option>
             </select>
         </div>
-
+        <div class="formword">
+            <label> 42.是否欠缴费用</label>
+            <label><input name="arrearage" value="-1" type="radio" >是</label>
+            <label><input name="arrearage" value="0" type="radio" >否</label>
+        </div>
+        <div class="formword">
+            <label> 43.家庭成员有无不良行为（酗酒、暴力、吸毒等）</label>
+            <label><input name="badActions" value="-1" type="radio" >是</label>
+            <label><input name="badActions" value="0" type="radio" >否</label>
+        </div>
+        <div class="formword">
+            <label> 44.是否有延迟还款行为</label>
+            <label><input name="layPayment" value="-1" type="radio" >是</label>
+            <label><input name="layPayment" value="0" type="radio" >否</label>
+        </div>
+        <div class="formword">
+            <label> 45.是否有过民间借贷行为</label>
+            <label><input name="privateLending" value="-1" type="radio" >是</label>
+            <label><input name="privateLending" value="0" type="radio" >否</label>
+        </div>
         <div class="form-group">
             <div class="col-sm-offset-2 col-sm-10">
                 <button class="btn btn-default" type="reset">重置</button>
@@ -601,7 +620,7 @@
     var count = 0;
     onload = function() {
         var cks = document.querySelectorAll("div.formword input[type=checkbox]");
-        for (var i = 0; i < cks.length; i++) {
+        for (var i = 1; i < cks.length; i++) {
             var cki = cks[i];
             cki.onchange = function() {
                 if (this.checked) {

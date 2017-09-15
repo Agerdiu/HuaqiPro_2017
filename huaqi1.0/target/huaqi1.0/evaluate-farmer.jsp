@@ -534,7 +534,26 @@
                 <option neme="weChat" value="0">工作（谈生意、收发文件、转账结算）</option>
             </select>
         </div>
-
+        <div class="formword">
+        <label> 45.是否欠缴费用</label>
+        <label><input name="arrearage" value="-1" type="radio" >是</label>
+        <label><input name="arrearage" value="0" type="radio" >否</label>
+        </div>
+        <div class="formword">
+        <label> 46.家庭成员有无不良行为（酗酒、暴力、吸毒等）</label>
+        <label><input name="badActions" value="-1" type="radio" >是</label>
+        <label><input name="badActions" value="0" type="radio" >否</label>
+        </div>
+        <div class="formword">
+        <label> 47.是否有延迟还款行为</label>
+        <label><input name="layPayment" value="-1" type="radio" >是</label>
+        <label><input name="layPayment" value="0" type="radio" >否</label>
+        </div>
+        <div class="formword">
+        <label> 47.是否有过民间借贷行为</label>
+        <label><input name="privateLending" value="-1" type="radio" >是</label>
+        <label><input name="privateLending" value="0" type="radio" >否</label>
+        </div>
         <div class="form-group">
             <div class="col-sm-offset-2 col-sm-10">
                 <button class="btn btn-default" type="reset">重置</button>
